@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  iOSExperience
 //
-//  Created by 吕彦良 on 2018/5/23.
+//  Created by Ben Lv on 2018/5/23.
 //  Copyright © 2018年 avatar. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "YLTabBarControllerConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
+    self.window.rootViewController = tabBar.tabBarController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
