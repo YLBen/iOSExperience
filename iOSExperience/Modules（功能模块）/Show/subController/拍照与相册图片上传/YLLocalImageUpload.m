@@ -30,6 +30,7 @@
     [super viewDidLoad];
     
     [self setImgUI];
+    self.title = @"拍照与相册图片上传";
 }
 
 #pragma mark - private methods

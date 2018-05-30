@@ -41,8 +41,12 @@
                             YLLetfTitle : @"本地通知",
                             YLIsShowTitle : @(1),
                             YLTag : @"2"
-                            }
-                        
+                            },
+                        @{
+                            YLLetfTitle : @"可折叠的Cell",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"3"
+                            },
                         
                         ];
     

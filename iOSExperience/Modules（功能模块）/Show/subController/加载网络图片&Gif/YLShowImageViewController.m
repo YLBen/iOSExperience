@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"加载网络图片&Gif";
 //    NSString *home = NSHomeDirectory();
 //    NSLog(@"--%@",home);
     
