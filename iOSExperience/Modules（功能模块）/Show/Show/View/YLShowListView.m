@@ -93,12 +93,12 @@
         YLShowListCellModel *showListCellModel = (YLShowListCellModel *)model;
         
         
-        if ([showListCellModel.tag isEqualToString:@"0"]) {
+//        if ([showListCellModel.tag isEqualToString:@"0"]) {
             if ([_delegate respondsToSelector:@selector(YLShowListView:WithTag:)]) {
                 [_delegate YLShowListView:self WithTag:showListCellModel.tag];
             }
             
-        }
+//        }
         
         
         

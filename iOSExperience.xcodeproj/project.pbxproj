@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */; };
+		C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971220BBF522008CCC4D /* FYSystemCameraController.m */; };
+		C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971620BBF577008CCC4D /* AVExportContectsTool.m */; };
+		C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971920BBF577008CCC4D /* ATSettingPermissionCheckTool.m */; };
+		C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971E20BBF6D1008CCC4D /* YLLocalImageUpload.m */; };
+		C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */ = {isa = PBXBuildFile; fileRef = C031971F20BBF6D1008CCC4D /* YLLocalImageUpload.xib */; };
 		C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FEFF20B5176E00470BFC /* AppDelegate.m */; };
 		C033FF0320B5176E00470BFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FF0220B5176E00470BFC /* ViewController.m */; };
 		C033FF0620B5176E00470BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0420B5176E00470BFC /* Main.storyboard */; };
@@ -40,6 +46,21 @@
 
 /* Begin PBXFileReference section */
 		13679B75C473A6BA40024BA8 /* Pods-iOSExperience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.debug.xcconfig"; sourceTree = "<group>"; };
+		C031970A20BBE7E4008CCC4D /* commonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
+		C031970B20BBEB16008CCC4D /* YLCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommonDefine.h; sourceTree = "<group>"; };
+		C031970C20BBEC00008CCC4D /* YLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHeader.pch; sourceTree = "<group>"; };
+		C031970D20BBF0EE008CCC4D /* YLSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSingleton.h; sourceTree = "<group>"; };
+		C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		C031971020BBF522008CCC4D /* FYSystemCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSystemCameraController.h; sourceTree = "<group>"; };
+		C031971120BBF522008CCC4D /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		C031971220BBF522008CCC4D /* FYSystemCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSystemCameraController.m; sourceTree = "<group>"; };
+		C031971620BBF577008CCC4D /* AVExportContectsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVExportContectsTool.m; sourceTree = "<group>"; };
+		C031971720BBF577008CCC4D /* ATSettingPermissionCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSettingPermissionCheckTool.h; sourceTree = "<group>"; };
+		C031971820BBF577008CCC4D /* AVExportContectsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVExportContectsTool.h; sourceTree = "<group>"; };
+		C031971920BBF577008CCC4D /* ATSettingPermissionCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSettingPermissionCheckTool.m; sourceTree = "<group>"; };
+		C031971D20BBF6D1008CCC4D /* YLLocalImageUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLocalImageUpload.h; sourceTree = "<group>"; };
+		C031971E20BBF6D1008CCC4D /* YLLocalImageUpload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLocalImageUpload.m; sourceTree = "<group>"; };
+		C031971F20BBF6D1008CCC4D /* YLLocalImageUpload.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalImageUpload.xib; sourceTree = "<group>"; };
 		C033FEFB20B5176E00470BFC /* iOSExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C033FEFE20B5176E00470BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C033FEFF20B5176E00470BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +139,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C031970E20BBF522008CCC4D /* FYSystemCamera */ = {
+			isa = PBXGroup;
+			children = (
+				C031971120BBF522008CCC4D /* VPImageCropperViewController.h */,
+				C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */,
+				C031971020BBF522008CCC4D /* FYSystemCameraController.h */,
+				C031971220BBF522008CCC4D /* FYSystemCameraController.m */,
+			);
+			path = FYSystemCamera;
+			sourceTree = "<group>";
+		};
+		C031971520BBF577008CCC4D /* CommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				C031971620BBF577008CCC4D /* AVExportContectsTool.m */,
+				C031971720BBF577008CCC4D /* ATSettingPermissionCheckTool.h */,
+				C031971820BBF577008CCC4D /* AVExportContectsTool.h */,
+				C031971920BBF577008CCC4D /* ATSettingPermissionCheckTool.m */,
+			);
+			path = CommonTool;
+			sourceTree = "<group>";
+		};
+		C031971C20BBF607008CCC4D /* 拍照与相册图片上传 */ = {
+			isa = PBXGroup;
+			children = (
+				C031971D20BBF6D1008CCC4D /* YLLocalImageUpload.h */,
+				C031971E20BBF6D1008CCC4D /* YLLocalImageUpload.m */,
+				C031971F20BBF6D1008CCC4D /* YLLocalImageUpload.xib */,
+			);
+			path = "拍照与相册图片上传";
+			sourceTree = "<group>";
+		};
 		C033FEF220B5176E00470BFC = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +233,9 @@
 		C033FF1720B522C300470BFC /* define */ = {
 			isa = PBXGroup;
 			children = (
+				C031970A20BBE7E4008CCC4D /* commonDefine.h */,
+				C031970B20BBEB16008CCC4D /* YLCommonDefine.h */,
+				C031970D20BBF0EE008CCC4D /* YLSingleton.h */,
 			);
 			path = define;
 			sourceTree = "<group>";
@@ -203,6 +259,7 @@
 				C033FF0920B5177000470BFC /* LaunchScreen.storyboard */,
 				C033FF0C20B5177000470BFC /* Info.plist */,
 				C033FF0D20B5177000470BFC /* main.m */,
+				C031970C20BBEC00008CCC4D /* YLHeader.pch */,
 			);
 			path = "Resource（资源文件夹）";
 			sourceTree = "<group>";
@@ -210,6 +267,7 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C031971520BBF577008CCC4D /* CommonTool */,
 			);
 			path = "Utlis（工具类）";
 			sourceTree = "<group>";
@@ -217,6 +275,7 @@
 		C033FF1B20B5231F00470BFC /* ThridParty（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				C031970E20BBF522008CCC4D /* FYSystemCamera */,
 			);
 			path = "ThridParty（第三方库）";
 			sourceTree = "<group>";
@@ -291,6 +350,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C031971C20BBF607008CCC4D /* 拍照与相册图片上传 */,
 				C083391E20BAF67900F6CAF6 /* 加载网络图片&Gif */,
 			);
 			path = subController;
@@ -511,6 +571,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
@@ -577,16 +638,21 @@
 				C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */,
 				C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */,
 				C0BB15E420B9A3B200A0095A /* UIColor+YLHelper.m in Sources */,
+				C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */,
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
 				C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */,
+				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
+				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,
+				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,
 				C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */,
+				C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */,
 				C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +796,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHH85LCW4M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSExperience/Resource（资源文件夹）/YLHeader.pch";
 				INFOPLIST_FILE = "iOSExperience/Resource（资源文件夹）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -748,6 +816,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHH85LCW4M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSExperience/Resource（资源文件夹）/YLHeader.pch";
 				INFOPLIST_FILE = "iOSExperience/Resource（资源文件夹）/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

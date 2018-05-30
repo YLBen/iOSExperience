@@ -9,6 +9,7 @@
 #import "YLShowViewController.h"
 // Controller
 #import "YLShowImageViewController.h"
+#import "YLLocalImageUpload.h"
 // model
 
 // View
@@ -72,6 +73,10 @@
 - (void)YLShowListView:(YLShowListView *)showListView WithTag:(NSString *)tag {
     if ([tag isEqualToString:@"0"]) {
         YLShowImageViewController *ctr = [[YLShowImageViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"1"]) {
+        YLLocalImageUpload *ctr = [[YLLocalImageUpload alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

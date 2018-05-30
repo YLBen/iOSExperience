@@ -31,6 +31,12 @@
                             YLTag : @"0"
                           },
                         
+                        @{
+                            YLLetfTitle : @"拍照与相册图片上传",
+//                            YLRightTitle : @"SDWebImage",
+                              YLIsShowTitle : @(1),
+                            YLTag : @"1"
+                            },
                         
                         
                         
