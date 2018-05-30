@@ -37,7 +37,11 @@
                               YLIsShowTitle : @(1),
                             YLTag : @"1"
                             },
-                        
+                        @{
+                            YLLetfTitle : @"本地通知",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"2"
+                            }
                         
                         
                         ];

@@ -19,6 +19,9 @@
 		C033FF0820B5177000470BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0720B5177000470BFC /* Assets.xcassets */; };
 		C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0920B5177000470BFC /* LaunchScreen.storyboard */; };
 		C033FF0E20B5177000470BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FF0D20B5177000470BFC /* main.m */; };
+		C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */; };
+		C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */; };
+		C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D520BE3D54002E345F /* AppDelegate+AppService.m */; };
 		C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */; };
 		C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338F220BAD84100F6CAF6 /* YLTabBarControllerConfig.m */; };
 		C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083390B20BADF1A00F6CAF6 /* YLShowViewController.m */; };
@@ -71,6 +74,11 @@
 		C033FF0A20B5177000470BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C033FF0C20B5177000470BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C033FF0D20B5177000470BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C04312CF20BE3A69002E345F /* YLLocalNotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLocalNotificationsViewController.h; sourceTree = "<group>"; };
+		C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLocalNotificationsViewController.m; sourceTree = "<group>"; };
+		C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalNotificationsViewController.xib; sourceTree = "<group>"; };
+		C04312D420BE3D54002E345F /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		C04312D520BE3D54002E345F /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
 		C08338EE20BAD68A00F6CAF6 /* UIView+YLLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YLLoading.h"; sourceTree = "<group>"; };
 		C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLLoading.m"; sourceTree = "<group>"; };
 		C08338F120BAD84100F6CAF6 /* YLTabBarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -209,6 +217,8 @@
 			children = (
 				C033FEFE20B5176E00470BFC /* AppDelegate.h */,
 				C033FEFF20B5176E00470BFC /* AppDelegate.m */,
+				C04312D420BE3D54002E345F /* AppDelegate+AppService.h */,
+				C04312D520BE3D54002E345F /* AppDelegate+AppService.m */,
 			);
 			path = "AppDelegate（程序入口）";
 			sourceTree = "<group>";
@@ -278,6 +288,16 @@
 				C031970E20BBF522008CCC4D /* FYSystemCamera */,
 			);
 			path = "ThridParty（第三方库）";
+			sourceTree = "<group>";
+		};
+		C04312CE20BE39FA002E345F /* 本地通知 */ = {
+			isa = PBXGroup;
+			children = (
+				C04312CF20BE3A69002E345F /* YLLocalNotificationsViewController.h */,
+				C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */,
+				C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */,
+			);
+			path = "本地通知";
 			sourceTree = "<group>";
 		};
 		C083390320BADE8100F6CAF6 /* Show */ = {
@@ -350,6 +370,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C04312CE20BE39FA002E345F /* 本地通知 */,
 				C031971C20BBF607008CCC4D /* 拍照与相册图片上传 */,
 				C083391E20BAF67900F6CAF6 /* 加载网络图片&Gif */,
 			);
@@ -573,6 +594,7 @@
 			files = (
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
+				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
 				C033FF0620B5176E00470BFC /* Main.storyboard in Resources */,
@@ -645,8 +667,10 @@
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
 				C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */,
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
+				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
+				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,

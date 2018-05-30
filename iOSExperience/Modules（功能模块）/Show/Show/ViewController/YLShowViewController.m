@@ -10,6 +10,7 @@
 // Controller
 #import "YLShowImageViewController.h"
 #import "YLLocalImageUpload.h"
+#import "YLLocalNotificationsViewController.h"
 // model
 
 // View
@@ -77,6 +78,10 @@
     }
     else if ([tag isEqualToString:@"1"]) {
         YLLocalImageUpload *ctr = [[YLLocalImageUpload alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"2"]) {
+        YLLocalNotificationsViewController *ctr = [[YLLocalNotificationsViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }
