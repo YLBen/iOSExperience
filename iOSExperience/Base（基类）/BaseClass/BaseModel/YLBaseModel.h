@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <MJExtension/MJExtension.h>
+#import <UIKit/UIKit.h>
 @interface YLBaseModel : NSObject
 
 + (YLBaseModel *)decodeFromDic:(NSDictionary *)dic;

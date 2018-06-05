@@ -47,7 +47,11 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"3"
                             },
-                        
+                        @{
+                            YLLetfTitle : @"CollectionView 9宫格式布局",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"4"
+                            },
                         ];
     
     return dicArr;

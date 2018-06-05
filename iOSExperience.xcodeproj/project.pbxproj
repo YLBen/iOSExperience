@@ -19,6 +19,10 @@
 		C033FF0820B5177000470BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0720B5177000470BFC /* Assets.xcassets */; };
 		C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0920B5177000470BFC /* LaunchScreen.storyboard */; };
 		C033FF0E20B5177000470BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FF0D20B5177000470BFC /* main.m */; };
+		C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */; };
+		C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */; };
+		C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */; };
+		C03ACE7D20C687AA001B5C30 /* YLScratchableLatexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7C20C687AA001B5C30 /* YLScratchableLatexView.m */; };
 		C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */; };
 		C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */; };
 		C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D520BE3D54002E345F /* AppDelegate+AppService.m */; };
@@ -27,6 +31,8 @@
 		C04312E420BE7511002E345F /* HSFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312DE20BE7511002E345F /* HSFolderCell.m */; };
 		C04312E520BE7511002E345F /* HSRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312DF20BE7511002E345F /* HSRotatedView.m */; };
 		C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312E720BE753A002E345F /* DemoFoldingCell.m */; };
+		C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */; };
+		C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798820C535A2005CE5C9 /* NSString+Check.m */; };
 		C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */; };
 		C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338F220BAD84100F6CAF6 /* YLTabBarControllerConfig.m */; };
 		C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083390B20BADF1A00F6CAF6 /* YLShowViewController.m */; };
@@ -79,6 +85,14 @@
 		C033FF0A20B5177000470BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C033FF0C20B5177000470BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C033FF0D20B5177000470BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03ACE7220C6873D001B5C30 /* YLScratchableLatexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexViewController.h; sourceTree = "<group>"; };
+		C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexViewController.m; sourceTree = "<group>"; };
+		C03ACE7520C68762001B5C30 /* YLScratchableLatexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexModel.h; sourceTree = "<group>"; };
+		C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexModel.m; sourceTree = "<group>"; };
+		C03ACE7820C68790001B5C30 /* YLScratchableLatexCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexCell.h; sourceTree = "<group>"; };
+		C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexCell.m; sourceTree = "<group>"; };
+		C03ACE7B20C687AA001B5C30 /* YLScratchableLatexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexView.h; sourceTree = "<group>"; };
+		C03ACE7C20C687AA001B5C30 /* YLScratchableLatexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexView.m; sourceTree = "<group>"; };
 		C04312CF20BE3A69002E345F /* YLLocalNotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLocalNotificationsViewController.h; sourceTree = "<group>"; };
 		C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLocalNotificationsViewController.m; sourceTree = "<group>"; };
 		C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalNotificationsViewController.xib; sourceTree = "<group>"; };
@@ -94,6 +108,10 @@
 		C04312E220BE7511002E345F /* HSFolderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFolderCell.h; sourceTree = "<group>"; };
 		C04312E620BE753A002E345F /* DemoFoldingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFoldingCell.h; sourceTree = "<group>"; };
 		C04312E720BE753A002E345F /* DemoFoldingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFoldingCell.m; sourceTree = "<group>"; };
+		C04A798420C53466005CE5C9 /* NSDate+CalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CalendarTool.h"; sourceTree = "<group>"; };
+		C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarTool.m"; sourceTree = "<group>"; };
+		C04A798820C535A2005CE5C9 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
+		C04A798920C535A2005CE5C9 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
 		C08338EE20BAD68A00F6CAF6 /* UIView+YLLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YLLoading.h"; sourceTree = "<group>"; };
 		C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLLoading.m"; sourceTree = "<group>"; };
 		C08338F120BAD84100F6CAF6 /* YLTabBarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -305,6 +323,53 @@
 			path = "ThridParty（第三方库）";
 			sourceTree = "<group>";
 		};
+		C03ACE6D20C68660001B5C30 /* CollectionView 9宫格式布局 */ = {
+			isa = PBXGroup;
+			children = (
+				C03ACE7120C686D1001B5C30 /* ViewController */,
+				C03ACE7020C686CF001B5C30 /* Model */,
+				C03ACE6F20C686CC001B5C30 /* View */,
+				C03ACE6E20C686C9001B5C30 /* VIewModel */,
+			);
+			path = "CollectionView 9宫格式布局";
+			sourceTree = "<group>";
+		};
+		C03ACE6E20C686C9001B5C30 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		C03ACE6F20C686CC001B5C30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C03ACE7820C68790001B5C30 /* YLScratchableLatexCell.h */,
+				C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */,
+				C03ACE7B20C687AA001B5C30 /* YLScratchableLatexView.h */,
+				C03ACE7C20C687AA001B5C30 /* YLScratchableLatexView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C03ACE7020C686CF001B5C30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C03ACE7520C68762001B5C30 /* YLScratchableLatexModel.h */,
+				C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C03ACE7120C686D1001B5C30 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C03ACE7220C6873D001B5C30 /* YLScratchableLatexViewController.h */,
+				C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C04312CE20BE39FA002E345F /* 本地通知 */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +411,31 @@
 				C04312E220BE7511002E345F /* HSFolderCell.h */,
 			);
 			path = HSFolderCell;
+			sourceTree = "<group>";
+		};
+		C04A798320C53428005CE5C9 /* 日历时间工具 */ = {
+			isa = PBXGroup;
+			children = (
+				C04A798420C53466005CE5C9 /* NSDate+CalendarTool.h */,
+				C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */,
+			);
+			path = "日历时间工具";
+			sourceTree = "<group>";
+		};
+		C04A798720C5356F005CE5C9 /* check */ = {
+			isa = PBXGroup;
+			children = (
+				C04A798920C535A2005CE5C9 /* NSString+Check.h */,
+				C04A798820C535A2005CE5C9 /* NSString+Check.m */,
+			);
+			path = check;
+			sourceTree = "<group>";
+		};
+		C04A798B20C53626005CE5C9 /* 首字母大写或小写 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首字母大写或小写";
 			sourceTree = "<group>";
 		};
 		C083390320BADE8100F6CAF6 /* Show */ = {
@@ -418,6 +508,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C03ACE6D20C68660001B5C30 /* CollectionView 9宫格式布局 */,
 				C04312D720BE7403002E345F /* 可折叠的cell */,
 				C04312CE20BE39FA002E345F /* 本地通知 */,
 				C031971C20BBF607008CCC4D /* 拍照与相册图片上传 */,
@@ -477,6 +568,9 @@
 		C0BB15DB20B9A2C800A0095A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C04A798B20C53626005CE5C9 /* 首字母大写或小写 */,
+				C04A798720C5356F005CE5C9 /* check */,
+				C04A798320C53428005CE5C9 /* 日历时间工具 */,
 				C0BB15FF20B9A7B000A0095A /* UIView+ */,
 				C0BB15FB20B9A74E00A0095A /* UIViewController+ */,
 				C0BB15F720B9A6C300A0095A /* UITabBar+ */,
@@ -697,6 +791,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C083391620BAE1F700F6CAF6 /* YLBaseFrameModel.m in Sources */,
+				C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */,
 				C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */,
 				C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */,
 				C0BB15F220B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m in Sources */,
@@ -706,14 +801,18 @@
 				C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */,
 				C083391920BAE6BA00F6CAF6 /* YLShowListCellModel.m in Sources */,
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
+				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
 				C083391320BAE13200F6CAF6 /* YLBaseModel.m in Sources */,
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
 				C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */,
+				C03ACE7D20C687AA001B5C30 /* YLScratchableLatexView.m in Sources */,
 				C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */,
 				C0BB15E420B9A3B200A0095A /* UIColor+YLHelper.m in Sources */,
 				C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
+				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
+				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,
 				C04312E520BE7511002E345F /* HSRotatedView.m in Sources */,
 				C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */,
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
@@ -721,6 +820,7 @@
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
+				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,

@@ -12,6 +12,7 @@
 #import "YLLocalImageUpload.h"
 #import "YLLocalNotificationsViewController.h"
 #import "YLFoldingCellViewController.h"
+#import "YLScratchableLatexViewController.h"
 // model
 
 // View
@@ -87,6 +88,10 @@
     }
     else if ([tag isEqualToString:@"3"]) {
         YLFoldingCellViewController *ctr = [[YLFoldingCellViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"4"]) {
+        YLScratchableLatexViewController *ctr = [[YLScratchableLatexViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

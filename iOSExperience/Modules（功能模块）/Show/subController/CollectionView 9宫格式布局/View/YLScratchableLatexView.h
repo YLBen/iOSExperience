@@ -1,0 +1,13 @@
+//
+//  YLScratchableLatexView.h
+//  iOSExperience
+//
+//  Created by Ben Lv on 2018/6/5.
+//  Copyright © 2018年 avatar. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface YLScratchableLatexView : UIView
+@property(nonatomic,strong)NSArray *dataSouce;
+@end
