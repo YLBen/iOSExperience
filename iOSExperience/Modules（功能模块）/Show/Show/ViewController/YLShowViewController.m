@@ -27,7 +27,7 @@
 
 // third party
 #import <Masonry.h>
-
+#import "UIColor+YLHelper.h"
 @interface YLShowViewController ()<YLShowListViewDelegate>
 @property(nonatomic,strong)YLShowListView *showListView;
 @property(nonatomic,strong)YLShowViewModel *viewModel;
@@ -42,6 +42,10 @@
     [self.view addSubview:self.showListView];
     [self initConstraints];
     [self loadDataSouce];
+    self.navigationController.navigationBar.barTintColor = [UIColor av_fontBlueColor];
+
+//    KVO 监听tableView 偏移量
+    [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
 
 }
 #pragma mark - public methods
@@ -52,6 +56,25 @@
         make.edges.equalTo(self.view);
     }];
 }
+
+
+
+/**
+ *  监听属性值发生改变时回调
+ */
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
+{
+
+    CGFloat offset = self.showListView.tableView.contentOffset.y;
+    CGFloat delta = offset / 64.f + 1.f;
+    delta = MAX(0, delta);
+//    if (delta > 0.7) {
+        self.navigationController.navigationBar.alpha = MIN(1, delta);
+//    }
+    
+}
+
+
 -(void)loadDataSouce {
    self.showListView.dataSouce = [YLShowViewModel getDataSouce];
 }

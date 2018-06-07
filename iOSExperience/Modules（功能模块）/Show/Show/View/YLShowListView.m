@@ -21,7 +21,7 @@
 // third party
 #import <Masonry.h>
 @interface YLShowListView()<UITableViewDelegate,UITableViewDataSource>
-@property(nonatomic,strong)UITableView *tableView;
+
 
 @end
 

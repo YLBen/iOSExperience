@@ -21,7 +21,7 @@
     [self RegisteredNotification];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
+    self.window.backgroundColor = [UIColor whiteColor];
     YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
     self.window.rootViewController = tabBar.tabBarController;
     
