@@ -55,8 +55,13 @@
                         @{
                             YLLetfTitle : @"背景高斯模糊",
                             YLRightTitle : @"右滑返回",
-                            YLIsShowTitle : @(1),
+                            YLIsShowTitle : @(0),
                             YLTag : @"5"
+                            },
+                        @{
+                            YLLetfTitle : @"可编辑的tableView",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"6"
                             },
                         ];
     
