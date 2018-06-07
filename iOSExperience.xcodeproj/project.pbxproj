@@ -55,6 +55,7 @@
 		C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15F520B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15F920B9A6D900A0095A /* UITabBar+YLBadge.m */; };
 		C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15FD20B9A76700A0095A /* UIViewController+YLHelper.m */; };
+		C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */; };
 		DFD54AB3BA9BCAFBF551AF83 /* libPods-iOSExperience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */; };
 /* End PBXBuildFile section */
 
@@ -155,6 +156,8 @@
 		C0BB15F920B9A6D900A0095A /* UITabBar+YLBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+YLBadge.m"; sourceTree = "<group>"; };
 		C0BB15FC20B9A76700A0095A /* UIViewController+YLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YLHelper.h"; sourceTree = "<group>"; };
 		C0BB15FD20B9A76700A0095A /* UIViewController+YLHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YLHelper.m"; sourceTree = "<group>"; };
+		C0C9C2FA20C8DCCE00FAB6EA /* YLFuzzyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLFuzzyViewController.h; sourceTree = "<group>"; };
+		C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFuzzyViewController.m; sourceTree = "<group>"; };
 		DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.release.xcconfig"; sourceTree = "<group>"; };
 		FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExperience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -508,6 +511,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0C9C2F920C8DB4F00FAB6EA /* 高斯模糊 */,
 				C03ACE6D20C68660001B5C30 /* CollectionView 9宫格式布局 */,
 				C04312D720BE7403002E345F /* 可折叠的cell */,
 				C04312CE20BE39FA002E345F /* 本地通知 */,
@@ -667,6 +671,15 @@
 			path = "UIView+";
 			sourceTree = "<group>";
 		};
+		C0C9C2F920C8DB4F00FAB6EA /* 高斯模糊 */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9C2FA20C8DCCE00FAB6EA /* YLFuzzyViewController.h */,
+				C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */,
+			);
+			path = "高斯模糊";
+			sourceTree = "<group>";
+		};
 		C6D9A2D05D70ED46CFE896D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -812,6 +825,7 @@
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
+				C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */,
 				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,
 				C04312E520BE7511002E345F /* HSRotatedView.m in Sources */,
 				C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */,

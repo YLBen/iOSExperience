@@ -52,6 +52,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"4"
                             },
+                        @{
+                            YLLetfTitle : @"背景高斯模糊",
+                            YLRightTitle : @"右滑返回",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"5"
+                            },
                         ];
     
     return dicArr;

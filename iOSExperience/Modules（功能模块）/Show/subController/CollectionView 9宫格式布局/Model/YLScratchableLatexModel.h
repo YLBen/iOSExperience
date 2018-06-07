@@ -9,6 +9,7 @@
 #import "YLBaseModel.h"
 
 @interface YLScratchableLatexModel : YLBaseModel
+
 @property(nonatomic,strong)NSString *image;
 @property(nonatomic,strong)NSString *title;
 

@@ -13,6 +13,7 @@
 #import "YLLocalNotificationsViewController.h"
 #import "YLFoldingCellViewController.h"
 #import "YLScratchableLatexViewController.h"
+#import "YLFuzzyViewController.h"
 // model
 
 // View
@@ -92,6 +93,10 @@
     }
     else if ([tag isEqualToString:@"4"]) {
         YLScratchableLatexViewController *ctr = [[YLScratchableLatexViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"5"]) {
+        YLFuzzyViewController *ctr = [[YLFuzzyViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }
