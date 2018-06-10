@@ -6,8 +6,8 @@
 //  Copyright © 2018年 avatar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YLBaseViewController.h"
 
-@interface YLShowImageViewController : UIViewController
+@interface YLShowImageViewController : YLBaseViewController
 
 @end

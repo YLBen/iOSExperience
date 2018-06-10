@@ -63,6 +63,11 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"6"
                             },
+                        @{
+                            YLLetfTitle : @"行高自适应",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"7"
+                            },
                         ];
     
     return dicArr;

@@ -41,5 +41,10 @@ typedef void(^PCParas4Callback)(id para, id para2, id para3, id para4);
 // app版本
 #define kAppVersion [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"]
 
+#define kScreenWidthRatio  (UIScreen.mainScreen.bounds.size.width / 375.0)
+#define kScreenHeightRatio (UIScreen.mainScreen.bounds.size.height / 667.0)
+#define AdaptedFontSize(R)     [UIFont systemFontOfSize:AdaptedWidth(R)]
+#define AdaptedWidth(x)  ceilf((x) * kScreenWidthRatio)
+#define AdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
 
 #endif /* YLCommonDefine_h */
