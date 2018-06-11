@@ -16,6 +16,7 @@
 #import "YLFuzzyViewController.h"
 #import "YLEditableViewController.h"
 #import "YLAdaptFontViewController.h"
+#import "YLSelectTimeViewController.h"
 // model
 
 // View
@@ -130,6 +131,10 @@
     }
     else if ([tag isEqualToString:@"7"]) {
         YLAdaptFontViewController *ctr = [[YLAdaptFontViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"8"]) {
+        YLSelectTimeViewController *ctr = [[YLSelectTimeViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

@@ -68,6 +68,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"7"
                             },
+                        @{
+                            YLLetfTitle : @"时间选择器",
+                            YLRightTitle : @"datePicker",
+                            YLIsShowTitle : @(0),
+                            YLTag : @"8"
+                            },
                         ];
     
     return dicArr;

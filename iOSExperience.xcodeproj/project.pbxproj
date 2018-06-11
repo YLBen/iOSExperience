@@ -60,6 +60,9 @@
 		C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15FD20B9A76700A0095A /* UIViewController+YLHelper.m */; };
 		C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */; };
 		C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */; };
+		C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */; };
+		C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */; };
+		C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */; };
 		DFD54AB3BA9BCAFBF551AF83 /* libPods-iOSExperience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */; };
 /* End PBXBuildFile section */
 
@@ -170,6 +173,11 @@
 		C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFuzzyViewController.m; sourceTree = "<group>"; };
 		C0C9C2FE20C9020800FAB6EA /* YLEditableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEditableViewController.h; sourceTree = "<group>"; };
 		C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEditableViewController.m; sourceTree = "<group>"; };
+		C0F7BF6120CE61B10087C06C /* YLSelectTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeView.h; sourceTree = "<group>"; };
+		C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSelectTimeView.m; sourceTree = "<group>"; };
+		C0F7BF6420CE659B0087C06C /* YLSelectTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeViewController.h; sourceTree = "<group>"; };
+		C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSelectTimeViewController.m; sourceTree = "<group>"; };
+		C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLSelectTimeViewController.xib; sourceTree = "<group>"; };
 		DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.release.xcconfig"; sourceTree = "<group>"; };
 		FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExperience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -560,6 +568,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0F7BF5D20CE60FA0087C06C /* 时间选择器 */,
 				C074141020CD05EA00E8FB9D /* 行高自适应 */,
 				C0C9C2FD20C9013500FAB6EA /* 可编辑的tableView */,
 				C0C9C2F920C8DB4F00FAB6EA /* 高斯模糊 */,
@@ -740,6 +749,42 @@
 			path = "可编辑的tableView";
 			sourceTree = "<group>";
 		};
+		C0F7BF5D20CE60FA0087C06C /* 时间选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				C0F7BF6020CE61790087C06C /* ViewController */,
+				C0F7BF5F20CE61770087C06C /* Model */,
+				C0F7BF5E20CE61750087C06C /* View */,
+			);
+			path = "时间选择器";
+			sourceTree = "<group>";
+		};
+		C0F7BF5E20CE61750087C06C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0F7BF6120CE61B10087C06C /* YLSelectTimeView.h */,
+				C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0F7BF5F20CE61770087C06C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0F7BF6020CE61790087C06C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0F7BF6420CE659B0087C06C /* YLSelectTimeViewController.h */,
+				C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */,
+				C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C6D9A2D05D70ED46CFE896D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -811,6 +856,7 @@
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
 				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
+				C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
 				C033FF0620B5176E00470BFC /* Main.storyboard in Resources */,
@@ -875,6 +921,7 @@
 				C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */,
 				C083391920BAE6BA00F6CAF6 /* YLShowListCellModel.m in Sources */,
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
+				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
 				C083391320BAE13200F6CAF6 /* YLBaseModel.m in Sources */,
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
@@ -895,6 +942,7 @@
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
+				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,

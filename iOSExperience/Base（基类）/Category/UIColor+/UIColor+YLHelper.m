@@ -36,7 +36,9 @@
 + (UIColor *)av_themeOrangeColor {
     return [UIColor av_colorWithHex:0xf6540c];
 }
-
++ (UIColor *)at_themeBlueColor {
+    return [UIColor av_colorWithHex:0x0099ff];
+}
 #pragma mark - 背景颜色
 
 + (UIColor *)av_bgLightGrayColor {

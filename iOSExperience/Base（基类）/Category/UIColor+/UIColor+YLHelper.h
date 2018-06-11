@@ -42,7 +42,7 @@
 /** 背景颜色 */
 + (UIColor *)av_bgLightGrayColor;
 + (UIColor *)av_bgGrayColor;
-
++ (UIColor *)at_themeBlueColor;
 
 /// 字体颜色
 + (UIColor *)av_fontBlackColor;//标题、正文
