@@ -9,5 +9,5 @@
 #import "YLBaseViewController.h"
 
 @interface YLRunWebViewViewController : YLBaseViewController
-
+@property(nonatomic,strong)NSString *url;
 @end

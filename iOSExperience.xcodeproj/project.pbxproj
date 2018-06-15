@@ -47,6 +47,8 @@
 		C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */; };
 		C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */; };
 		C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */; };
+		C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */; };
+		C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3018320D3B45D00F78CDD /* AdPageView.m */; };
 		C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */; };
 		C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D420B99E6200A0095A /* YLBaseNavigationController.m */; };
 		C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D820B9A26A00A0095A /* YLBaseViewModel.m */; };
@@ -148,6 +150,10 @@
 		C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLShowImageViewController.xib; sourceTree = "<group>"; };
 		C0B3017720D39E4100F78CDD /* YLRunWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRunWebViewViewController.h; sourceTree = "<group>"; };
 		C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRunWebViewViewController.m; sourceTree = "<group>"; };
+		C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		C0B3017F20D3ACA900F78CDD /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		C0B3018320D3B45D00F78CDD /* AdPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPageView.m; sourceTree = "<group>"; };
+		C0B3018420D3B45D00F78CDD /* AdPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPageView.h; sourceTree = "<group>"; };
 		C0BB15CF20B99DBE00A0095A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
 		C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 		C0BB15D320B99E6200A0095A /* YLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -285,6 +291,7 @@
 		C033FF1520B519EF00470BFC /* Modules（功能模块） */ = {
 			isa = PBXGroup;
 			children = (
+				C0B3018120D3B38E00F78CDD /* InsertCommercial（插入广告） */,
 				C083390320BADE8100F6CAF6 /* Show */,
 			);
 			path = "Mod\U0010ules（功能模块）";
@@ -344,6 +351,7 @@
 		C033FF1B20B5231F00470BFC /* ThridParty（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				C0B3017D20D3AC8300F78CDD /* FPS */,
 				C031970E20BBF522008CCC4D /* FYSystemCamera */,
 			);
 			path = "ThridParty（第三方库）";
@@ -626,6 +634,32 @@
 			children = (
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		C0B3017D20D3AC8300F78CDD /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3017F20D3ACA900F78CDD /* YYFPSLabel.h */,
+				C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		C0B3018120D3B38E00F78CDD /* InsertCommercial（插入广告） */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3018220D3B45D00F78CDD /* AdPage */,
+			);
+			path = "InsertCommercial（插入广告）";
+			sourceTree = "<group>";
+		};
+		C0B3018220D3B45D00F78CDD /* AdPage */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3018420D3B45D00F78CDD /* AdPageView.h */,
+				C0B3018320D3B45D00F78CDD /* AdPageView.m */,
+			);
+			path = AdPage;
 			sourceTree = "<group>";
 		};
 		C0BB15CE20B99D9000A0095A /* BaseViewController */ = {
@@ -970,6 +1004,7 @@
 				C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
+				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
 				C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */,
 				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,
@@ -981,6 +1016,7 @@
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
+				C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,

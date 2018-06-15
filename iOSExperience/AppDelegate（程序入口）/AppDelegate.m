@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "YLTabBarControllerConfig.h"
 #import <UserNotifications/UserNotifications.h>
+#import "YYFPSLabel.h"
+#import <UIView+YYAdd.h>
+#import "AdPageView.h"
+#import "YLRunWebViewViewController.h"
 @interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
@@ -19,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    注册本地通知
     [self RegisteredNotification];
-    
+    NSLog(@"%@",[NSHomeDirectory() stringByAppendingFormat:@"/tmp"]);
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
@@ -27,11 +31,28 @@
     
     
     [self.window makeKeyAndVisible];
-    
+    [self showFPS];
+    [self appStart];
     return YES;
 }
+- (void)showFPS{
+    YYFPSLabel *_fpsLabel = [YYFPSLabel new];
+    [_fpsLabel sizeToFit];
+    _fpsLabel.bottom = SCREEN_HEIGHT - 55;
+    _fpsLabel.right = SCREEN_WIDTH - 10;
+    //    _fpsLabel.alpha = 0;
+    [[UIApplication sharedApplication].delegate.window addSubview:_fpsLabel];
+}
 
-
+- (void)appStart{
+    //加载广告
+    AdPageView *adView = [[AdPageView alloc] initWithFrame:[UIScreen mainScreen].bounds withTapBlock:^{
+        YLRunWebViewViewController *ctr = [[YLRunWebViewViewController alloc] init];
+        ctr.url = @"http://www.hao123.com";
+        [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:ctr animated:YES completion:nil];
+    }];
+    adView = adView;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

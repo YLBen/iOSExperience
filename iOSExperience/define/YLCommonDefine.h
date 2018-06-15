@@ -47,4 +47,10 @@ typedef void(^PCParas4Callback)(id para, id para2, id para3, id para4);
 #define AdaptedWidth(x)  ceilf((x) * kScreenWidthRatio)
 #define AdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
 
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
+
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
 #endif /* YLCommonDefine_h */

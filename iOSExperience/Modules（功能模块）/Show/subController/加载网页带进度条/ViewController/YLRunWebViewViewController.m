@@ -34,7 +34,13 @@
     [progress.layer addSublayer:layer];
     self.progresslayer = layer;
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://baidu.com"]]];
+    if (self.url) {
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
+    }else {
+           [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://baidu.com"]]];
+    }
+        
+ 
 }
 - (void)dealloc{
     [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];

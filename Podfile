@@ -12,7 +12,7 @@ pod 'HMSegmentedControl'
 pod 'MJRefresh'
 pod 'MJExtension'
 pod 'SDWebImage'
-
+pod 'YYKit'
 
 
 end
