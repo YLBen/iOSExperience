@@ -8,8 +8,10 @@
 
 #import "YLFuzzyViewController.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
+#import <Masonry.h>
 @interface YLFuzzyViewController ()
 @property(nonatomic,strong)UIImageView *myImage;
+@property(nonatomic,strong)UIButton * btn;
 @end
 
 @implementation YLFuzzyViewController
@@ -25,6 +27,12 @@
     
 //    隐藏导航栏
     self.fd_prefersNavigationBarHidden = YES;
+    
+    _btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_btn setImage:[UIImage imageNamed:@"navBar_back_orange"] forState:UIControlStateNormal];
+    _btn.frame = CGRectMake(10, 35, 30, 30);
+    [_btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btn];
 }
 
 
@@ -36,7 +44,8 @@
     return _myImage;
 }
 
-#pragma mark - UINavigationControllerDelegate
-
+- (void)back {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end
