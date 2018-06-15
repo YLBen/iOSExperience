@@ -46,6 +46,7 @@
 		C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C083391B20BAE86D00F6CAF6 /* YLShowListView.m */; };
 		C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */; };
 		C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */; };
+		C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */; };
 		C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */; };
 		C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D420B99E6200A0095A /* YLBaseNavigationController.m */; };
 		C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D820B9A26A00A0095A /* YLBaseViewModel.m */; };
@@ -145,6 +146,8 @@
 		C083392220BAF73100F6CAF6 /* YLShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLShowImageViewController.h; sourceTree = "<group>"; };
 		C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLShowImageViewController.m; sourceTree = "<group>"; };
 		C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLShowImageViewController.xib; sourceTree = "<group>"; };
+		C0B3017720D39E4100F78CDD /* YLRunWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRunWebViewViewController.h; sourceTree = "<group>"; };
+		C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRunWebViewViewController.m; sourceTree = "<group>"; };
 		C0BB15CF20B99DBE00A0095A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
 		C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 		C0BB15D320B99E6200A0095A /* YLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -568,6 +571,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0B3014F20D38ADC00F78CDD /* 加载网页带进度条 */,
 				C0F7BF5D20CE60FA0087C06C /* 时间选择器 */,
 				C074141020CD05EA00E8FB9D /* 行高自适应 */,
 				C0C9C2FD20C9013500FAB6EA /* 可编辑的tableView */,
@@ -589,6 +593,39 @@
 				C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */,
 			);
 			path = "加载网络图片&Gif";
+			sourceTree = "<group>";
+		};
+		C0B3014F20D38ADC00F78CDD /* 加载网页带进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3016720D3911100F78CDD /* Base */,
+				C0B3015120D38B0700F78CDD /* Tool */,
+				C0B3015020D38B0400F78CDD /* ViewController */,
+			);
+			path = "加载网页带进度条";
+			sourceTree = "<group>";
+		};
+		C0B3015020D38B0400F78CDD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3017720D39E4100F78CDD /* YLRunWebViewViewController.h */,
+				C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0B3015120D38B0700F78CDD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C0B3016720D3911100F78CDD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C0BB15CE20B99D9000A0095A /* BaseViewController */ = {
@@ -914,6 +951,7 @@
 				C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */,
 				C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */,
 				C0BB15F220B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m in Sources */,
+				C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */,
 				C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */,
 				C033FF0320B5176E00470BFC /* ViewController.m in Sources */,
 				C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */,

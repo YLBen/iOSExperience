@@ -17,6 +17,7 @@
 #import "YLEditableViewController.h"
 #import "YLAdaptFontViewController.h"
 #import "YLSelectTimeViewController.h"
+#import "YLRunWebViewViewController.h"
 // model
 
 // View
@@ -135,6 +136,11 @@
     }
     else if ([tag isEqualToString:@"8"]) {
         YLSelectTimeViewController *ctr = [[YLSelectTimeViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"9"]) {
+//        UINavigationController *navCtr = [UINavigationController alloc] initWithRootViewController:<#(nonnull UIViewController *)#>
+        YLRunWebViewViewController *ctr = [[YLRunWebViewViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

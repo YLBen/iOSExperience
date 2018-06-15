@@ -19,9 +19,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
-    
-    
+    self.title = @"时间选择器";
 }
 
 #pragma mark - public methods

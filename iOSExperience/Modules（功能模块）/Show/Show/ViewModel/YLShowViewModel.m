@@ -74,6 +74,12 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"8"
                             },
+                        @{
+                            YLLetfTitle : @"加载网页",
+                            YLRightTitle : @"带进度条",
+                            YLIsShowTitle : @(0),
+                            YLTag : @"9"
+                            },
                         ];
     
     return dicArr;

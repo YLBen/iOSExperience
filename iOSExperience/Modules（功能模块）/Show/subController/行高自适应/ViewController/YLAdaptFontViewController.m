@@ -28,7 +28,7 @@
     [self.view addSubview:self.tableView];
     self.view.backgroundColor = self.tableView.backgroundColor = [UIColor whiteColor];
     [self initConstraints];
-    
+    self.title = @"行高自适应";
 }
 #pragma mark - public methods
 
