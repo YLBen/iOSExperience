@@ -15,7 +15,7 @@
 static NSString *const adImageName = @"adImageName";
 static NSString *const adUrl = @"adUrl";
 
-typedef void(^TapBlock)();
+typedef void (^TapBlock)(void);
 
 @interface AdPageView : UIView
 

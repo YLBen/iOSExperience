@@ -80,6 +80,16 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"9"
                             },
+                        @{
+                            YLLetfTitle : @"球型立体滚动标签",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"10"
+                            },
+                        @{
+                            YLLetfTitle : @"仿今日头条滚动列表",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"11"
+                            },
                         ];
     
     return dicArr;

@@ -36,6 +36,8 @@
 		C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141520CD069200E8FB9D /* YLJParagraphModel.m */; };
 		C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141820CD09F300E8FB9D /* YLAdaptFontCell.m */; };
 		C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141B20CD0B7500E8FB9D /* YLAdaptFontViewController.m */; };
+		C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07CF23E20D68D21007D12CA /* DBSphereView.m */; };
+		C07CF24220D68D90007D12CA /* YLSphereTagCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07CF24120D68D90007D12CA /* YLSphereTagCloudViewController.m */; };
 		C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */; };
 		C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C08338F220BAD84100F6CAF6 /* YLTabBarControllerConfig.m */; };
 		C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083390B20BADF1A00F6CAF6 /* YLShowViewController.m */; };
@@ -46,6 +48,18 @@
 		C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C083391B20BAE86D00F6CAF6 /* YLShowListView.m */; };
 		C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */; };
 		C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */; };
+		C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40220E214DF0030F533 /* XLSlideSegmentedItem.m */; };
+		C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40420E214DF0030F533 /* XLSlideSegmented.m */; };
+		C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40520E214DF0030F533 /* XLSegmentedSlideSwitch.m */; };
+		C0AEB40B20E214DF0030F533 /* XLSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40620E214DF0030F533 /* XLSlideSwitch.m */; };
+		C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40E20E215620030F533 /* SlideSwitchExample2.m */; };
+		C0AEB41C20E215620030F533 /* SlideSwitchExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB41120E215620030F533 /* SlideSwitchExample1.m */; };
+		C0AEB41D20E215620030F533 /* SegmentedSlideSwitchExample2.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB41420E215620030F533 /* SegmentedSlideSwitchExample2.m */; };
+		C0AEB41E20E215620030F533 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB41520E215620030F533 /* CollectionViewController.m */; };
+		C0AEB41F20E215620030F533 /* channelAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = C0AEB41720E215620030F533 /* channelAdd.png */; };
+		C0AEB42020E215620030F533 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB41820E215620030F533 /* TableViewController.m */; };
+		C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB41920E215620030F533 /* SegmentedSlideSwitchExample1.m */; };
+		C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB42320E215910030F533 /* YLRollingViewController.m */; };
 		C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */; };
 		C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */; };
 		C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3018320D3B45D00F78CDD /* AdPageView.m */; };
@@ -129,6 +143,12 @@
 		C074141820CD09F300E8FB9D /* YLAdaptFontCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAdaptFontCell.m; sourceTree = "<group>"; };
 		C074141A20CD0B7500E8FB9D /* YLAdaptFontViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAdaptFontViewController.h; sourceTree = "<group>"; };
 		C074141B20CD0B7500E8FB9D /* YLAdaptFontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAdaptFontViewController.m; sourceTree = "<group>"; };
+		C07CF23B20D68D21007D12CA /* DBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPoint.h; sourceTree = "<group>"; };
+		C07CF23C20D68D21007D12CA /* DBSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSphereView.h; sourceTree = "<group>"; };
+		C07CF23D20D68D21007D12CA /* DBMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMatrix.h; sourceTree = "<group>"; };
+		C07CF23E20D68D21007D12CA /* DBSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSphereView.m; sourceTree = "<group>"; };
+		C07CF24020D68D90007D12CA /* YLSphereTagCloudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSphereTagCloudViewController.h; sourceTree = "<group>"; };
+		C07CF24120D68D90007D12CA /* YLSphereTagCloudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSphereTagCloudViewController.m; sourceTree = "<group>"; };
 		C08338EE20BAD68A00F6CAF6 /* UIView+YLLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YLLoading.h"; sourceTree = "<group>"; };
 		C08338EF20BAD68A00F6CAF6 /* UIView+YLLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YLLoading.m"; sourceTree = "<group>"; };
 		C08338F120BAD84100F6CAF6 /* YLTabBarControllerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -148,6 +168,30 @@
 		C083392220BAF73100F6CAF6 /* YLShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLShowImageViewController.h; sourceTree = "<group>"; };
 		C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLShowImageViewController.m; sourceTree = "<group>"; };
 		C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLShowImageViewController.xib; sourceTree = "<group>"; };
+		C0AEB3FF20E214DF0030F533 /* XLSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmented.h; sourceTree = "<group>"; };
+		C0AEB40020E214DF0030F533 /* XLSegmentedSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentedSlideSwitch.h; sourceTree = "<group>"; };
+		C0AEB40120E214DF0030F533 /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
+		C0AEB40220E214DF0030F533 /* XLSlideSegmentedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmentedItem.m; sourceTree = "<group>"; };
+		C0AEB40320E214DF0030F533 /* XLSlideSwitchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitchDelegate.h; sourceTree = "<group>"; };
+		C0AEB40420E214DF0030F533 /* XLSlideSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmented.m; sourceTree = "<group>"; };
+		C0AEB40520E214DF0030F533 /* XLSegmentedSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentedSlideSwitch.m; sourceTree = "<group>"; };
+		C0AEB40620E214DF0030F533 /* XLSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSwitch.m; sourceTree = "<group>"; };
+		C0AEB40720E214DF0030F533 /* XLSlideSegmentedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmentedItem.h; sourceTree = "<group>"; };
+		C0AEB40D20E215620030F533 /* SegmentedSlideSwitchExample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedSlideSwitchExample2.h; sourceTree = "<group>"; };
+		C0AEB40E20E215620030F533 /* SlideSwitchExample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchExample2.m; sourceTree = "<group>"; };
+		C0AEB40F20E215620030F533 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C0AEB41020E215620030F533 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		C0AEB41120E215620030F533 /* SlideSwitchExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchExample1.m; sourceTree = "<group>"; };
+		C0AEB41220E215620030F533 /* SegmentedSlideSwitchExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedSlideSwitchExample1.h; sourceTree = "<group>"; };
+		C0AEB41320E215620030F533 /* SlideSwitchExample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideSwitchExample2.h; sourceTree = "<group>"; };
+		C0AEB41420E215620030F533 /* SegmentedSlideSwitchExample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedSlideSwitchExample2.m; sourceTree = "<group>"; };
+		C0AEB41520E215620030F533 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		C0AEB41720E215620030F533 /* channelAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = channelAdd.png; sourceTree = "<group>"; };
+		C0AEB41820E215620030F533 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C0AEB41920E215620030F533 /* SegmentedSlideSwitchExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedSlideSwitchExample1.m; sourceTree = "<group>"; };
+		C0AEB41A20E215620030F533 /* SlideSwitchExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideSwitchExample1.h; sourceTree = "<group>"; };
+		C0AEB42220E215910030F533 /* YLRollingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRollingViewController.h; sourceTree = "<group>"; };
+		C0AEB42320E215910030F533 /* YLRollingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRollingViewController.m; sourceTree = "<group>"; };
 		C0B3017720D39E4100F78CDD /* YLRunWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLRunWebViewViewController.h; sourceTree = "<group>"; };
 		C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLRunWebViewViewController.m; sourceTree = "<group>"; };
 		C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
@@ -509,6 +553,51 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C07CF23620D68C8E007D12CA /* 球型立体滚动标签 */ = {
+			isa = PBXGroup;
+			children = (
+				C07CF23920D68CEE007D12CA /* ViewController */,
+				C07CF23820D68CEB007D12CA /* Model */,
+				C07CF23720D68CE8007D12CA /* View */,
+			);
+			path = "球型立体滚动标签";
+			sourceTree = "<group>";
+		};
+		C07CF23720D68CE8007D12CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C07CF23A20D68D21007D12CA /* DBSphereTagCloud */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C07CF23820D68CEB007D12CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C07CF23920D68CEE007D12CA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C07CF24020D68D90007D12CA /* YLSphereTagCloudViewController.h */,
+				C07CF24120D68D90007D12CA /* YLSphereTagCloudViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C07CF23A20D68D21007D12CA /* DBSphereTagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				C07CF23B20D68D21007D12CA /* DBPoint.h */,
+				C07CF23D20D68D21007D12CA /* DBMatrix.h */,
+				C07CF23C20D68D21007D12CA /* DBSphereView.h */,
+				C07CF23E20D68D21007D12CA /* DBSphereView.m */,
+			);
+			path = DBSphereTagCloud;
+			sourceTree = "<group>";
+		};
 		C083390320BADE8100F6CAF6 /* Show */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +668,8 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0AEB3F920E2142B0030F533 /* 仿今日头条滚动列表 */,
+				C07CF23620D68C8E007D12CA /* 球型立体滚动标签 */,
 				C0B3014F20D38ADC00F78CDD /* 加载网页带进度条 */,
 				C0F7BF5D20CE60FA0087C06C /* 时间选择器 */,
 				C074141020CD05EA00E8FB9D /* 行高自适应 */,
@@ -601,6 +692,85 @@
 				C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */,
 			);
 			path = "加载网络图片&Gif";
+			sourceTree = "<group>";
+		};
+		C0AEB3F920E2142B0030F533 /* 仿今日头条滚动列表 */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB3FD20E214900030F533 /* thirdParty */,
+				C0AEB3FC20E214600030F533 /* ViewController */,
+				C0AEB3FA20E2145B0030F533 /* Example */,
+			);
+			path = "仿今日头条滚动列表";
+			sourceTree = "<group>";
+		};
+		C0AEB3FA20E2145B0030F533 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB40C20E215620030F533 /* Example */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C0AEB3FC20E214600030F533 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB42220E215910030F533 /* YLRollingViewController.h */,
+				C0AEB42320E215910030F533 /* YLRollingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0AEB3FD20E214900030F533 /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB3FE20E214DF0030F533 /* XLSlideSwitch */,
+			);
+			path = thirdParty;
+			sourceTree = "<group>";
+		};
+		C0AEB3FE20E214DF0030F533 /* XLSlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB40120E214DF0030F533 /* XLSlideSwitch.h */,
+				C0AEB40620E214DF0030F533 /* XLSlideSwitch.m */,
+				C0AEB3FF20E214DF0030F533 /* XLSlideSegmented.h */,
+				C0AEB40420E214DF0030F533 /* XLSlideSegmented.m */,
+				C0AEB40720E214DF0030F533 /* XLSlideSegmentedItem.h */,
+				C0AEB40220E214DF0030F533 /* XLSlideSegmentedItem.m */,
+				C0AEB40020E214DF0030F533 /* XLSegmentedSlideSwitch.h */,
+				C0AEB40520E214DF0030F533 /* XLSegmentedSlideSwitch.m */,
+				C0AEB40320E214DF0030F533 /* XLSlideSwitchDelegate.h */,
+			);
+			path = XLSlideSwitch;
+			sourceTree = "<group>";
+		};
+		C0AEB40C20E215620030F533 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB41A20E215620030F533 /* SlideSwitchExample1.h */,
+				C0AEB41120E215620030F533 /* SlideSwitchExample1.m */,
+				C0AEB41320E215620030F533 /* SlideSwitchExample2.h */,
+				C0AEB40E20E215620030F533 /* SlideSwitchExample2.m */,
+				C0AEB41220E215620030F533 /* SegmentedSlideSwitchExample1.h */,
+				C0AEB41920E215620030F533 /* SegmentedSlideSwitchExample1.m */,
+				C0AEB40D20E215620030F533 /* SegmentedSlideSwitchExample2.h */,
+				C0AEB41420E215620030F533 /* SegmentedSlideSwitchExample2.m */,
+				C0AEB41620E215620030F533 /* Resource */,
+				C0AEB40F20E215620030F533 /* TableViewController.h */,
+				C0AEB41820E215620030F533 /* TableViewController.m */,
+				C0AEB41020E215620030F533 /* CollectionViewController.h */,
+				C0AEB41520E215620030F533 /* CollectionViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C0AEB41620E215620030F533 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEB41720E215620030F533 /* channelAdd.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		C0B3014F20D38ADC00F78CDD /* 加载网页带进度条 */ = {
@@ -927,6 +1097,7 @@
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
 				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
+				C0AEB41F20E215620030F533 /* channelAdd.png in Resources */,
 				C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
@@ -989,8 +1160,10 @@
 				C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */,
 				C033FF0320B5176E00470BFC /* ViewController.m in Sources */,
 				C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */,
+				C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */,
 				C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */,
 				C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */,
+				C0AEB40B20E214DF0030F533 /* XLSlideSwitch.m in Sources */,
 				C083391920BAE6BA00F6CAF6 /* YLShowListCellModel.m in Sources */,
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
 				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
@@ -999,9 +1172,11 @@
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
 				C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */,
 				C03ACE7D20C687AA001B5C30 /* YLScratchableLatexView.m in Sources */,
+				C0AEB41C20E215620030F533 /* SlideSwitchExample1.m in Sources */,
 				C08338F020BAD68A00F6CAF6 /* UIView+YLLoading.m in Sources */,
 				C0BB15E420B9A3B200A0095A /* UIColor+YLHelper.m in Sources */,
 				C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */,
+				C07CF24220D68D90007D12CA /* YLSphereTagCloudViewController.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
@@ -1011,19 +1186,26 @@
 				C04312E520BE7511002E345F /* HSRotatedView.m in Sources */,
 				C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */,
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
+				C0AEB41E20E215620030F533 /* CollectionViewController.m in Sources */,
+				C0AEB41D20E215620030F533 /* SegmentedSlideSwitchExample2.m in Sources */,
 				C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */,
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
+				C0AEB42020E215620030F533 /* TableViewController.m in Sources */,
 				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
 				C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */,
+				C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
+				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,
 				C04312E320BE7511002E345F /* UIView+SnapShot.m in Sources */,
+				C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */,
+				C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */,
 				C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */,
 				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,
 				C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */,
@@ -1031,6 +1213,8 @@
 				C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
+				C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */,
+				C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */,
 				C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

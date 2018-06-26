@@ -18,6 +18,8 @@
 #import "YLAdaptFontViewController.h"
 #import "YLSelectTimeViewController.h"
 #import "YLRunWebViewViewController.h"
+#import "YLSphereTagCloudViewController.h"
+#import "YLRollingViewController.h"
 // model
 
 // View
@@ -45,7 +47,7 @@
     [self.view addSubview:self.showListView];
     [self initConstraints];
     [self loadDataSouce];
-    self.navigationController.navigationBar.barTintColor = [UIColor av_fontBlueColor];
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
 
 //    KVO 监听tableView 偏移量
     [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
@@ -139,9 +141,18 @@
         [self.navigationController pushViewController:ctr animated:YES];
     }
     else if ([tag isEqualToString:@"9"]) {
-//        UINavigationController *navCtr = [UINavigationController alloc] initWithRootViewController:<#(nonnull UIViewController *)#>
         YLRunWebViewViewController *ctr = [[YLRunWebViewViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
+    else if ([tag isEqualToString:@"10"]) {
+        YLSphereTagCloudViewController *ctr = [[YLSphereTagCloudViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"11"]) {
+        YLRollingViewController *ctr = [[YLRollingViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES]; 
+    }
+    
+    
 }
 @end
