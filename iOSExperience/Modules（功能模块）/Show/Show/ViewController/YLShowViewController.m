@@ -20,6 +20,7 @@
 #import "YLRunWebViewViewController.h"
 #import "YLSphereTagCloudViewController.h"
 #import "YLRollingViewController.h"
+#import "YLMenuViewController.h"
 // model
 
 // View
@@ -151,6 +152,10 @@
     else if ([tag isEqualToString:@"11"]) {
         YLRollingViewController *ctr = [[YLRollingViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES]; 
+    }
+    else if ([tag isEqualToString:@"12"]) {
+        YLMenuViewController *ctr = [[YLMenuViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
     }
     
     

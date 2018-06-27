@@ -90,6 +90,11 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"11"
                             },
+                        @{
+                            YLLetfTitle : @"cell的折叠和展开",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"12"
+                            },
                         ];
     
     return dicArr;
