@@ -27,6 +27,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
+    _mainTabBar = tabBar;
     self.window.rootViewController = tabBar.tabBarController;
     
     
@@ -52,6 +53,10 @@
         [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:ctr animated:YES completion:nil];
     }];
     adView = adView;
+}
+
++ (AppDelegate *)shareAppDelegate{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

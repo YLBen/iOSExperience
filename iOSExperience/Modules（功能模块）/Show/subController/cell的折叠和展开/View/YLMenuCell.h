@@ -11,5 +11,7 @@
 @interface YLMenuCell : UITableViewCell
 
 @property(nonatomic,strong)YLMenuCellModel *model;
-
+@property(nonatomic,strong)UIImageView *icon;
+@property(nonatomic,strong)UILabel *nickNameLab;
+@property(nonatomic,strong)UILabel *markLab;
 @end

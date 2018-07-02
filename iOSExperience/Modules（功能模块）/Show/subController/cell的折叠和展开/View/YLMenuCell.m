@@ -14,9 +14,7 @@
 #import "YLMenuCellModel.h"
 @interface YLMenuCell()
 
-@property(nonatomic,strong)UIImageView *icon;
-@property(nonatomic,strong)UILabel *nickNameLab;
-@property(nonatomic,strong)UILabel *markLab;
+
 
 
 @end

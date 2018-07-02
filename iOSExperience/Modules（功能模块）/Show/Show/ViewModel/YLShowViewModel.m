@@ -95,6 +95,11 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"12"
                             },
+                        @{
+                            YLLetfTitle : @"无限滚动的tableView",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"13"
+                            },
                         ];
     
     return dicArr;

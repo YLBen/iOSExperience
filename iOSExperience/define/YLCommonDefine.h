@@ -53,4 +53,9 @@ typedef void(^PCParas4Callback)(id para, id para2, id para3, id para4);
 #define kTopHeight (kStatusBarHeight + kNavBarHeight)
 
 #define kUserDefaults       [NSUserDefaults standardUserDefaults]
+
+#define ViewRadius(View, Radius)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES]
 #endif /* YLCommonDefine_h */

@@ -21,6 +21,8 @@
 #import "YLSphereTagCloudViewController.h"
 #import "YLRollingViewController.h"
 #import "YLMenuViewController.h"
+#import "YLUnlimitedViewController.h"
+
 // model
 
 // View
@@ -157,7 +159,10 @@
         YLMenuViewController *ctr = [[YLMenuViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
-    
+    else if ([tag isEqualToString:@"13"]) {
+        YLUnlimitedViewController *ctr = [[YLUnlimitedViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
     
 }
 @end
