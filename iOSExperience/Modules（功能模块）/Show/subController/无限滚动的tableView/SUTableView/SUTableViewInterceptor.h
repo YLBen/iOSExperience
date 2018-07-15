@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SUTableViewInterceptor : NSObject
-
+//接受者
 @property (nonatomic, weak) id receiver;
+//中间人
 @property (nonatomic, weak) id middleMan;
 
 @end

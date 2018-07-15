@@ -38,6 +38,7 @@
 		C03DA88320EA24030089BC12 /* SUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA87F20EA24030089BC12 /* SUTableView.m */; };
 		C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA88020EA24030089BC12 /* SUTableViewInterceptor.m */; };
 		C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA88620EA243D0089BC12 /* YLUnlimitedViewController.m */; };
+		C03DA8CF20EB78480089BC12 /* AFN_Download_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA8CE20EB78480089BC12 /* AFN_Download_Tool.m */; };
 		C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */; };
 		C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */; };
 		C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312D520BE3D54002E345F /* AppDelegate+AppService.m */; };
@@ -102,6 +103,9 @@
 		C0C949FB20E4DABD00EF6EE1 /* PersonListLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C949F920E4DABD00EF6EE1 /* PersonListLogic.m */; };
 		C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */; };
 		C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */; };
+		C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */; };
+		C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */; };
+		C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD320F6FF1A00EEB95E /* shony.m */; };
 		C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */; };
 		C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */; };
 		C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */; };
@@ -169,6 +173,8 @@
 		C03DA88220EA24030089BC12 /* SUTableViewInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUTableViewInterceptor.h; sourceTree = "<group>"; };
 		C03DA88520EA243D0089BC12 /* YLUnlimitedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLUnlimitedViewController.h; sourceTree = "<group>"; };
 		C03DA88620EA243D0089BC12 /* YLUnlimitedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLUnlimitedViewController.m; sourceTree = "<group>"; };
+		C03DA8CD20EB78480089BC12 /* AFN_Download_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFN_Download_Tool.h; sourceTree = "<group>"; };
+		C03DA8CE20EB78480089BC12 /* AFN_Download_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFN_Download_Tool.m; sourceTree = "<group>"; };
 		C04312CF20BE3A69002E345F /* YLLocalNotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLocalNotificationsViewController.h; sourceTree = "<group>"; };
 		C04312D020BE3A69002E345F /* YLLocalNotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLocalNotificationsViewController.m; sourceTree = "<group>"; };
 		C04312D120BE3A69002E345F /* YLLocalNotificationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalNotificationsViewController.xib; sourceTree = "<group>"; };
@@ -298,6 +304,12 @@
 		C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFuzzyViewController.m; sourceTree = "<group>"; };
 		C0C9C2FE20C9020800FAB6EA /* YLEditableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEditableViewController.h; sourceTree = "<group>"; };
 		C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEditableViewController.m; sourceTree = "<group>"; };
+		C0DE1ACD20F6FEE200EEB95E /* YLsimpleButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLsimpleButtonsViewController.h; sourceTree = "<group>"; };
+		C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLsimpleButtonsViewController.m; sourceTree = "<group>"; };
+		C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperLinks.m; sourceTree = "<group>"; };
+		C0DE1AD220F6FF1A00EEB95E /* shony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shony.h; sourceTree = "<group>"; };
+		C0DE1AD320F6FF1A00EEB95E /* shony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shony.m; sourceTree = "<group>"; };
+		C0DE1AD420F6FF1A00EEB95E /* HyperLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperLinks.h; sourceTree = "<group>"; };
 		C0F7BF6120CE61B10087C06C /* YLSelectTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeView.h; sourceTree = "<group>"; };
 		C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSelectTimeView.m; sourceTree = "<group>"; };
 		C0F7BF6420CE659B0087C06C /* YLSelectTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeViewController.h; sourceTree = "<group>"; };
@@ -650,6 +662,31 @@
 			path = SUTableView;
 			sourceTree = "<group>";
 		};
+		C03DA8CA20EB77960089BC12 /* 网络下载文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C03DA8CC20EB78020089BC12 /* Tool */,
+				C03DA8CB20EB78000089BC12 /* ViewController */,
+			);
+			path = "网络下载文件";
+			sourceTree = "<group>";
+		};
+		C03DA8CB20EB78000089BC12 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C03DA8CC20EB78020089BC12 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C03DA8CD20EB78480089BC12 /* AFN_Download_Tool.h */,
+				C03DA8CE20EB78480089BC12 /* AFN_Download_Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		C04312CE20BE39FA002E345F /* 本地通知 */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,6 +907,8 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0DE1ACB20F6FE9100EEB95E /* 一些按钮 */,
+				C03DA8CA20EB77960089BC12 /* 网络下载文件 */,
 				C03DA87920EA237E0089BC12 /* 无限滚动的tableView */,
 				C032B3EC20E32AB400A54277 /* cell的折叠和展开 */,
 				C0AEB3F920E2142B0030F533 /* 仿今日头条滚动列表 */,
@@ -1285,6 +1324,35 @@
 			path = "可编辑的tableView";
 			sourceTree = "<group>";
 		};
+		C0DE1ACB20F6FE9100EEB95E /* 一些按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE1AD020F6FEE900EEB95E /* buttons */,
+				C0DE1ACC20F6FE9E00EEB95E /* ViewController */,
+			);
+			path = "一些按钮";
+			sourceTree = "<group>";
+		};
+		C0DE1ACC20F6FE9E00EEB95E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE1ACD20F6FEE200EEB95E /* YLsimpleButtonsViewController.h */,
+				C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0DE1AD020F6FEE900EEB95E /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE1AD420F6FF1A00EEB95E /* HyperLinks.h */,
+				C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */,
+				C0DE1AD220F6FF1A00EEB95E /* shony.h */,
+				C0DE1AD320F6FF1A00EEB95E /* shony.m */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
 		C0F7BF5D20CE60FA0087C06C /* 时间选择器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1461,6 +1529,7 @@
 				C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */,
 				C033FF0320B5176E00470BFC /* ViewController.m in Sources */,
 				C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */,
+				C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */,
 				C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */,
 				C032B3F320E32B1400A54277 /* YLMenuViewController.m in Sources */,
 				C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */,
@@ -1470,8 +1539,10 @@
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
 				C032B3F620E32B4E00A54277 /* YLMenuCell.m in Sources */,
 				C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */,
+				C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */,
 				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
+				C03DA8CF20EB78480089BC12 /* AFN_Download_Tool.m in Sources */,
 				C083391320BAE13200F6CAF6 /* YLBaseModel.m in Sources */,
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
 				C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */,
@@ -1488,6 +1559,7 @@
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C0C949ED20E4CDF600EF6EE1 /* PersonListCollectionViewCell.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
+				C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
 				C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */,
 				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,

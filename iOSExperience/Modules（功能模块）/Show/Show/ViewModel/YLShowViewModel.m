@@ -100,6 +100,20 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"13"
                             },
+                        @{
+                            YLLetfTitle : @"网络文件下载",
+                            YLIsShowTitle : @(1),
+                            YLRightTitle : @"断点续传",
+                            YLTag : @"14"
+                            },
+                        @{
+                            YLLetfTitle : @"一些按钮",
+                            YLIsShowTitle : @(1),
+//                            YLRightTitle : @"",
+                            YLTag : @"15"
+                            },
+                        
+                        
                         ];
     
     return dicArr;

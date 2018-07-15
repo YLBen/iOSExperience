@@ -12,8 +12,10 @@
 
 #pragma mark - forward & response override
 - (id)forwardingTargetForSelector:(SEL)aSelector {
+//    判断某个方法实现，那么就去调用
     if ([self.middleMan respondsToSelector:aSelector]) return self.middleMan;
     if ([self.receiver respondsToSelector:aSelector]) return self.receiver;
+//    否者从其父类中 寻找返回自身
     return [super forwardingTargetForSelector:aSelector];
 }
 

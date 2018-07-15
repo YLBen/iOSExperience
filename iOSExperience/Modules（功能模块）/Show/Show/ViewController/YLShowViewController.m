@@ -22,7 +22,7 @@
 #import "YLRollingViewController.h"
 #import "YLMenuViewController.h"
 #import "YLUnlimitedViewController.h"
-
+#import "YLsimpleButtonsViewController.h"
 // model
 
 // View
@@ -161,6 +161,14 @@
     }
     else if ([tag isEqualToString:@"13"]) {
         YLUnlimitedViewController *ctr = [[YLUnlimitedViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"14"]) {
+        YLUnlimitedViewController *ctr = [[YLUnlimitedViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"15"]) {
+        YLsimpleButtonsViewController *ctr = [[YLsimpleButtonsViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
     

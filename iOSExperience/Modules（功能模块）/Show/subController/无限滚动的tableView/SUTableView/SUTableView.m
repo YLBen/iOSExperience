@@ -37,8 +37,10 @@
     [self setContentOffset: contentOffset];
 }
 
-#pragma mark - DataSource Delegate Setter/Getter Override 
+#pragma mark - DataSource Delegate Setter/Getter Override
+
 - (void)setDataSource:(id<UITableViewDataSource>)dataSource {
+//    tableView接收的dataSouce 设置为接受者
     self.dataSourceInterceptor.receiver = dataSource;
     [super setDataSource:(id<UITableViewDataSource>)self.dataSourceInterceptor];
 }
@@ -54,12 +56,15 @@
 
 #pragma mark - Delegate Method Override
 - (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section {
+//    得到数组中有几行
     self.actualRows = [self.dataSourceInterceptor.receiver tableView:tableView numberOfRowsInSection:section];
+//    返回行数*3
     return self.actualRows * 3;
 }
 
 - (UITableViewCell*)tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSIndexPath * actualIndexPath = [NSIndexPath indexPathForRow:indexPath.row % self.actualRows inSection:indexPath.section];
+    NSLog(@"-----%@",actualIndexPath);
     return [self.dataSourceInterceptor.receiver tableView:tableView cellForRowAtIndexPath:actualIndexPath];
 }
 
