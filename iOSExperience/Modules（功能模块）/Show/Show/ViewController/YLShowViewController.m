@@ -23,6 +23,10 @@
 #import "YLMenuViewController.h"
 #import "YLUnlimitedViewController.h"
 #import "YLsimpleButtonsViewController.h"
+#import "YLCustomProgressViewController.h"
+#import "YLPieChartViewController.h"
+#import "YLHistogramViewController.h"
+#import "YLdrawingPicViewController.h"
 // model
 
 // View
@@ -171,6 +175,21 @@
         YLsimpleButtonsViewController *ctr = [[YLsimpleButtonsViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
-    
+    else if ([tag isEqualToString:@"16"]) {
+        YLCustomProgressViewController *ctr = [[YLCustomProgressViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"17"]) {
+        YLPieChartViewController *ctr = [[YLPieChartViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"18"]) {
+        YLHistogramViewController *ctr = [[YLHistogramViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"19"]) {
+        YLdrawingPicViewController *ctr = [[YLdrawingPicViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
 }
 @end

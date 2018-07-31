@@ -112,8 +112,32 @@
 //                            YLRightTitle : @"",
                             YLTag : @"15"
                             },
+                        @{
+                            YLLetfTitle : @"简单下载进度条",
+                            YLRightTitle : @" Quartz2D",
+                             YLIsShowTitle : @(0),
+                            YLTag : @"16"
+                            },
+                        @{
+                            YLLetfTitle : @"饼状图",
+                            YLRightTitle : @" Quartz2D",
+                            YLIsShowTitle : @(0),
+                            YLTag : @"17"
+                            },
+                        @{
+                            YLLetfTitle : @"柱状图",
+                            YLRightTitle : @" Quartz2D",
+                            YLIsShowTitle : @(0),
+                            YLTag : @"18"
+                            },
+                        @{
+                            YLLetfTitle : @"图片平铺",
+                            YLRightTitle : @" Quartz2D",
+                            YLIsShowTitle : @(0),
+                            YLTag : @"19"
+                            },
                         
-                        
+
                         ];
     
     return dicArr;

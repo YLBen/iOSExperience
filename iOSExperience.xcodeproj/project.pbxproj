@@ -106,6 +106,14 @@
 		C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */; };
 		C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */; };
 		C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD320F6FF1A00EEB95E /* shony.m */; };
+		C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFC821108FB4005726B2 /* CustomProgressView.m */; };
+		C0EBEFCD21108FE2005726B2 /* YLCustomProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFCC21108FE2005726B2 /* YLCustomProgressViewController.m */; };
+		C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFD22110912D005726B2 /* YLPieChart.m */; };
+		C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFD521109142005726B2 /* YLPieChartViewController.m */; };
+		C0EBEFDC21109278005726B2 /* YLHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFDA21109277005726B2 /* YLHistogramView.m */; };
+		C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFDE21109295005726B2 /* YLHistogramViewController.m */; };
+		C0EBEFE521109796005726B2 /* imageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFE421109795005726B2 /* imageView.m */; };
+		C0EBEFE8211097FB005726B2 /* YLdrawingPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFE7211097FB005726B2 /* YLdrawingPicViewController.m */; };
 		C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */; };
 		C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */; };
 		C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */; };
@@ -310,6 +318,22 @@
 		C0DE1AD220F6FF1A00EEB95E /* shony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shony.h; sourceTree = "<group>"; };
 		C0DE1AD320F6FF1A00EEB95E /* shony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shony.m; sourceTree = "<group>"; };
 		C0DE1AD420F6FF1A00EEB95E /* HyperLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperLinks.h; sourceTree = "<group>"; };
+		C0EBEFC821108FB4005726B2 /* CustomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgressView.m; sourceTree = "<group>"; };
+		C0EBEFC921108FB4005726B2 /* CustomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProgressView.h; sourceTree = "<group>"; };
+		C0EBEFCB21108FE2005726B2 /* YLCustomProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCustomProgressViewController.h; sourceTree = "<group>"; };
+		C0EBEFCC21108FE2005726B2 /* YLCustomProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCustomProgressViewController.m; sourceTree = "<group>"; };
+		C0EBEFD12110912D005726B2 /* YLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPieChart.h; sourceTree = "<group>"; };
+		C0EBEFD22110912D005726B2 /* YLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPieChart.m; sourceTree = "<group>"; };
+		C0EBEFD421109142005726B2 /* YLPieChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPieChartViewController.h; sourceTree = "<group>"; };
+		C0EBEFD521109142005726B2 /* YLPieChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPieChartViewController.m; sourceTree = "<group>"; };
+		C0EBEFDA21109277005726B2 /* YLHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHistogramView.m; sourceTree = "<group>"; };
+		C0EBEFDB21109277005726B2 /* YLHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHistogramView.h; sourceTree = "<group>"; };
+		C0EBEFDD21109295005726B2 /* YLHistogramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHistogramViewController.h; sourceTree = "<group>"; };
+		C0EBEFDE21109295005726B2 /* YLHistogramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLHistogramViewController.m; sourceTree = "<group>"; };
+		C0EBEFE321109795005726B2 /* imageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageView.h; sourceTree = "<group>"; };
+		C0EBEFE421109795005726B2 /* imageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageView.m; sourceTree = "<group>"; };
+		C0EBEFE6211097FB005726B2 /* YLdrawingPicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLdrawingPicViewController.h; sourceTree = "<group>"; };
+		C0EBEFE7211097FB005726B2 /* YLdrawingPicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLdrawingPicViewController.m; sourceTree = "<group>"; };
 		C0F7BF6120CE61B10087C06C /* YLSelectTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeView.h; sourceTree = "<group>"; };
 		C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSelectTimeView.m; sourceTree = "<group>"; };
 		C0F7BF6420CE659B0087C06C /* YLSelectTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeViewController.h; sourceTree = "<group>"; };
@@ -907,6 +931,10 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0EBEFE021109761005726B2 /* 图片平铺 */,
+				C0EBEFD72110924A005726B2 /* 柱状图 */,
+				C0EBEFCE211090E9005726B2 /* 饼状图 */,
+				C0EBEFC521108F62005726B2 /* 简单下载进度条 */,
 				C0DE1ACB20F6FE9100EEB95E /* 一些按钮 */,
 				C03DA8CA20EB77960089BC12 /* 网络下载文件 */,
 				C03DA87920EA237E0089BC12 /* 无限滚动的tableView */,
@@ -1353,6 +1381,114 @@
 			path = buttons;
 			sourceTree = "<group>";
 		};
+		C0EBEFC521108F62005726B2 /* 简单下载进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFC721108F76005726B2 /* View */,
+				C0EBEFC621108F74005726B2 /* viewController */,
+			);
+			path = "简单下载进度条";
+			sourceTree = "<group>";
+		};
+		C0EBEFC621108F74005726B2 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFCB21108FE2005726B2 /* YLCustomProgressViewController.h */,
+				C0EBEFCC21108FE2005726B2 /* YLCustomProgressViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		C0EBEFC721108F76005726B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFC921108FB4005726B2 /* CustomProgressView.h */,
+				C0EBEFC821108FB4005726B2 /* CustomProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0EBEFCE211090E9005726B2 /* 饼状图 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFD021109105005726B2 /* View */,
+				C0EBEFCF21109103005726B2 /* ViewController */,
+			);
+			path = "饼状图";
+			sourceTree = "<group>";
+		};
+		C0EBEFCF21109103005726B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFD421109142005726B2 /* YLPieChartViewController.h */,
+				C0EBEFD521109142005726B2 /* YLPieChartViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0EBEFD021109105005726B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFD12110912D005726B2 /* YLPieChart.h */,
+				C0EBEFD22110912D005726B2 /* YLPieChart.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0EBEFD72110924A005726B2 /* 柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFD921109259005726B2 /* View */,
+				C0EBEFD821109257005726B2 /* ViewController */,
+			);
+			path = "柱状图";
+			sourceTree = "<group>";
+		};
+		C0EBEFD821109257005726B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFDD21109295005726B2 /* YLHistogramViewController.h */,
+				C0EBEFDE21109295005726B2 /* YLHistogramViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0EBEFD921109259005726B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFDB21109277005726B2 /* YLHistogramView.h */,
+				C0EBEFDA21109277005726B2 /* YLHistogramView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0EBEFE021109761005726B2 /* 图片平铺 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFE22110976F005726B2 /* View */,
+				C0EBEFE12110976D005726B2 /* ViewController */,
+			);
+			path = "图片平铺";
+			sourceTree = "<group>";
+		};
+		C0EBEFE12110976D005726B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFE6211097FB005726B2 /* YLdrawingPicViewController.h */,
+				C0EBEFE7211097FB005726B2 /* YLdrawingPicViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0EBEFE22110976F005726B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBEFE321109795005726B2 /* imageView.h */,
+				C0EBEFE421109795005726B2 /* imageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C0F7BF5D20CE60FA0087C06C /* 时间选择器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1537,6 +1673,7 @@
 				C0AEB40B20E214DF0030F533 /* XLSlideSwitch.m in Sources */,
 				C083391920BAE6BA00F6CAF6 /* YLShowListCellModel.m in Sources */,
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
+				C0EBEFE8211097FB005726B2 /* YLdrawingPicViewController.m in Sources */,
 				C032B3F620E32B4E00A54277 /* YLMenuCell.m in Sources */,
 				C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */,
 				C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */,
@@ -1544,6 +1681,7 @@
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
 				C03DA8CF20EB78480089BC12 /* AFN_Download_Tool.m in Sources */,
 				C083391320BAE13200F6CAF6 /* YLBaseModel.m in Sources */,
+				C0EBEFCD21108FE2005726B2 /* YLCustomProgressViewController.m in Sources */,
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
 				C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */,
 				C03ACE7D20C687AA001B5C30 /* YLScratchableLatexView.m in Sources */,
@@ -1557,7 +1695,10 @@
 				C07CF24220D68D90007D12CA /* YLSphereTagCloudViewController.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
+				C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */,
 				C0C949ED20E4CDF600EF6EE1 /* PersonListCollectionViewCell.m in Sources */,
+				C0EBEFDC21109278005726B2 /* YLHistogramView.m in Sources */,
+				C0EBEFE521109796005726B2 /* imageView.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
 				C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
@@ -1597,11 +1738,14 @@
 				C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */,
 				C0C949F020E4D0A300EF6EE1 /* WaterFlowLayout.m in Sources */,
 				C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */,
+				C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */,
 				C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C032B40D20E3336700A54277 /* AYMenuData.m in Sources */,
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
 				C032B40A20E3336700A54277 /* AYMenuView.m in Sources */,
+				C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */,
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
+				C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,
 				C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */,
