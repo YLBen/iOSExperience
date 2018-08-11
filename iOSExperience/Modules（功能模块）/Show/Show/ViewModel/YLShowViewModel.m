@@ -136,6 +136,12 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"19"
                             },
+                        @{
+                            YLLetfTitle : @"tableView二级联动",
+//                            YLRightTitle : @" Quartz2D",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"20"
+                            },
                         
 
                         ];

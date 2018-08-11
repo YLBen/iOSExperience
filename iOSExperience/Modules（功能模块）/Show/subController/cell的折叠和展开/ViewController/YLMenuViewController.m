@@ -107,7 +107,7 @@
             YLMenuCellModel *model = [[YLMenuCellModel alloc] init];
             model.nickName = @"张伟";
             model.mark = @"今天吃鸡了！今天吃鸡了！今天吃鸡了！";
-            model.picUrl = @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530080056767&di=ef8fe8c492020f10a91dd2fbe0402940&imgtype=0&src=http%3A%2F%2Fwww.chuangyimao.com%2Fuploads%2Fnews%2F20150130%2F20150130090123ad7e329845.jpg";
+            model.picUrl = @"https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=95715754,4222698147&fm=27&gp=0.jpg";
             [subArray addObject:model];
         }
         rootItem.subItems = subArray;

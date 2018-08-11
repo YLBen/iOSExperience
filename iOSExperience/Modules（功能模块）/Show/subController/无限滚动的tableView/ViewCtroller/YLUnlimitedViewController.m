@@ -58,7 +58,7 @@ int i = 0;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.nickNameLab.text = [NSString stringWithFormat:@"%@%d",@"张伟",i];
     cell.markLab.text = @"没错!又是我";
-    [cell.icon sd_setImageWithURL:[NSURL URLWithString:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1530080056767&di=ef8fe8c492020f10a91dd2fbe0402940&imgtype=0&src=http%3A%2F%2Fwww.chuangyimao.com%2Fuploads%2Fnews%2F20150130%2F20150130090123ad7e329845.jpg"] placeholderImage:[UIImage imageNamed:@"contacts_cell_default_avatar"]];
+    [cell.icon sd_setImageWithURL:[NSURL URLWithString:@"https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=95715754,4222698147&fm=27&gp=0.jpg"] placeholderImage:[UIImage imageNamed:@"contacts_cell_default_avatar"]];
     return cell;
 }
 //model.nickName = @"张伟";

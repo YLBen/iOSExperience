@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"一些按钮";
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     HyperLinks *links = [[HyperLinks alloc] initWithFrame:CGRectMake(100, 100, 150, 50)];
     [links setTitle:@"www.baidu.com" forState:UIControlStateNormal];

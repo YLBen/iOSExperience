@@ -27,6 +27,7 @@
 #import "YLPieChartViewController.h"
 #import "YLHistogramViewController.h"
 #import "YLdrawingPicViewController.h"
+#import "YLLinkageTableViewViewController.h"
 // model
 
 // View
@@ -189,6 +190,10 @@
     }
     else if ([tag isEqualToString:@"19"]) {
         YLdrawingPicViewController *ctr = [[YLdrawingPicViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"20"]) {
+        YLLinkageTableViewViewController *ctr = [[YLLinkageTableViewViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

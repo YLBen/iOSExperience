@@ -68,10 +68,14 @@
     if ([model isKindOfClass:[YLShowListCellModel class]]) {
         YLShowListCellModel *showListCellModel = (YLShowListCellModel *)model;
         
-       UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class])];
+//        tableView的复用问题
+//       UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UIFont class])];
+         UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
         if (!cell) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:NSStringFromClass([UITableViewCell class])];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:NSStringFromClass([UIFont class])];
         }
+
+        
         if (showListCellModel.isShow.boolValue) {
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         }

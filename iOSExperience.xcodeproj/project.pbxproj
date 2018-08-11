@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C0E5D211ED29900842F3D /* YLLinkageTableViewViewController.m */; };
 		C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */; };
 		C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971220BBF522008CCC4D /* FYSystemCameraController.m */; };
 		C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971620BBF577008CCC4D /* AVExportContectsTool.m */; };
@@ -122,6 +123,8 @@
 
 /* Begin PBXFileReference section */
 		13679B75C473A6BA40024BA8 /* Pods-iOSExperience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.debug.xcconfig"; sourceTree = "<group>"; };
+		C00C0E5C211ED29900842F3D /* YLLinkageTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLinkageTableViewViewController.h; sourceTree = "<group>"; };
+		C00C0E5D211ED29900842F3D /* YLLinkageTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLinkageTableViewViewController.m; sourceTree = "<group>"; };
 		C031970A20BBE7E4008CCC4D /* commonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
 		C031970B20BBEB16008CCC4D /* YLCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommonDefine.h; sourceTree = "<group>"; };
 		C031970C20BBEC00008CCC4D /* YLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHeader.pch; sourceTree = "<group>"; };
@@ -362,6 +365,23 @@
 				DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C00C0E5A211ECC6E00842F3D /* tableView二级联动 */ = {
+			isa = PBXGroup;
+			children = (
+				C00C0E5B211ECC9A00842F3D /* ViewController */,
+			);
+			path = "tableView二级联动";
+			sourceTree = "<group>";
+		};
+		C00C0E5B211ECC9A00842F3D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C00C0E5C211ED29900842F3D /* YLLinkageTableViewViewController.h */,
+				C00C0E5D211ED29900842F3D /* YLLinkageTableViewViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C031970E20BBF522008CCC4D /* FYSystemCamera */ = {
@@ -931,6 +951,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C00C0E5A211ECC6E00842F3D /* tableView二级联动 */,
 				C0EBEFE021109761005726B2 /* 图片平铺 */,
 				C0EBEFD72110924A005726B2 /* 柱状图 */,
 				C0EBEFCE211090E9005726B2 /* 饼状图 */,
@@ -1726,6 +1747,7 @@
 				C032B41320E3678800A54277 /* YLMenuPushViewController.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
+				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,

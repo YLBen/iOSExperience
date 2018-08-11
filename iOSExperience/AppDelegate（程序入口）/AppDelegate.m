@@ -34,6 +34,9 @@
     [self.window makeKeyAndVisible];
     [self showFPS];
     [self appStart];
+//    设置应用角标
+    [self showAppCount];
+    
     return YES;
 }
 - (void)showFPS{
@@ -55,6 +58,15 @@
     adView = adView;
 }
 
+- (void)showAppCount {
+    UIApplication *app = [UIApplication sharedApplication];
+    app.applicationIconBadgeNumber = 10;
+    // 创建通知对象
+    UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
+    // 注册用户通知
+    [app registerUserNotificationSettings:setting];
+    
+}
 + (AppDelegate *)shareAppDelegate{
     return (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
@@ -72,6 +84,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+   
 }
 
 
