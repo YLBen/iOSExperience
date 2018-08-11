@@ -12,6 +12,7 @@
 @interface YLRunWebViewViewController ()
 @property (strong, nonatomic) WKWebView *webView;
 @property (weak, nonatomic) CALayer *progresslayer;
+@property(nonatomic,strong)UIButton *btn;
 @end
 
 @implementation YLRunWebViewViewController
@@ -20,6 +21,7 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.webView];
+    [self.view addSubview:self.btn];
     //添加属性监听
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     
@@ -67,6 +69,10 @@
     }
 }
 
+- (void)cancel {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 #pragma mark - getter && setter
 
 #pragma mark - lazy loading
@@ -75,6 +81,15 @@
         _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     }
     return _webView;
+    
+}
+- (UIButton *)btn {
+    if (!_btn) {
+        _btn = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 30, 30)];
+        [_btn setBackgroundImage:[UIImage imageNamed:@"cancel"] forState:UIControlStateNormal];
+        [_btn addTarget:self action:@selector(cancel) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _btn;
     
 }
 
