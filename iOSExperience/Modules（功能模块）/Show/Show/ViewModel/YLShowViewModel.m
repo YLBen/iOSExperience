@@ -142,6 +142,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"20"
                             },
+                        @{
+                            YLLetfTitle : @"仿微信actionSheet",
+                            //                            YLRightTitle : @" Quartz2D",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"21"
+                            },
                         
 
                         ];

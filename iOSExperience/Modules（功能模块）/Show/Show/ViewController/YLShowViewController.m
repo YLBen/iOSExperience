@@ -28,6 +28,8 @@
 #import "YLHistogramViewController.h"
 #import "YLdrawingPicViewController.h"
 #import "YLLinkageTableViewViewController.h"
+#import "YLActionSheetViewController.h"
+
 // model
 
 // View
@@ -194,6 +196,10 @@
     }
     else if ([tag isEqualToString:@"20"]) {
         YLLinkageTableViewViewController *ctr = [[YLLinkageTableViewViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"21"]) {
+        YLActionSheetViewController *ctr = [[YLActionSheetViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

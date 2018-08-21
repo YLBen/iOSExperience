@@ -32,6 +32,7 @@
 		C033FF0820B5177000470BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0720B5177000470BFC /* Assets.xcassets */; };
 		C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0920B5177000470BFC /* LaunchScreen.storyboard */; };
 		C033FF0E20B5177000470BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FF0D20B5177000470BFC /* main.m */; };
+		C03A23F9212BA002004B9347 /* YLActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */; };
 		C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */; };
 		C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */; };
 		C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */; };
@@ -170,6 +171,8 @@
 		C033FF0A20B5177000470BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C033FF0C20B5177000470BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C033FF0D20B5177000470BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03A23F7212BA002004B9347 /* YLActionSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLActionSheetViewController.h; sourceTree = "<group>"; };
+		C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLActionSheetViewController.m; sourceTree = "<group>"; };
 		C03ACE7220C6873D001B5C30 /* YLScratchableLatexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexViewController.h; sourceTree = "<group>"; };
 		C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexViewController.m; sourceTree = "<group>"; };
 		C03ACE7520C68762001B5C30 /* YLScratchableLatexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexModel.h; sourceTree = "<group>"; };
@@ -614,6 +617,15 @@
 			path = "ThridParty（第三方库）";
 			sourceTree = "<group>";
 		};
+		C03A23F6212B9FAB004B9347 /* 仿微信ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				C03A23F7212BA002004B9347 /* YLActionSheetViewController.h */,
+				C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */,
+			);
+			path = "仿微信ActionSheet";
+			sourceTree = "<group>";
+		};
 		C03ACE6D20C68660001B5C30 /* CollectionView 9宫格式布局 */ = {
 			isa = PBXGroup;
 			children = (
@@ -951,6 +963,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C03A23F6212B9FAB004B9347 /* 仿微信ActionSheet */,
 				C00C0E5A211ECC6E00842F3D /* tableView二级联动 */,
 				C0EBEFE021109761005726B2 /* 图片平铺 */,
 				C0EBEFD72110924A005726B2 /* 柱状图 */,
@@ -1742,6 +1755,7 @@
 				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
 				C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */,
 				C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */,
+				C03A23F9212BA002004B9347 /* YLActionSheetViewController.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C032B41320E3678800A54277 /* YLMenuPushViewController.m in Sources */,

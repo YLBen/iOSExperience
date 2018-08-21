@@ -13,6 +13,6 @@ pod 'MJRefresh'
 pod 'MJExtension'
 pod 'SDWebImage'
 pod 'YYKit'
-
+pod 'LCActionSheet'
 
 end
