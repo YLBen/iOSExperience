@@ -14,5 +14,7 @@ pod 'MJExtension'
 pod 'SDWebImage'
 pod 'YYKit'
 pod 'LCActionSheet'
+pod 'lottie-ios'
+
 
 end

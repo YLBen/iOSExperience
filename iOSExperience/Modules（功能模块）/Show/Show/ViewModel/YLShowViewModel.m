@@ -148,6 +148,24 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"21"
                             },
+                        @{
+                            YLLetfTitle : @"动态矢量库",
+//                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"22"
+                            },
+                        @{
+                            YLLetfTitle : @"特效输入",
+//                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"23"
+                            },
+                        @{
+                            YLLetfTitle : @"模拟下载进度过场动画",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"24"
+                            }
                         
 
                         ];

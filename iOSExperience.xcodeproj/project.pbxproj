@@ -33,6 +33,44 @@
 		C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C033FF0920B5177000470BFC /* LaunchScreen.storyboard */; };
 		C033FF0E20B5177000470BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C033FF0D20B5177000470BFC /* main.m */; };
 		C03A23F9212BA002004B9347 /* YLActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */; };
+		C03A23FD212BC37F004B9347 /* YLEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A23FC212BC37F004B9347 /* YLEffectViewController.m */; };
+		C03A2403212BF6F0004B9347 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2401212BF6F0004B9347 /* Switch.json */; };
+		C03A2404212BF6F0004B9347 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2402212BF6F0004B9347 /* LottieLogo1.json */; };
+		C03A2406212BFB5A004B9347 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2405212BFB59004B9347 /* TwitterHeart.json */; };
+		C03A240C212C023C004B9347 /* TypingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A2409212C023C004B9347 /* TypingDemoViewController.m */; };
+		C03A240D212C023C004B9347 /* AnimatedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A240B212C023C004B9347 /* AnimatedTextField.m */; };
+		C03A242E212C0405004B9347 /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2410212C0405004B9347 /* T.json */; };
+		C03A242F212C0405004B9347 /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2411212C0405004B9347 /* A.json */; };
+		C03A2430212C0405004B9347 /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2412212C0405004B9347 /* X.json */; };
+		C03A2431212C0405004B9347 /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2413212C0405004B9347 /* BlinkingCursor.json */; };
+		C03A2432212C0405004B9347 /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2414212C0405004B9347 /* M.json */; };
+		C03A2433212C0405004B9347 /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2415212C0405004B9347 /* L.json */; };
+		C03A2434212C0405004B9347 /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2416212C0405004B9347 /* Y.json */; };
+		C03A2435212C0405004B9347 /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2417212C0405004B9347 /* U.json */; };
+		C03A2436212C0405004B9347 /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2418212C0405004B9347 /* K.json */; };
+		C03A2437212C0405004B9347 /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2419212C0405004B9347 /* R.json */; };
+		C03A2438212C0405004B9347 /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241A212C0405004B9347 /* G.json */; };
+		C03A2439212C0405004B9347 /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241B212C0405004B9347 /* F.json */; };
+		C03A243A212C0405004B9347 /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241C212C0405004B9347 /* S.json */; };
+		C03A243B212C0405004B9347 /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241D212C0405004B9347 /* J.json */; };
+		C03A243C212C0405004B9347 /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241E212C0405004B9347 /* I.json */; };
+		C03A243D212C0405004B9347 /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A241F212C0405004B9347 /* E.json */; };
+		C03A243E212C0405004B9347 /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2420212C0405004B9347 /* Apostrophe.json */; };
+		C03A243F212C0405004B9347 /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2421212C0405004B9347 /* P.json */; };
+		C03A2440212C0405004B9347 /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2422212C0405004B9347 /* Q.json */; };
+		C03A2441212C0405004B9347 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2423212C0405004B9347 /* D.json */; };
+		C03A2442212C0405004B9347 /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2424212C0405004B9347 /* Colon.json */; };
+		C03A2443212C0405004B9347 /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2425212C0405004B9347 /* H.json */; };
+		C03A2444212C0405004B9347 /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2426212C0405004B9347 /* C.json */; };
+		C03A2445212C0405004B9347 /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2427212C0405004B9347 /* V.json */; };
+		C03A2446212C0405004B9347 /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2428212C0405004B9347 /* Comma.json */; };
+		C03A2447212C0405004B9347 /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2429212C0405004B9347 /* O.json */; };
+		C03A2448212C0405004B9347 /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A242A212C0405004B9347 /* Z.json */; };
+		C03A2449212C0405004B9347 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A242B212C0405004B9347 /* N.json */; };
+		C03A244A212C0405004B9347 /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A242C212C0405004B9347 /* W.json */; };
+		C03A244B212C0405004B9347 /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A242D212C0405004B9347 /* B.json */; };
+		C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A244F212C07AD004B9347 /* LADownloadTestViewController.m */; };
+		C03A2452212C0865004B9347 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = C03A2451212C0865004B9347 /* Boat_Loader.json */; };
 		C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */; };
 		C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */; };
 		C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */; };
@@ -173,6 +211,48 @@
 		C033FF0D20B5177000470BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C03A23F7212BA002004B9347 /* YLActionSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLActionSheetViewController.h; sourceTree = "<group>"; };
 		C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLActionSheetViewController.m; sourceTree = "<group>"; };
+		C03A23FB212BC37F004B9347 /* YLEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEffectViewController.h; sourceTree = "<group>"; };
+		C03A23FC212BC37F004B9347 /* YLEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEffectViewController.m; sourceTree = "<group>"; };
+		C03A2401212BF6F0004B9347 /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
+		C03A2402212BF6F0004B9347 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		C03A2405212BFB59004B9347 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		C03A2408212C023C004B9347 /* TypingDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingDemoViewController.h; sourceTree = "<group>"; };
+		C03A2409212C023C004B9347 /* TypingDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingDemoViewController.m; sourceTree = "<group>"; };
+		C03A240A212C023C004B9347 /* AnimatedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTextField.h; sourceTree = "<group>"; };
+		C03A240B212C023C004B9347 /* AnimatedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTextField.m; sourceTree = "<group>"; };
+		C03A2410212C0405004B9347 /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		C03A2411212C0405004B9347 /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		C03A2412212C0405004B9347 /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		C03A2413212C0405004B9347 /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		C03A2414212C0405004B9347 /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		C03A2415212C0405004B9347 /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		C03A2416212C0405004B9347 /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		C03A2417212C0405004B9347 /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		C03A2418212C0405004B9347 /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		C03A2419212C0405004B9347 /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		C03A241A212C0405004B9347 /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		C03A241B212C0405004B9347 /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		C03A241C212C0405004B9347 /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		C03A241D212C0405004B9347 /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		C03A241E212C0405004B9347 /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		C03A241F212C0405004B9347 /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		C03A2420212C0405004B9347 /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		C03A2421212C0405004B9347 /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		C03A2422212C0405004B9347 /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		C03A2423212C0405004B9347 /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		C03A2424212C0405004B9347 /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		C03A2425212C0405004B9347 /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		C03A2426212C0405004B9347 /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		C03A2427212C0405004B9347 /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		C03A2428212C0405004B9347 /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		C03A2429212C0405004B9347 /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		C03A242A212C0405004B9347 /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		C03A242B212C0405004B9347 /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		C03A242C212C0405004B9347 /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		C03A242D212C0405004B9347 /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		C03A244E212C07AD004B9347 /* LADownloadTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADownloadTestViewController.h; sourceTree = "<group>"; };
+		C03A244F212C07AD004B9347 /* LADownloadTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADownloadTestViewController.m; sourceTree = "<group>"; };
+		C03A2451212C0865004B9347 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
 		C03ACE7220C6873D001B5C30 /* YLScratchableLatexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexViewController.h; sourceTree = "<group>"; };
 		C03ACE7320C6873D001B5C30 /* YLScratchableLatexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexViewController.m; sourceTree = "<group>"; };
 		C03ACE7520C68762001B5C30 /* YLScratchableLatexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexModel.h; sourceTree = "<group>"; };
@@ -587,6 +667,7 @@
 		C033FF1920B522E600470BFC /* Resource（资源文件夹） */ = {
 			isa = PBXGroup;
 			children = (
+				C03A2400212BF6F0004B9347 /* json动画 */,
 				C033FF0120B5176E00470BFC /* ViewController.h */,
 				C033FF0220B5176E00470BFC /* ViewController.m */,
 				C033FF0420B5176E00470BFC /* Main.storyboard */,
@@ -624,6 +705,100 @@
 				C03A23F8212BA002004B9347 /* YLActionSheetViewController.m */,
 			);
 			path = "仿微信ActionSheet";
+			sourceTree = "<group>";
+		};
+		C03A23FA212BC33F004B9347 /* 矢量动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C03A23FB212BC37F004B9347 /* YLEffectViewController.h */,
+				C03A23FC212BC37F004B9347 /* YLEffectViewController.m */,
+			);
+			path = "矢量动画";
+			sourceTree = "<group>";
+		};
+		C03A2400212BF6F0004B9347 /* json动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C03A2451212C0865004B9347 /* Boat_Loader.json */,
+				C03A240E212C0283004B9347 /* textField */,
+				C03A2405212BFB59004B9347 /* TwitterHeart.json */,
+				C03A2401212BF6F0004B9347 /* Switch.json */,
+				C03A2402212BF6F0004B9347 /* LottieLogo1.json */,
+			);
+			path = "json动画";
+			sourceTree = "<group>";
+		};
+		C03A2407212C01D7004B9347 /* textField动画字体输入 */ = {
+			isa = PBXGroup;
+			children = (
+				C03A240A212C023C004B9347 /* AnimatedTextField.h */,
+				C03A240B212C023C004B9347 /* AnimatedTextField.m */,
+				C03A2408212C023C004B9347 /* TypingDemoViewController.h */,
+				C03A2409212C023C004B9347 /* TypingDemoViewController.m */,
+			);
+			path = "textField动画字体输入";
+			sourceTree = "<group>";
+		};
+		C03A240E212C0283004B9347 /* textField */ = {
+			isa = PBXGroup;
+			children = (
+				C03A240F212C0405004B9347 /* TypeFace */,
+			);
+			path = textField;
+			sourceTree = "<group>";
+		};
+		C03A240F212C0405004B9347 /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				C03A2410212C0405004B9347 /* T.json */,
+				C03A2411212C0405004B9347 /* A.json */,
+				C03A2412212C0405004B9347 /* X.json */,
+				C03A2413212C0405004B9347 /* BlinkingCursor.json */,
+				C03A2414212C0405004B9347 /* M.json */,
+				C03A2415212C0405004B9347 /* L.json */,
+				C03A2416212C0405004B9347 /* Y.json */,
+				C03A2417212C0405004B9347 /* U.json */,
+				C03A2418212C0405004B9347 /* K.json */,
+				C03A2419212C0405004B9347 /* R.json */,
+				C03A241A212C0405004B9347 /* G.json */,
+				C03A241B212C0405004B9347 /* F.json */,
+				C03A241C212C0405004B9347 /* S.json */,
+				C03A241D212C0405004B9347 /* J.json */,
+				C03A241E212C0405004B9347 /* I.json */,
+				C03A241F212C0405004B9347 /* E.json */,
+				C03A2420212C0405004B9347 /* Apostrophe.json */,
+				C03A2421212C0405004B9347 /* P.json */,
+				C03A2422212C0405004B9347 /* Q.json */,
+				C03A2423212C0405004B9347 /* D.json */,
+				C03A2424212C0405004B9347 /* Colon.json */,
+				C03A2425212C0405004B9347 /* H.json */,
+				C03A2426212C0405004B9347 /* C.json */,
+				C03A2427212C0405004B9347 /* V.json */,
+				C03A2428212C0405004B9347 /* Comma.json */,
+				C03A2429212C0405004B9347 /* O.json */,
+				C03A242A212C0405004B9347 /* Z.json */,
+				C03A242B212C0405004B9347 /* N.json */,
+				C03A242C212C0405004B9347 /* W.json */,
+				C03A242D212C0405004B9347 /* B.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		C03A244C212C077C004B9347 /* 模拟下载进度过场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C03A244D212C0789004B9347 /* ViewController */,
+			);
+			path = "模拟下载进度过场动画";
+			sourceTree = "<group>";
+		};
+		C03A244D212C0789004B9347 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C03A244E212C07AD004B9347 /* LADownloadTestViewController.h */,
+				C03A244F212C07AD004B9347 /* LADownloadTestViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C03ACE6D20C68660001B5C30 /* CollectionView 9宫格式布局 */ = {
@@ -963,6 +1138,9 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C03A244C212C077C004B9347 /* 模拟下载进度过场动画 */,
+				C03A2407212C01D7004B9347 /* textField动画字体输入 */,
+				C03A23FA212BC33F004B9347 /* 矢量动画 */,
 				C03A23F6212B9FAB004B9347 /* 仿微信ActionSheet */,
 				C00C0E5A211ECC6E00842F3D /* tableView二级联动 */,
 				C0EBEFE021109761005726B2 /* 图片平铺 */,
@@ -1627,16 +1805,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03A2441212C0405004B9347 /* D.json in Resources */,
+				C03A2437212C0405004B9347 /* R.json in Resources */,
+				C03A2439212C0405004B9347 /* F.json in Resources */,
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
+				C03A243B212C0405004B9347 /* J.json in Resources */,
+				C03A2404212BF6F0004B9347 /* LottieLogo1.json in Resources */,
+				C03A2448212C0405004B9347 /* Z.json in Resources */,
+				C03A242F212C0405004B9347 /* A.json in Resources */,
+				C03A242E212C0405004B9347 /* T.json in Resources */,
 				C032B40920E3336700A54277 /* AYMenuCell.xib in Resources */,
 				C032B40820E3336700A54277 /* qj@2x.png in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
+				C03A2431212C0405004B9347 /* BlinkingCursor.json in Resources */,
 				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
+				C03A243D212C0405004B9347 /* E.json in Resources */,
+				C03A2440212C0405004B9347 /* Q.json in Resources */,
+				C03A2436212C0405004B9347 /* K.json in Resources */,
 				C032B40720E3336700A54277 /* qj@3x.png in Resources */,
+				C03A2442212C0405004B9347 /* Colon.json in Resources */,
+				C03A2443212C0405004B9347 /* H.json in Resources */,
+				C03A243A212C0405004B9347 /* S.json in Resources */,
+				C03A244A212C0405004B9347 /* W.json in Resources */,
 				C0AEB41F20E215620030F533 /* channelAdd.png in Resources */,
+				C03A243F212C0405004B9347 /* P.json in Resources */,
+				C03A2438212C0405004B9347 /* G.json in Resources */,
+				C03A2446212C0405004B9347 /* Comma.json in Resources */,
+				C03A2444212C0405004B9347 /* C.json in Resources */,
+				C03A2430212C0405004B9347 /* X.json in Resources */,
 				C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */,
+				C03A2447212C0405004B9347 /* O.json in Resources */,
+				C03A244B212C0405004B9347 /* B.json in Resources */,
+				C03A2449212C0405004B9347 /* N.json in Resources */,
+				C03A2445212C0405004B9347 /* V.json in Resources */,
+				C03A2433212C0405004B9347 /* L.json in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
+				C03A2452212C0865004B9347 /* Boat_Loader.json in Resources */,
+				C03A2435212C0405004B9347 /* U.json in Resources */,
+				C03A2432212C0405004B9347 /* M.json in Resources */,
+				C03A2403212BF6F0004B9347 /* Switch.json in Resources */,
+				C03A243C212C0405004B9347 /* I.json in Resources */,
+				C03A2406212BFB5A004B9347 /* TwitterHeart.json in Resources */,
+				C03A243E212C0405004B9347 /* Apostrophe.json in Resources */,
+				C03A2434212C0405004B9347 /* Y.json in Resources */,
 				C032B41420E3678800A54277 /* YLMenuPushViewController.xib in Resources */,
 				C033FF0620B5176E00470BFC /* Main.storyboard in Resources */,
 			);
@@ -1697,6 +1909,7 @@
 				C0C949F520E4D42700EF6EE1 /* XYTransition.m in Sources */,
 				C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */,
 				C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */,
+				C03A23FD212BC37F004B9347 /* YLEffectViewController.m in Sources */,
 				C033FF0320B5176E00470BFC /* ViewController.m in Sources */,
 				C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */,
 				C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */,
@@ -1730,6 +1943,7 @@
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */,
+				C03A240D212C023C004B9347 /* AnimatedTextField.m in Sources */,
 				C0C949ED20E4CDF600EF6EE1 /* PersonListCollectionViewCell.m in Sources */,
 				C0EBEFDC21109278005726B2 /* YLHistogramView.m in Sources */,
 				C0EBEFE521109796005726B2 /* imageView.m in Sources */,
@@ -1755,6 +1969,7 @@
 				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
 				C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */,
 				C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */,
+				C03A240C212C023C004B9347 /* TypingDemoViewController.m in Sources */,
 				C03A23F9212BA002004B9347 /* YLActionSheetViewController.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
@@ -1762,6 +1977,7 @@
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
+				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,

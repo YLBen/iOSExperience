@@ -29,7 +29,9 @@
 #import "YLdrawingPicViewController.h"
 #import "YLLinkageTableViewViewController.h"
 #import "YLActionSheetViewController.h"
-
+#import "YLEffectViewController.h"
+#import "TypingDemoViewController.h"
+#import "LADownloadTestViewController.h"
 // model
 
 // View
@@ -200,6 +202,18 @@
     }
     else if ([tag isEqualToString:@"21"]) {
         YLActionSheetViewController *ctr = [[YLActionSheetViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"22"]) {
+        YLEffectViewController *ctr = [[YLEffectViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"23"]) {
+        TypingDemoViewController *ctr = [[TypingDemoViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"24"]) {
+        LADownloadTestViewController *ctr = [[LADownloadTestViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }
