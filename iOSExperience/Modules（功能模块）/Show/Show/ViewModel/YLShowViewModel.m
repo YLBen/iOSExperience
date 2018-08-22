@@ -165,7 +165,14 @@
                             //                            YLRightTitle : @"lottie-ios",
                             YLIsShowTitle : @(1),
                             YLTag : @"24"
-                            }
+                            },
+                        @{
+                            YLLetfTitle : @"label复制.粘贴.剪切",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"25"
+                            },
+                        
                         
 
                         ];

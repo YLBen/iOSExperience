@@ -104,6 +104,10 @@
 		C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C083391B20BAE86D00F6CAF6 /* YLShowListView.m */; };
 		C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */; };
 		C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */; };
+		C0A3272A212D307C00436A98 /* YLEditLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A32728212D307C00436A98 /* YLEditLabelViewController.m */; };
+		C0A3272B212D307C00436A98 /* YLEditLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A32729212D307C00436A98 /* YLEditLabelViewController.xib */; };
+		C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3272E212D30ED00436A98 /* CopyLabel1.m */; };
+		C0A32732212D335800436A98 /* YLShowViewController+add.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A32731212D335800436A98 /* YLShowViewController+add.m */; };
 		C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40220E214DF0030F533 /* XLSlideSegmentedItem.m */; };
 		C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40420E214DF0030F533 /* XLSlideSegmented.m */; };
 		C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40520E214DF0030F533 /* XLSegmentedSlideSwitch.m */; };
@@ -319,6 +323,13 @@
 		C083392220BAF73100F6CAF6 /* YLShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLShowImageViewController.h; sourceTree = "<group>"; };
 		C083392320BAF73100F6CAF6 /* YLShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLShowImageViewController.m; sourceTree = "<group>"; };
 		C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLShowImageViewController.xib; sourceTree = "<group>"; };
+		C0A32727212D307C00436A98 /* YLEditLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEditLabelViewController.h; sourceTree = "<group>"; };
+		C0A32728212D307C00436A98 /* YLEditLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEditLabelViewController.m; sourceTree = "<group>"; };
+		C0A32729212D307C00436A98 /* YLEditLabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLEditLabelViewController.xib; sourceTree = "<group>"; };
+		C0A3272D212D30ED00436A98 /* CopyLabel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyLabel1.h; sourceTree = "<group>"; };
+		C0A3272E212D30ED00436A98 /* CopyLabel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyLabel1.m; sourceTree = "<group>"; };
+		C0A32730212D335800436A98 /* YLShowViewController+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLShowViewController+add.h"; sourceTree = "<group>"; };
+		C0A32731212D335800436A98 /* YLShowViewController+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLShowViewController+add.m"; sourceTree = "<group>"; };
 		C0AEB3FF20E214DF0030F533 /* XLSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmented.h; sourceTree = "<group>"; };
 		C0AEB40020E214DF0030F533 /* XLSegmentedSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentedSlideSwitch.h; sourceTree = "<group>"; };
 		C0AEB40120E214DF0030F533 /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
@@ -1120,6 +1131,8 @@
 			children = (
 				C083390A20BADF1A00F6CAF6 /* YLShowViewController.h */,
 				C083390B20BADF1A00F6CAF6 /* YLShowViewController.m */,
+				C0A32730212D335800436A98 /* YLShowViewController+add.h */,
+				C0A32731212D335800436A98 /* YLShowViewController+add.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1138,6 +1151,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0A32722212D302A00436A98 /* label复制.粘贴.剪切 */,
 				C03A244C212C077C004B9347 /* 模拟下载进度过场动画 */,
 				C03A2407212C01D7004B9347 /* textField动画字体输入 */,
 				C03A23FA212BC33F004B9347 /* 矢量动画 */,
@@ -1175,6 +1189,34 @@
 				C083392420BAF73100F6CAF6 /* YLShowImageViewController.xib */,
 			);
 			path = "加载网络图片&Gif";
+			sourceTree = "<group>";
+		};
+		C0A32722212D302A00436A98 /* label复制.粘贴.剪切 */ = {
+			isa = PBXGroup;
+			children = (
+				C0A3272C212D308400436A98 /* View */,
+				C0A32723212D303500436A98 /* ViewController */,
+			);
+			path = "label复制.粘贴.剪切";
+			sourceTree = "<group>";
+		};
+		C0A32723212D303500436A98 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0A32727212D307C00436A98 /* YLEditLabelViewController.h */,
+				C0A32728212D307C00436A98 /* YLEditLabelViewController.m */,
+				C0A32729212D307C00436A98 /* YLEditLabelViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0A3272C212D308400436A98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0A3272D212D30ED00436A98 /* CopyLabel1.h */,
+				C0A3272E212D30ED00436A98 /* CopyLabel1.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C0AEB3F920E2142B0030F533 /* 仿今日头条滚动列表 */ = {
@@ -1823,6 +1865,7 @@
 				C03A2440212C0405004B9347 /* Q.json in Resources */,
 				C03A2436212C0405004B9347 /* K.json in Resources */,
 				C032B40720E3336700A54277 /* qj@3x.png in Resources */,
+				C0A3272B212D307C00436A98 /* YLEditLabelViewController.xib in Resources */,
 				C03A2442212C0405004B9347 /* Colon.json in Resources */,
 				C03A2443212C0405004B9347 /* H.json in Resources */,
 				C03A243A212C0405004B9347 /* S.json in Resources */,
@@ -1923,6 +1966,7 @@
 				C0EBEFE8211097FB005726B2 /* YLdrawingPicViewController.m in Sources */,
 				C032B3F620E32B4E00A54277 /* YLMenuCell.m in Sources */,
 				C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */,
+				C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */,
 				C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */,
 				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
@@ -1940,6 +1984,7 @@
 				C031971B20BBF577008CCC4D /* ATSettingPermissionCheckTool.m in Sources */,
 				C0C949E720E4CBA300EF6EE1 /* RootViewController.m in Sources */,
 				C07CF24220D68D90007D12CA /* YLSphereTagCloudViewController.m in Sources */,
+				C0A32732212D335800436A98 /* YLShowViewController+add.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
 				C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */,
@@ -1949,6 +1994,7 @@
 				C0EBEFE521109796005726B2 /* imageView.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
 				C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */,
+				C0A3272A212D307C00436A98 /* YLEditLabelViewController.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
 				C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */,
 				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,
