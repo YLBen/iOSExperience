@@ -108,6 +108,7 @@
 		C0A3272B212D307C00436A98 /* YLEditLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A32729212D307C00436A98 /* YLEditLabelViewController.xib */; };
 		C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A3272E212D30ED00436A98 /* CopyLabel1.m */; };
 		C0A32732212D335800436A98 /* YLShowViewController+add.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A32731212D335800436A98 /* YLShowViewController+add.m */; };
+		C0A32776212D692100436A98 /* YLByAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A32775212D692100436A98 /* YLByAroundViewController.m */; };
 		C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40220E214DF0030F533 /* XLSlideSegmentedItem.m */; };
 		C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40420E214DF0030F533 /* XLSlideSegmented.m */; };
 		C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB40520E214DF0030F533 /* XLSegmentedSlideSwitch.m */; };
@@ -330,6 +331,8 @@
 		C0A3272E212D30ED00436A98 /* CopyLabel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyLabel1.m; sourceTree = "<group>"; };
 		C0A32730212D335800436A98 /* YLShowViewController+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLShowViewController+add.h"; sourceTree = "<group>"; };
 		C0A32731212D335800436A98 /* YLShowViewController+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLShowViewController+add.m"; sourceTree = "<group>"; };
+		C0A32774212D692100436A98 /* YLByAroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLByAroundViewController.h; sourceTree = "<group>"; };
+		C0A32775212D692100436A98 /* YLByAroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLByAroundViewController.m; sourceTree = "<group>"; };
 		C0AEB3FF20E214DF0030F533 /* XLSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmented.h; sourceTree = "<group>"; };
 		C0AEB40020E214DF0030F533 /* XLSegmentedSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentedSlideSwitch.h; sourceTree = "<group>"; };
 		C0AEB40120E214DF0030F533 /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
@@ -1151,6 +1154,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0A32771212D689C00436A98 /* 图文环绕 */,
 				C0A32722212D302A00436A98 /* label复制.粘贴.剪切 */,
 				C03A244C212C077C004B9347 /* 模拟下载进度过场动画 */,
 				C03A2407212C01D7004B9347 /* textField动画字体输入 */,
@@ -1217,6 +1221,23 @@
 				C0A3272E212D30ED00436A98 /* CopyLabel1.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C0A32771212D689C00436A98 /* 图文环绕 */ = {
+			isa = PBXGroup;
+			children = (
+				C0A32773212D68CB00436A98 /* ViewController */,
+			);
+			path = "图文环绕";
+			sourceTree = "<group>";
+		};
+		C0A32773212D68CB00436A98 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0A32774212D692100436A98 /* YLByAroundViewController.h */,
+				C0A32775212D692100436A98 /* YLByAroundViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C0AEB3F920E2142B0030F533 /* 仿今日头条滚动列表 */ = {
@@ -2032,6 +2053,7 @@
 				C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */,
 				C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */,
 				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,
+				C0A32776212D692100436A98 /* YLByAroundViewController.m in Sources */,
 				C032B3F920E3308700A54277 /* YLMenuCellModel.m in Sources */,
 				C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */,
 				C0C949F020E4D0A300EF6EE1 /* WaterFlowLayout.m in Sources */,

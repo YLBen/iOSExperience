@@ -172,6 +172,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"25"
                             },
+                        @{
+                            YLLetfTitle : @"图文环绕",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"26"
+                            },
                         
                         
 

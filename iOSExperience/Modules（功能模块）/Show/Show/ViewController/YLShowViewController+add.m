@@ -33,7 +33,7 @@
 #import "TypingDemoViewController.h"
 #import "LADownloadTestViewController.h"
 #import "YLEditLabelViewController.h"
-
+#import "YLByAroundViewController.h"
 
 
 
@@ -145,5 +145,14 @@
         [self.navigationController pushViewController:ctr animated:YES];
         //YLEditLabelViewController
     }
+    else if ([tag isEqualToString:@"26"]) {
+        YLByAroundViewController *ctr = [[YLByAroundViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+        //YLEditLabelViewController
+    }
+    
 }
+
+
+
 @end

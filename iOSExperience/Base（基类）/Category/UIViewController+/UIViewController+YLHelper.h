@@ -10,4 +10,5 @@
 
 @interface UIViewController (YLHelper)
 + (UIViewController *)av_getCurrentVC;
+@property(nonatomic,strong)NSString *tag;
 @end

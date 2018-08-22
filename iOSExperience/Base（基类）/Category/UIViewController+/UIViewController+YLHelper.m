@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+YLHelper.h"
-
+#import "objc/runtime.h"
 @implementation UIViewController (YLHelper)
 
 + (UIViewController *)av_getCurrentVC {
@@ -55,4 +55,11 @@
     //    return  (UIViewController *)nextResponder;
 }
 
+- (void)setTag:(NSString *)tag {
+    objc_setAssociatedObject(self, @selector(tag), tag, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSString *)tag {
+    return objc_getAssociatedObject(self, @selector(tag));
+}
 @end

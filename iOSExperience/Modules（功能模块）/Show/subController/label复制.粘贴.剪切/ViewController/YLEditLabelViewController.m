@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"label复制.粘贴.剪切";
+    
 }
 
 - (void)didReceiveMemoryWarning {

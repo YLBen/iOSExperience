@@ -9,5 +9,6 @@
 #import "YLShowViewController.h"
 
 @interface YLShowViewController (add)
+
 - (void)pushToViewControllerWithTag:(NSString *)tag;
 @end
