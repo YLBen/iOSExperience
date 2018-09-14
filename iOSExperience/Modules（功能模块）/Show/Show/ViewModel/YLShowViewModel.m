@@ -178,6 +178,18 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"26"
                             },
+                        @{
+                            YLLetfTitle : @"图片轮播器",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"27"
+                            },
+                        @{
+                            YLLetfTitle : @"触摸事件",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"28"
+                            },
                         
                         
 

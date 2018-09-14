@@ -112,7 +112,7 @@ static NSString *const key_TabBarItemBadgeValue = @"tabBarItemBadgeValue";
                                key_TabBarItemBadgeValue : @(0)
                                },
                        @(PCTabBabConfigType_my) : @{
-                               key_TabBarVC : @"YLViewController5",
+                               key_TabBarVC : @"YLMineViewController",
                                key_TabBarVCTitle : kTabBarVCTitle_my,
                                key_TabBarItemBadgeValue : @(0)
                                }

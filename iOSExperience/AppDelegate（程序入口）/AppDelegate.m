@@ -11,6 +11,7 @@
 #import <UserNotifications/UserNotifications.h>
 #import "YYFPSLabel.h"
 #import <UIView+YYAdd.h>
+#import <Bugly/Bugly.h>
 #import "AdPageView.h"
 #import "YLRunWebViewViewController.h"
 @interface AppDelegate ()<UNUserNotificationCenterDelegate>
@@ -21,6 +22,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Bugly startWithAppId:@"89f9662ded"];
+    
 //    注册本地通知
     [self RegisteredNotification];
     NSLog(@"%@",[NSHomeDirectory() stringByAppendingFormat:@"/tmp"]);

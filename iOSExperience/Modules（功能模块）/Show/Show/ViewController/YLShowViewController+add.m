@@ -34,7 +34,8 @@
 #import "LADownloadTestViewController.h"
 #import "YLEditLabelViewController.h"
 #import "YLByAroundViewController.h"
-
+#import "YLPictureRepeaterViewController.h"
+#import "YLTouchListTableViewController.h"
 
 
 @implementation YLShowViewController (add)
@@ -147,6 +148,16 @@
     }
     else if ([tag isEqualToString:@"26"]) {
         YLByAroundViewController *ctr = [[YLByAroundViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+        //YLEditLabelViewController
+    }
+    else if ([tag isEqualToString:@"27"]) {
+        YLPictureRepeaterViewController *ctr = [[YLPictureRepeaterViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+        //YLEditLabelViewController
+    }
+    else if ([tag isEqualToString:@"28"]) {
+        YLTouchListTableViewController *ctr = [[YLTouchListTableViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
         //YLEditLabelViewController
     }

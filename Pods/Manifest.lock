@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
   - CYLTabBarController (1.17.6)
   - HMSegmentedControl (1.5.4)
   - LCActionSheet (3.5.0):
@@ -33,6 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Bugly
   - CYLTabBarController
   - HMSegmentedControl
   - LCActionSheet
@@ -48,6 +50,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Bugly
     - CYLTabBarController
     - HMSegmentedControl
     - LCActionSheet
@@ -62,6 +65,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
   HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
   LCActionSheet: b30611ab20290fc830976b7ae90ea2dd4142fb1c
@@ -74,6 +78,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZYBannerView: 477bcb8c38bb0b2a45bae014f9e4fa8357809023
 
-PODFILE CHECKSUM: c495b23fa24b93c6aa648b5c454e63613e57adc7
+PODFILE CHECKSUM: 760b48a596f15e96e8b793fc7135c156efe07f4b
 
 COCOAPODS: 1.5.3
