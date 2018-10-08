@@ -13,7 +13,6 @@
 		C00E6DEE21479F7C00733F50 /* YLMineDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00E6DEC21479F7C00733F50 /* YLMineDefaultCell.xib */; };
 		C00E6DF22147A51700733F50 /* YLMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DF12147A51700733F50 /* YLMineHeaderView.m */; };
 		C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DF52147B06100733F50 /* YLMineViewController.m */; };
-		C00E6DF92147C56500733F50 /* icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = C00E6DF82147C56500733F50 /* icon.gif */; };
 		C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */; };
 		C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971220BBF522008CCC4D /* FYSystemCameraController.m */; };
 		C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971620BBF577008CCC4D /* AVExportContectsTool.m */; };
@@ -188,7 +187,6 @@
 		C00E6DF12147A51700733F50 /* YLMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMineHeaderView.m; sourceTree = "<group>"; };
 		C00E6DF42147B06100733F50 /* YLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMineViewController.h; sourceTree = "<group>"; };
 		C00E6DF52147B06100733F50 /* YLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMineViewController.m; sourceTree = "<group>"; };
-		C00E6DF82147C56500733F50 /* icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = icon.gif; path = ../../../../../../../../icon.gif; sourceTree = "<group>"; };
 		C031970A20BBE7E4008CCC4D /* commonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
 		C031970B20BBEB16008CCC4D /* YLCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommonDefine.h; sourceTree = "<group>"; };
 		C031970C20BBEC00008CCC4D /* YLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHeader.pch; sourceTree = "<group>"; };
@@ -575,19 +573,10 @@
 		C00E6DF32147AA5500733F50 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C00E6DF72147C55600733F50 /* New Group */,
 				C00E6DF42147B06100733F50 /* YLMineViewController.h */,
 				C00E6DF52147B06100733F50 /* YLMineViewController.m */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		C00E6DF72147C55600733F50 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				C00E6DF82147C56500733F50 /* icon.gif */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C031970E20BBF522008CCC4D /* FYSystemCamera */ = {
@@ -2068,7 +2057,6 @@
 				C03A2447212C0405004B9347 /* O.json in Resources */,
 				C03A244B212C0405004B9347 /* B.json in Resources */,
 				C03A2449212C0405004B9347 /* N.json in Resources */,
-				C00E6DF92147C56500733F50 /* icon.gif in Resources */,
 				C03A2445212C0405004B9347 /* V.json in Resources */,
 				C03A2433212C0405004B9347 /* L.json in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
