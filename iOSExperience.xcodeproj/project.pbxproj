@@ -133,6 +133,13 @@
 		C0B90857216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90856216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m */; };
 		C0B9085E216C481C00D044C6 /* YLPopImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9085D216C481C00D044C6 /* YLPopImageViewController.m */; };
 		C0B90861216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90860216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C0B90867216C795B00D044C6 /* UIControl+ATFixMultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90865216C795B00D044C6 /* UIControl+ATFixMultiClick.m */; };
+		C0B9086B216C796400D044C6 /* NSDate+ATHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9086A216C796400D044C6 /* NSDate+ATHelper.m */; };
+		C0B9086F216C7A9700D044C6 /* ATCommonProcessTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9086D216C7A9700D044C6 /* ATCommonProcessTool.m */; };
+		C0B90874216C80A500D044C6 /* NSDictionary+ATHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90872216C80A400D044C6 /* NSDictionary+ATHelper.m */; };
+		C0B9087A216C80F600D044C6 /* ATNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90876216C80F600D044C6 /* ATNetworkManager.m */; };
+		C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90878216C80F600D044C6 /* ATBaseRequest.m */; };
+		C0B9087F216C83B800D044C6 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9087D216C83B700D044C6 /* NSData+AES.m */; };
 		C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */; };
 		C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D420B99E6200A0095A /* YLBaseNavigationController.m */; };
 		C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D820B9A26A00A0095A /* YLBaseViewModel.m */; };
@@ -393,6 +400,21 @@
 		C0B9085F216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		C0B90860216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		C0B90862216C77B900D044C6 /* YLHttpStatusCodeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHttpStatusCodeDefine.h; sourceTree = "<group>"; };
+		C0B90865216C795B00D044C6 /* UIControl+ATFixMultiClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ATFixMultiClick.m"; sourceTree = "<group>"; };
+		C0B90866216C795B00D044C6 /* UIControl+ATFixMultiClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ATFixMultiClick.h"; sourceTree = "<group>"; };
+		C0B90869216C796400D044C6 /* NSDate+ATHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ATHelper.h"; sourceTree = "<group>"; };
+		C0B9086A216C796400D044C6 /* NSDate+ATHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ATHelper.m"; sourceTree = "<group>"; };
+		C0B9086D216C7A9700D044C6 /* ATCommonProcessTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCommonProcessTool.m; sourceTree = "<group>"; };
+		C0B9086E216C7A9700D044C6 /* ATCommonProcessTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCommonProcessTool.h; sourceTree = "<group>"; };
+		C0B90872216C80A400D044C6 /* NSDictionary+ATHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ATHelper.m"; sourceTree = "<group>"; };
+		C0B90873216C80A400D044C6 /* NSDictionary+ATHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ATHelper.h"; sourceTree = "<group>"; };
+		C0B90875216C80F600D044C6 /* ATNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNetworkManager.h; sourceTree = "<group>"; };
+		C0B90876216C80F600D044C6 /* ATNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNetworkManager.m; sourceTree = "<group>"; };
+		C0B90877216C80F600D044C6 /* ATBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBaseRequest.h; sourceTree = "<group>"; };
+		C0B90878216C80F600D044C6 /* ATBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBaseRequest.m; sourceTree = "<group>"; };
+		C0B90879216C80F600D044C6 /* ATHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpConfig.h; sourceTree = "<group>"; };
+		C0B9087D216C83B700D044C6 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		C0B9087E216C83B700D044C6 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		C0BB15CF20B99DBE00A0095A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
 		C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 		C0BB15D320B99E6200A0095A /* YLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -807,6 +829,9 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C0B9087C216C839200D044C6 /* 加密 */,
+				C0B90870216C7F0800D044C6 /* NetWork */,
+				C0B9086C216C7A6C00D044C6 /* common */,
 				C0EB5871216B0AB5000CEA10 /* 打印app信息 */,
 				C0C949F120E4D42600EF6EE1 /* XYTransition */,
 				C031971520BBF577008CCC4D /* CommonTool */,
@@ -1536,6 +1561,63 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		C0B90864216C795B00D044C6 /* UIControl+ */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90865216C795B00D044C6 /* UIControl+ATFixMultiClick.m */,
+				C0B90866216C795B00D044C6 /* UIControl+ATFixMultiClick.h */,
+			);
+			path = "UIControl+";
+			sourceTree = "<group>";
+		};
+		C0B90868216C796400D044C6 /* NSDate+ */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90869216C796400D044C6 /* NSDate+ATHelper.h */,
+				C0B9086A216C796400D044C6 /* NSDate+ATHelper.m */,
+			);
+			path = "NSDate+";
+			sourceTree = "<group>";
+		};
+		C0B9086C216C7A6C00D044C6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9086E216C7A9700D044C6 /* ATCommonProcessTool.h */,
+				C0B9086D216C7A9700D044C6 /* ATCommonProcessTool.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		C0B90870216C7F0800D044C6 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90877216C80F600D044C6 /* ATBaseRequest.h */,
+				C0B90878216C80F600D044C6 /* ATBaseRequest.m */,
+				C0B90879216C80F600D044C6 /* ATHttpConfig.h */,
+				C0B90875216C80F600D044C6 /* ATNetworkManager.h */,
+				C0B90876216C80F600D044C6 /* ATNetworkManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		C0B90871216C80A400D044C6 /* NSDictionary+ */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90872216C80A400D044C6 /* NSDictionary+ATHelper.m */,
+				C0B90873216C80A400D044C6 /* NSDictionary+ATHelper.h */,
+			);
+			path = "NSDictionary+";
+			sourceTree = "<group>";
+		};
+		C0B9087C216C839200D044C6 /* 加密 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9087E216C83B700D044C6 /* NSData+AES.h */,
+				C0B9087D216C83B700D044C6 /* NSData+AES.m */,
+			);
+			path = "加密";
+			sourceTree = "<group>";
+		};
 		C0BB15CE20B99D9000A0095A /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1577,6 +1659,9 @@
 		C0BB15DB20B9A2C800A0095A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C0B90871216C80A400D044C6 /* NSDictionary+ */,
+				C0B90868216C796400D044C6 /* NSDate+ */,
+				C0B90864216C795B00D044C6 /* UIControl+ */,
 				C0EA4556214A69D80043C3AD /* other */,
 				C04A798B20C53626005CE5C9 /* 首字母大写或小写 */,
 				C04A798720C5356F005CE5C9 /* check */,
@@ -2141,10 +2226,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2190,6 +2277,8 @@
 				C033FF0320B5176E00470BFC /* ViewController.m in Sources */,
 				C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */,
 				C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */,
+				C0B9086F216C7A9700D044C6 /* ATCommonProcessTool.m in Sources */,
+				C0B9087F216C83B800D044C6 /* NSData+AES.m in Sources */,
 				C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */,
 				C032B3F320E32B1400A54277 /* YLMenuViewController.m in Sources */,
 				C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */,
@@ -2198,6 +2287,7 @@
 				C083391920BAE6BA00F6CAF6 /* YLShowListCellModel.m in Sources */,
 				C083390C20BADF1A00F6CAF6 /* YLShowViewController.m in Sources */,
 				C0EBEFE8211097FB005726B2 /* YLdrawingPicViewController.m in Sources */,
+				C0B90867216C795B00D044C6 /* UIControl+ATFixMultiClick.m in Sources */,
 				C032B3F620E32B4E00A54277 /* YLMenuCell.m in Sources */,
 				C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */,
 				C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */,
@@ -2206,6 +2296,7 @@
 				C00E6DED21479F7C00733F50 /* YLMineDefaultCell.m in Sources */,
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
 				C03DA8CF20EB78480089BC12 /* AFN_Download_Tool.m in Sources */,
+				C0B9086B216C796400D044C6 /* NSDate+ATHelper.m in Sources */,
 				C083391320BAE13200F6CAF6 /* YLBaseModel.m in Sources */,
 				C0EBEFCD21108FE2005726B2 /* YLCustomProgressViewController.m in Sources */,
 				C04312E420BE7511002E345F /* HSFolderCell.m in Sources */,
@@ -2262,6 +2353,8 @@
 				C032B41320E3678800A54277 /* YLMenuPushViewController.m in Sources */,
 				C00E6DF22147A51700733F50 /* YLMineHeaderView.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
+				C0B90874216C80A500D044C6 /* NSDictionary+ATHelper.m in Sources */,
+				C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
@@ -2272,6 +2365,7 @@
 				C04312E320BE7511002E345F /* UIView+SnapShot.m in Sources */,
 				C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */,
 				C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */,
+				C0B9087A216C80F600D044C6 /* ATNetworkManager.m in Sources */,
 				C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */,
 				C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */,
 				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,

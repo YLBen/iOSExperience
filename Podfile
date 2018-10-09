@@ -15,6 +15,7 @@ pod 'SDWebImage'
 pod 'YYKit'
 pod 'LCActionSheet'
 pod 'lottie-ios'
+pod 'DateTools'
 pod 'Bugly'
 
 end

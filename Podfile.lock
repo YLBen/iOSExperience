@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Bugly (2.5.0)
   - CYLTabBarController (1.17.6)
+  - DateTools (2.0.0)
   - HMSegmentedControl (1.5.4)
   - LCActionSheet (3.5.0):
     - Masonry (~> 1.1.0)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - AFNetworking
   - Bugly
   - CYLTabBarController
+  - DateTools
   - HMSegmentedControl
   - LCActionSheet
   - lottie-ios
@@ -52,6 +54,7 @@ SPEC REPOS:
     - AFNetworking
     - Bugly
     - CYLTabBarController
+    - DateTools
     - HMSegmentedControl
     - LCActionSheet
     - lottie-ios
@@ -67,6 +70,7 @@ SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
   LCActionSheet: b30611ab20290fc830976b7ae90ea2dd4142fb1c
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
@@ -78,6 +82,6 @@ SPEC CHECKSUMS:
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZYBannerView: 477bcb8c38bb0b2a45bae014f9e4fa8357809023
 
-PODFILE CHECKSUM: 760b48a596f15e96e8b793fc7135c156efe07f4b
+PODFILE CHECKSUM: 1b2c2560f96b3cce8750186f6acf9c3ea23014b3
 
 COCOAPODS: 1.5.3
