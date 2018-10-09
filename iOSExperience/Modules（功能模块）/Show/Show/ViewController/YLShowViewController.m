@@ -26,6 +26,8 @@
 @interface YLShowViewController ()<YLShowListViewDelegate>
 @property(nonatomic,strong)YLShowListView *showListView;
 @property(nonatomic,strong)YLShowViewModel *viewModel;
+
+@property(nonatomic,strong)NSMutableArray *logs;
 @end
 
 @implementation YLShowViewController
@@ -42,6 +44,16 @@
 //    KVO 监听tableView 偏移量
     [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
 
+//    自定义下拉刷新
+    self.logs = [[NSMutableArray alloc] init];
+    NSDate *date = [[NSDate alloc] init];
+    [self.logs addObject:date];
+    
+    UIRefreshControl *rc = [[UIRefreshControl alloc] init];
+    rc.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新"];
+    [rc addTarget:self action:@selector(refreshTableView) forControlEvents:UIControlEventValueChanged];
+    self.showListView.tableView.refreshControl = rc;
+    
 }
 #pragma mark - public methods
 
@@ -56,6 +68,15 @@
     self.showListView.dataSouce = [YLShowViewModel getDataSouce];
 }
 
+- (void)refreshTableView {
+    if (self.showListView.tableView.refreshControl.refreshing) {
+        self.showListView.tableView.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:@"加载中"];
+        [self.showListView.tableView.refreshControl endRefreshing];
+//        self.showListView.tableView.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新"];
+        [self.showListView.tableView reloadData];
+    }
+    
+}
 #pragma mark - KVO
 /**
  *  监听属性值发生改变时回调

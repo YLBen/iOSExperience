@@ -190,7 +190,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"28"
                             },
-                        
+                        @{
+                            YLLetfTitle : @"自定义控制器转场动画",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"29"
+                            },
                         
 
                         ];

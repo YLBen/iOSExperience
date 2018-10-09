@@ -36,7 +36,7 @@
 #import "YLByAroundViewController.h"
 #import "YLPictureRepeaterViewController.h"
 #import "YLTouchListTableViewController.h"
-
+#import "YLAnimatedTransitionViewController.h"
 
 @implementation YLShowViewController (add)
 - (void)pushToViewControllerWithTag:(NSString *)tag {
@@ -160,6 +160,11 @@
         YLTouchListTableViewController *ctr = [[YLTouchListTableViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
         //YLEditLabelViewController
+    }
+    else if ([tag isEqualToString:@"29"]) {
+       
+        YLAnimatedTransitionViewController *ctr = [[YLAnimatedTransitionViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
     }
     
 }

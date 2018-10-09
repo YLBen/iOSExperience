@@ -130,6 +130,9 @@
 		C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017820D39E4100F78CDD /* YLRunWebViewViewController.m */; };
 		C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3017E20D3ACA900F78CDD /* YYFPSLabel.m */; };
 		C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B3018320D3B45D00F78CDD /* AdPageView.m */; };
+		C0B90857216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90856216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m */; };
+		C0B9085E216C481C00D044C6 /* YLPopImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9085D216C481C00D044C6 /* YLPopImageViewController.m */; };
+		C0B90861216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90860216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */; };
 		C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D420B99E6200A0095A /* YLBaseNavigationController.m */; };
 		C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D820B9A26A00A0095A /* YLBaseViewModel.m */; };
@@ -139,7 +142,6 @@
 		C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15EA20B9A50F00A0095A /* UIImage+YLHelper.m */; };
 		C0BB15EF20B9A5A200A0095A /* UILabel+YLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15EE20B9A5A200A0095A /* UILabel+YLHelper.m */; };
 		C0BB15F220B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15F120B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m */; };
-		C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15F520B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m */; };
 		C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15F920B9A6D900A0095A /* UITabBar+YLBadge.m */; };
 		C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15FD20B9A76700A0095A /* UIViewController+YLHelper.m */; };
 		C0C949E120E4C9FA00EF6EE1 /* UICollectionView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C949DD20E4C9FA00EF6EE1 /* UICollectionView+IndexPath.m */; };
@@ -160,6 +162,7 @@
 		C0EA454F214A40190043C3AD /* YLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA454E214A40190043C3AD /* YLSettingViewController.m */; };
 		C0EA4555214A48CF0043C3AD /* YLSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA4554214A48CF0043C3AD /* YLSettingModel.m */; };
 		C0EA455E214A6A080043C3AD /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA4559214A6A070043C3AD /* UIViewController+AlertViewAndActionSheet.m */; };
+		C0EB5875216B0B41000CEA10 /* ATBundleSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB5874216B0B41000CEA10 /* ATBundleSetting.m */; };
 		C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFC821108FB4005726B2 /* CustomProgressView.m */; };
 		C0EBEFCD21108FE2005726B2 /* YLCustomProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFCC21108FE2005726B2 /* YLCustomProgressViewController.m */; };
 		C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EBEFD22110912D005726B2 /* YLPieChart.m */; };
@@ -383,6 +386,13 @@
 		C0B3017F20D3ACA900F78CDD /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		C0B3018320D3B45D00F78CDD /* AdPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPageView.m; sourceTree = "<group>"; };
 		C0B3018420D3B45D00F78CDD /* AdPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPageView.h; sourceTree = "<group>"; };
+		C0B90855216C3EBD00D044C6 /* YLAnimatedTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAnimatedTransitionViewController.h; sourceTree = "<group>"; };
+		C0B90856216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAnimatedTransitionViewController.m; sourceTree = "<group>"; };
+		C0B9085C216C481C00D044C6 /* YLPopImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPopImageViewController.h; sourceTree = "<group>"; };
+		C0B9085D216C481C00D044C6 /* YLPopImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPopImageViewController.m; sourceTree = "<group>"; };
+		C0B9085F216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C0B90860216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C0B90862216C77B900D044C6 /* YLHttpStatusCodeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHttpStatusCodeDefine.h; sourceTree = "<group>"; };
 		C0BB15CF20B99DBE00A0095A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
 		C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 		C0BB15D320B99E6200A0095A /* YLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -401,8 +411,6 @@
 		C0BB15EE20B9A5A200A0095A /* UILabel+YLHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YLHelper.m"; sourceTree = "<group>"; };
 		C0BB15F020B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YLChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
 		C0BB15F120B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YLChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
-		C0BB15F420B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		C0BB15F520B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		C0BB15F820B9A6D900A0095A /* UITabBar+YLBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+YLBadge.h"; sourceTree = "<group>"; };
 		C0BB15F920B9A6D900A0095A /* UITabBar+YLBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+YLBadge.m"; sourceTree = "<group>"; };
 		C0BB15FC20B9A76700A0095A /* UIViewController+YLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YLHelper.h"; sourceTree = "<group>"; };
@@ -444,6 +452,8 @@
 		C0EA4554214A48CF0043C3AD /* YLSettingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSettingModel.m; sourceTree = "<group>"; };
 		C0EA4559214A6A070043C3AD /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
 		C0EA455B214A6A080043C3AD /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
+		C0EB5873216B0B41000CEA10 /* ATBundleSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATBundleSetting.h; sourceTree = "<group>"; };
+		C0EB5874216B0B41000CEA10 /* ATBundleSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATBundleSetting.m; sourceTree = "<group>"; };
 		C0EBEFC821108FB4005726B2 /* CustomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgressView.m; sourceTree = "<group>"; };
 		C0EBEFC921108FB4005726B2 /* CustomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProgressView.h; sourceTree = "<group>"; };
 		C0EBEFCB21108FE2005726B2 /* YLCustomProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCustomProgressViewController.h; sourceTree = "<group>"; };
@@ -764,6 +774,7 @@
 				C031970A20BBE7E4008CCC4D /* commonDefine.h */,
 				C031970B20BBEB16008CCC4D /* YLCommonDefine.h */,
 				C031970D20BBF0EE008CCC4D /* YLSingleton.h */,
+				C0B90862216C77B900D044C6 /* YLHttpStatusCodeDefine.h */,
 			);
 			path = define;
 			sourceTree = "<group>";
@@ -796,6 +807,7 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C0EB5871216B0AB5000CEA10 /* 打印app信息 */,
 				C0C949F120E4D42600EF6EE1 /* XYTransition */,
 				C031971520BBF577008CCC4D /* CommonTool */,
 			);
@@ -1253,6 +1265,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0B90852216C3DA300D044C6 /* 自定义转场动画 */,
 				C00387DD2133DB660037E6BF /* 触摸事件 */,
 				C08E3C27212E9E600062687E /* 图片轮播器 */,
 				C0A32771212D689C00436A98 /* 图文环绕 */,
@@ -1496,6 +1509,33 @@
 			path = AdPage;
 			sourceTree = "<group>";
 		};
+		C0B90852216C3DA300D044C6 /* 自定义转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90854216C3E8000D044C6 /* ViewController */,
+			);
+			path = "自定义转场动画";
+			sourceTree = "<group>";
+		};
+		C0B90854216C3E8000D044C6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90858216C40C700D044C6 /* New Group */,
+				C0B90855216C3EBD00D044C6 /* YLAnimatedTransitionViewController.h */,
+				C0B90856216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m */,
+				C0B9085C216C481C00D044C6 /* YLPopImageViewController.h */,
+				C0B9085D216C481C00D044C6 /* YLPopImageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0B90858216C40C700D044C6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C0BB15CE20B99D9000A0095A /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1604,8 +1644,8 @@
 		C0BB15F320B9A64C00A0095A /* UINavigationBar+ */ = {
 			isa = PBXGroup;
 			children = (
-				C0BB15F420B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.h */,
-				C0BB15F520B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m */,
+				C0B9085F216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.h */,
+				C0B90860216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = "UINavigationBar+";
 			sourceTree = "<group>";
@@ -1809,6 +1849,23 @@
 				C0EA4559214A6A070043C3AD /* UIViewController+AlertViewAndActionSheet.m */,
 			);
 			path = other;
+			sourceTree = "<group>";
+		};
+		C0EB5871216B0AB5000CEA10 /* 打印app信息 */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB5872216B0AC9000CEA10 /* BundleSetting */,
+			);
+			path = "打印app信息";
+			sourceTree = "<group>";
+		};
+		C0EB5872216B0AC9000CEA10 /* BundleSetting */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB5873216B0B41000CEA10 /* ATBundleSetting.h */,
+				C0EB5874216B0B41000CEA10 /* ATBundleSetting.m */,
+			);
+			path = BundleSetting;
 			sourceTree = "<group>";
 		};
 		C0EBEFC521108F62005726B2 /* 简单下载进度条 */ = {
@@ -2163,6 +2220,7 @@
 				C0C949E720E4CBA300EF6EE1 /* RootViewController.m in Sources */,
 				C07CF24220D68D90007D12CA /* YLSphereTagCloudViewController.m in Sources */,
 				C0EA454F214A40190043C3AD /* YLSettingViewController.m in Sources */,
+				C0B9085E216C481C00D044C6 /* YLPopImageViewController.m in Sources */,
 				C0A32732212D335800436A98 /* YLShowViewController+add.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
@@ -2173,6 +2231,7 @@
 				C0EA455E214A6A080043C3AD /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				C0EBEFE521109796005726B2 /* imageView.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
+				C0B90857216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m in Sources */,
 				C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */,
 				C0A3272A212D307C00436A98 /* YLEditLabelViewController.m in Sources */,
 				C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */,
@@ -2208,6 +2267,7 @@
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
+				C0B90861216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,
 				C04312E320BE7511002E345F /* UIView+SnapShot.m in Sources */,
 				C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */,
@@ -2222,7 +2282,6 @@
 				C0C949F020E4D0A300EF6EE1 /* WaterFlowLayout.m in Sources */,
 				C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */,
 				C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */,
-				C0BB15F620B9A64C00A0095A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C032B40D20E3336700A54277 /* AYMenuData.m in Sources */,
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
 				C032B40A20E3336700A54277 /* AYMenuView.m in Sources */,
@@ -2233,6 +2292,7 @@
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,
 				C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */,
 				C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */,
+				C0EB5875216B0B41000CEA10 /* ATBundleSetting.m in Sources */,
 				C0EA4555214A48CF0043C3AD /* YLSettingModel.m in Sources */,
 				C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */,
 				C0C949F820E4DA5600EF6EE1 /* PersonListViewController.m in Sources */,
