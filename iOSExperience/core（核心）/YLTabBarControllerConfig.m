@@ -20,9 +20,9 @@ typedef NS_ENUM(NSInteger, PCTabBabConfigType) {
 
 static NSInteger const kTabBarCount = 5;
 
-static NSString *const kTabBarVCTitle_home = @"Show";
-static NSString *const kTabBarVCTitle_performance = @"动态";
-static NSString *const kTabBarVCTitle_notice = @"通知公告";
+static NSString *const kTabBarVCTitle_home = @"基础";
+static NSString *const kTabBarVCTitle_performance = @"进阶";
+static NSString *const kTabBarVCTitle_notice = @"发现";
 static NSString *const kTabBarVCTitle_contacts = @"通讯录";
 static NSString *const kTabBarVCTitle_my = @"我的";
 
@@ -96,12 +96,13 @@ static NSString *const key_TabBarItemBadgeValue = @"tabBarItemBadgeValue";
                                key_TabBarItemBadgeValue : @(0)
                                },
                        @(PCTabBabConfigType_performance) : @{
-                               key_TabBarVC : @"PersonListViewController",
+                               key_TabBarVC : @"YLAdvancedViewController",
                                key_TabBarVCTitle : kTabBarVCTitle_performance,
                                key_TabBarItemBadgeValue : @(0)
                                },
                        @(PCTabBabConfigType_notice) : @{
-                               key_TabBarVC : @"YLViewController3",
+//                               key_TabBarVC : @"YLViewController3",
+                               key_TabBarVC : @"PersonListViewController",
                                key_TabBarVCTitle : kTabBarVCTitle_notice,
                                key_TabBarItemBadgeValue : @(0)
                                },

@@ -140,6 +140,9 @@
 		C0B9087A216C80F600D044C6 /* ATNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90876216C80F600D044C6 /* ATNetworkManager.m */; };
 		C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90878216C80F600D044C6 /* ATBaseRequest.m */; };
 		C0B9087F216C83B800D044C6 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9087D216C83B700D044C6 /* NSData+AES.m */; };
+		C0B90888216C916C00D044C6 /* YLAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90887216C916C00D044C6 /* YLAdvancedViewController.m */; };
+		C0B9088E216C968F00D044C6 /* YLAdvancedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B9088D216C968F00D044C6 /* YLAdvancedViewModel.m */; };
+		C0B90891216C98BB00D044C6 /* YLAdvancedViewController+add.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B90890216C98BB00D044C6 /* YLAdvancedViewController+add.m */; };
 		C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */; };
 		C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D420B99E6200A0095A /* YLBaseNavigationController.m */; };
 		C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB15D820B9A26A00A0095A /* YLBaseViewModel.m */; };
@@ -415,6 +418,12 @@
 		C0B90879216C80F600D044C6 /* ATHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpConfig.h; sourceTree = "<group>"; };
 		C0B9087D216C83B700D044C6 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		C0B9087E216C83B700D044C6 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		C0B90886216C916C00D044C6 /* YLAdvancedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAdvancedViewController.h; sourceTree = "<group>"; };
+		C0B90887216C916C00D044C6 /* YLAdvancedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAdvancedViewController.m; sourceTree = "<group>"; };
+		C0B9088C216C968F00D044C6 /* YLAdvancedViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAdvancedViewModel.h; sourceTree = "<group>"; };
+		C0B9088D216C968F00D044C6 /* YLAdvancedViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAdvancedViewModel.m; sourceTree = "<group>"; };
+		C0B9088F216C98BB00D044C6 /* YLAdvancedViewController+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLAdvancedViewController+add.h"; sourceTree = "<group>"; };
+		C0B90890216C98BB00D044C6 /* YLAdvancedViewController+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLAdvancedViewController+add.m"; sourceTree = "<group>"; };
 		C0BB15CF20B99DBE00A0095A /* YLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseViewController.h; sourceTree = "<group>"; };
 		C0BB15D020B99DBE00A0095A /* YLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBaseViewController.m; sourceTree = "<group>"; };
 		C0BB15D320B99E6200A0095A /* YLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -773,6 +782,7 @@
 		C033FF1520B519EF00470BFC /* Modules（功能模块） */ = {
 			isa = PBXGroup;
 			children = (
+				C0B90881216C899D00D044C6 /* 进阶 */,
 				C00E6DE32147962E00733F50 /* Mine */,
 				C0C949C720E4C73000EF6EE1 /* 动态 */,
 				C0B3018120D3B38E00F78CDD /* InsertCommercial（插入广告） */,
@@ -1618,6 +1628,51 @@
 			path = "加密";
 			sourceTree = "<group>";
 		};
+		C0B90881216C899D00D044C6 /* 进阶 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90882216C8D9300D044C6 /* VIewController */,
+				C0B90883216C8D9F00D044C6 /* model */,
+				C0B90884216C8DA900D044C6 /* View */,
+				C0B90885216C8DB700D044C6 /* ViewModel */,
+			);
+			path = "进阶";
+			sourceTree = "<group>";
+		};
+		C0B90882216C8D9300D044C6 /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0B90886216C916C00D044C6 /* YLAdvancedViewController.h */,
+				C0B90887216C916C00D044C6 /* YLAdvancedViewController.m */,
+				C0B9088F216C98BB00D044C6 /* YLAdvancedViewController+add.h */,
+				C0B90890216C98BB00D044C6 /* YLAdvancedViewController+add.m */,
+			);
+			path = VIewController;
+			sourceTree = "<group>";
+		};
+		C0B90883216C8D9F00D044C6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C0B90884216C8DA900D044C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0B90885216C8DB700D044C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0B9088C216C968F00D044C6 /* YLAdvancedViewModel.h */,
+				C0B9088D216C968F00D044C6 /* YLAdvancedViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C0BB15CE20B99D9000A0095A /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -2265,6 +2320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C083391620BAE1F700F6CAF6 /* YLBaseFrameModel.m in Sources */,
+				C0B90891216C98BB00D044C6 /* YLAdvancedViewController+add.m in Sources */,
 				C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */,
 				C0C949E120E4C9FA00EF6EE1 /* UICollectionView+IndexPath.m in Sources */,
 				C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */,
@@ -2380,8 +2436,10 @@
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
 				C032B40A20E3336700A54277 /* AYMenuView.m in Sources */,
 				C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */,
+				C0B90888216C916C00D044C6 /* YLAdvancedViewController.m in Sources */,
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
 				C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */,
+				C0B9088E216C968F00D044C6 /* YLAdvancedViewModel.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,
 				C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */,

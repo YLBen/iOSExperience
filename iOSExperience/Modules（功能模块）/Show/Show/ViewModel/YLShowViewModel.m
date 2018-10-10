@@ -42,11 +42,11 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"2"
                             },
-                        @{
-                            YLLetfTitle : @"可折叠的Cell",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"3"
-                            },
+//                        @{
+//                            YLLetfTitle : @"可折叠的Cell",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"3"
+//                            },
                         @{
                             YLLetfTitle : @"CollectionView 9宫格式布局",
                             YLIsShowTitle : @(1),
@@ -80,32 +80,32 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"9"
                             },
-                        @{
-                            YLLetfTitle : @"球型立体滚动标签",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"10"
-                            },
-                        @{
-                            YLLetfTitle : @"仿今日头条滚动列表",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"11"
-                            },
-                        @{
-                            YLLetfTitle : @"cell的折叠和展开",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"12"
-                            },
-                        @{
-                            YLLetfTitle : @"无限滚动的tableView",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"13"
-                            },
-                        @{
-                            YLLetfTitle : @"网络文件下载",
-                            YLIsShowTitle : @(1),
-                            YLRightTitle : @"断点续传",
-                            YLTag : @"14"
-                            },
+//                        @{
+//                            YLLetfTitle : @"球型立体滚动标签",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"10"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"仿今日头条滚动列表",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"11"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"cell的折叠和展开",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"12"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"无限滚动的tableView",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"13"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"网络文件下载",
+//                            YLIsShowTitle : @(1),
+//                            YLRightTitle : @"断点续传",
+//                            YLTag : @"14"
+//                            },
                         @{
                             YLLetfTitle : @"一些按钮",
                             YLIsShowTitle : @(1),
@@ -136,36 +136,36 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"19"
                             },
-                        @{
-                            YLLetfTitle : @"tableView二级联动",
-//                            YLRightTitle : @" Quartz2D",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"20"
-                            },
-                        @{
-                            YLLetfTitle : @"仿微信actionSheet",
-                            //                            YLRightTitle : @" Quartz2D",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"21"
-                            },
-                        @{
-                            YLLetfTitle : @"动态矢量库",
-//                            YLRightTitle : @"lottie-ios",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"22"
-                            },
-                        @{
-                            YLLetfTitle : @"特效输入",
-//                            YLRightTitle : @"lottie-ios",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"23"
-                            },
-                        @{
-                            YLLetfTitle : @"模拟下载进度过场动画",
-                            //                            YLRightTitle : @"lottie-ios",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"24"
-                            },
+//                        @{
+//                            YLLetfTitle : @"tableView二级联动",
+////                            YLRightTitle : @" Quartz2D",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"20"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"仿微信actionSheet",
+//                            //                            YLRightTitle : @" Quartz2D",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"21"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"动态矢量库",
+////                            YLRightTitle : @"lottie-ios",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"22"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"特效输入",
+////                            YLRightTitle : @"lottie-ios",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"23"
+//                            },
+//                        @{
+//                            YLLetfTitle : @"模拟下载进度过场动画",
+//                            //                            YLRightTitle : @"lottie-ios",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"24"
+//                            },
                         @{
                             YLLetfTitle : @"label复制.粘贴.剪切",
                             //                            YLRightTitle : @"lottie-ios",
@@ -190,12 +190,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"28"
                             },
-                        @{
-                            YLLetfTitle : @"自定义控制器转场动画",
-                            //                            YLRightTitle : @"lottie-ios",
-                            YLIsShowTitle : @(1),
-                            YLTag : @"29"
-                            },
+//                        @{
+//                            YLLetfTitle : @"自定义控制器转场动画",
+//                            //                            YLRightTitle : @"lottie-ios",
+//                            YLIsShowTitle : @(1),
+//                            YLTag : @"29"
+//                            },
                         
 
                         ];
