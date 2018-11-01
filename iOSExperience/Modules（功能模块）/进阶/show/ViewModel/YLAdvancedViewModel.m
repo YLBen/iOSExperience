@@ -92,6 +92,18 @@
                             YLTag : @"11"
                             },
                         
+                        @{
+                            YLLetfTitle : @"多图上传",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"12"
+                            },
+                        @{
+                            YLLetfTitle : @"裁剪图片",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"13"
+                            },
                         
                         ];
     

@@ -7,8 +7,8 @@
 //
 
 #import "YLTouchListTableViewController.h"
-
-@interface YLTouchListTableViewController ()
+#import "YL56ViewController.h"
+@interface YLTouchListTableViewController ()<YL56ViewControllerDelegate>
 
 
 @end
@@ -24,7 +24,12 @@
 
 
 - (NSArray *)getDataSouce {
-    return @[@"单点事件",@"多点触摸事件"];
+//    return @[@"单点事件",@"多点触摸事件"];
+    NSMutableArray *mu = [[NSMutableArray alloc] init];
+    [mu addObject:@"单点事件"];
+    [mu addObject:@"多点触摸事件"];
+    return mu;
+    
 }
 
 #pragma mark - dataSocue
@@ -40,7 +45,15 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    YL56ViewController *ctr =[[YL56ViewController alloc] init];
+    ctr.delegate = self;
+    [self.navigationController pushViewController:ctr animated:YES];
     
+}
+
+-(void)yyyuy:(NSString *)str {
+    [self.dataSouce addObject:str];
+    [self.tableView reloadData];
     
 }
 @end

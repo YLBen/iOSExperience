@@ -9,6 +9,7 @@
 #import "YLAnimatedTransitionViewController.h"
 #import "YLPopImageViewController.h"
 
+#import "YLTranstionAnimationPush.h"
 //#import "UINavigationController+FDFullscreenPopGesture.h"
 @interface YLAnimatedTransitionViewController ()<UINavigationControllerDelegate>
 @property(nonatomic,strong)NSMutableArray *buttonArr;
@@ -20,11 +21,16 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.fd_interactivePopDisabled = YES;
+
     self.view.backgroundColor = [UIColor blackColor];
     [self addButton];
     [self setupButtonAnimation];
+    
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     self.navigationController.delegate = self;
+    [self setupButtonAnimation];
 }
 #pragma mark - public methods
 
@@ -94,17 +100,17 @@
 }
 
 -(void)btnclick:(UIButton *)btn{
-    self.button=btn;
-//    YLPopImageViewController *push=[YLPopImageViewController new];
-//    push.image=[UIImage imageNamed:[NSString stringWithFormat:@"%lu",btn.tag]];
-//    [self.navigationController pushViewController:push animated:YES];
+    _button=btn;
+    YLPopImageViewController *push=[YLPopImageViewController new];
+    push.image=[UIImage imageNamed:[NSString stringWithFormat:@"%lu",btn.tag]];
+    [self.navigationController pushViewController:push animated:YES];
 }
 #pragma mark -- UINavigationControllerDelegate --
 
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
     
     if (operation == UINavigationControllerOperationPush) {
-        return [YLAnimatedTransitionViewController new];
+        return [YLTranstionAnimationPush new];
     }else{
         return nil;
     }

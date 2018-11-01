@@ -11,11 +11,12 @@ pod 'ZYBannerView'
 pod 'HMSegmentedControl'
 pod 'MJRefresh'
 pod 'MJExtension'
-pod 'SDWebImage'
+pod 'SDWebImage' 
 pod 'YYKit'
 pod 'LCActionSheet'
 pod 'lottie-ios'
 pod 'DateTools'
 pod 'Bugly'
+
 
 end

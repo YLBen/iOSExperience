@@ -32,8 +32,15 @@
     if (self) {
         [self addSubview:self.tableView];
         [self initConstraint];
+        
     }
     return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    NSLog(@"%@",NSStringFromCGRect(self.tableView.frame));
+    
 }
 #pragma mark - public methods
 

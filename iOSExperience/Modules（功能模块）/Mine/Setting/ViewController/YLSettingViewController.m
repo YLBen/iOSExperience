@@ -12,6 +12,7 @@
 
 #import <Masonry.h>
 #import "UIViewController+AlertViewAndActionSheet.h"
+#import "AppDelegate.h"
 @interface YLSettingViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSArray *dataSouce;
@@ -63,6 +64,12 @@
 - (void)logoutAction:(UIButton *)sender {
 //    [self AlertWithTitle:@"确定要退出吗？" message:@[@"取消",@"确定"] andOthers:nil animated:YES action:nil];
     [self AlertWithTitle:nil message:@"确定要退出吗？" andOthers:@[@"取消",@"确定"] animated:YES action:^(NSInteger index) {
+        if (index == 1) {
+            AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//            [delegate.interactor destructorTabbar];
+            [delegate.interactor startLogin];
+            
+        }
         
     }];
 }
@@ -183,6 +190,11 @@
     return 0;
 }
 #pragma mark - tableView delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+}
+#pragma mark - tableView dataSouce
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.dataSouce.count;
     
@@ -207,7 +219,5 @@
     return cell;
     
 }
-#pragma mark - tableView dataSouce
-
 
 @end

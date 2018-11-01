@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface YLTouchListTableViewController : UITableViewController
-@property(nonatomic,strong)NSArray *dataSouce;
+@property(nonatomic,strong)NSMutableArray *dataSouce;
 @end

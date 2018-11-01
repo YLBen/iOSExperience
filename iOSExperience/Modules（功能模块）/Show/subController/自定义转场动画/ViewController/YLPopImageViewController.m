@@ -9,8 +9,10 @@
 #import "YLPopImageViewController.h"
 #import <Masonry.h>
 
-@interface YLPopImageViewController ()<UINavigationBarDelegate>
+#import "YLTranstionAnimationPop.h"
+@interface YLPopImageViewController ()<UINavigationControllerDelegate>
 @property(nonatomic,strong)UIImageView *imageView;
+@property(nonatomic,strong)UIPercentDrivenInteractiveTransition *interactiveTransition;
 @end
 
 @implementation YLPopImageViewController
@@ -21,8 +23,10 @@
     [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
-//    self.navigationController.delegate = self;
+    self.navigationController.delegate = self;
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handelTap:)];
+    [self.view addGestureRecognizer:tap];
 }
 
 - (UIImageView *)imageView {
@@ -39,11 +43,23 @@
     
 }
 
-//- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
-//    if (operation == UINavigationControllerOperationPop) {
-//        return [LRTranstionAnimationPop new];
-//    }else{
-//        return nil;
-//    }
-//}
+- (void)handelTap:(UITapGestureRecognizer *)gestureRecognizer {
+    self.interactiveTransition = [UIPercentDrivenInteractiveTransition new];
+    [ self.interactiveTransition finishInteractiveTransition];
+    
+}
+
+//为这个动画添加用户交互
+- (id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
+                          interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController {
+    return self.interactiveTransition;
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
+    if (operation == UINavigationControllerOperationPop) {
+        return [YLTranstionAnimationPop new];
+    }else{
+        return nil;
+    }
+}
 @end

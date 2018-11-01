@@ -40,20 +40,26 @@
     [self initConstraints];
     [self loadDataSouce];
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
-
-//    KVO 监听tableView 偏移量
-    [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
-
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+////    KVO 监听tableView 偏移量
+//    [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
+//
 //    自定义下拉刷新
     self.logs = [[NSMutableArray alloc] init];
     NSDate *date = [[NSDate alloc] init];
     [self.logs addObject:date];
-    
+
     UIRefreshControl *rc = [[UIRefreshControl alloc] init];
     rc.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新"];
     [rc addTarget:self action:@selector(refreshTableView) forControlEvents:UIControlEventValueChanged];
     self.showListView.tableView.refreshControl = rc;
     
+}
+
+- (void)dealloc {
+//    [self.showListView removeObserver:self forKeyPath:@"contentOffset"];
+//    self.showListView = nil;
+//    NSLog(@"showListView被移除了");
 }
 #pragma mark - public methods
 
@@ -80,18 +86,18 @@
 #pragma mark - KVO
 /**
  *  监听属性值发生改变时回调
- */
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
-{
-
-    CGFloat offset = self.showListView.tableView.contentOffset.y;
-    CGFloat delta = offset / 64.f + 1.f;
-    delta = MAX(0, delta);
-//    if (delta > 0.7) {
-        self.navigationController.navigationBar.alpha = MIN(1, delta);
-//    }
-    
-}
+// */
+//- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
+//{
+//
+//    CGFloat offset = self.showListView.tableView.contentOffset.y;
+//    CGFloat delta = offset / 64.f + 1.f;
+//    delta = MAX(0, delta);
+////    if (delta > 0.7) {
+//        self.navigationController.navigationBar.alpha = MIN(1, delta);
+////    }
+//
+//}
 
 #pragma mark - getter && setter
 

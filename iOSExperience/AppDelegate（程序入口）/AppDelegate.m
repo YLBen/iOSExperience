@@ -6,6 +6,30 @@
 //  Copyright © 2018年 avatar. All rights reserved.
 //
 
+//*           _____                    _____                    _____                    _____
+//*          /\    \                  /\    \                  /\    \                  /\    \
+//*         /::\____\                /::\    \                /::\    \                /::\    \
+//*        /:::/    /                \:::\    \              /::::\    \              /::::\    \
+//*       /:::/    /                  \:::\    \            /::::::\    \            /::::::\    \
+//*      /:::/    /                    \:::\    \          /:::/\:::\    \          /:::/\:::\    \
+//*     /:::/____/                      \:::\    \        /:::/__\:::\    \        /:::/__\:::\    \
+//*    /::::\    \                      /::::\    \      /::::\   \:::\    \      /::::\   \:::\    \
+//*   /::::::\    \   _____    ____    /::::::\    \    /::::::\   \:::\    \    /::::::\   \:::\    \
+//*  /:::/\:::\    \ /\    \  /\   \  /:::/\:::\    \  /:::/\:::\   \:::\____\  /:::/\:::\   \:::\    \
+//* /:::/  \:::\    /::\____\/::\   \/:::/  \:::\____\/:::/  \:::\   \:::|    |/:::/__\:::\   \:::\____\
+//* \::/    \:::\  /:::/    /\:::\  /:::/    \::/    /\::/   |::::\  /:::|____|\:::\   \:::\   \::/    /
+//*  \/____/ \:::\/:::/    /  \:::\/:::/    / \/____/  \/____|:::::\/:::/    /  \:::\   \:::\   \/____/
+//*           \::::::/    /    \::::::/    /                 |:::::::::/    /    \:::\   \:::\    \
+//*            \::::/    /      \::::/____/                  |::|\::::/    /      \:::\   \:::\____\
+//*            /:::/    /        \:::\    \                  |::| \::/____/        \:::\   \::/    /
+//*           /:::/    /          \:::\    \                 |::|  ~|               \:::\   \/____/
+//*          /:::/    /            \:::\    \                |::|   |                \:::\    \
+//*         /:::/    /              \:::\____\               \::|   |                 \:::\____\
+//*         \::/    /                \::/    /                \:|   |                  \::/    /
+//*          \/____/                  \/____/                  \|___|                   \/____/
+//*
+
+
 #import "AppDelegate.h"
 #import "YLTabBarControllerConfig.h"
 #import <UserNotifications/UserNotifications.h>
@@ -14,6 +38,7 @@
 #import <Bugly/Bugly.h>
 #import "AdPageView.h"
 #import "YLRunWebViewViewController.h"
+#import <AFNetworking.h>
 @interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
@@ -29,9 +54,12 @@
     NSLog(@"%@",[NSHomeDirectory() stringByAppendingFormat:@"/tmp"]);
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
-    _mainTabBar = tabBar;
-    self.window.rootViewController = tabBar.tabBarController;
+//    YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
+//    _mainTabBar = tabBar;
+//    self.window.rootViewController = tabBar.tabBarController;
+    self.interactor = [YLAppInteractor new];
+    self.interactor.keyWindow = self.window;
+    [self.interactor startUIFlow];
     
     
     [self.window makeKeyAndVisible];
@@ -39,7 +67,7 @@
     [self appStart];
 //    设置应用角标
     [self showAppCount];
-    
+    [self networkStatusChangeAFN];
     return YES;
 }
 - (void)showFPS{
@@ -70,6 +98,46 @@
     [app registerUserNotificationSettings:setting];
     
 }
+
+-(void)networkStatusChangeAFN
+{
+    //1.获得一个网络状态监听管理者
+    AFNetworkReachabilityManager *manager =  [AFNetworkReachabilityManager sharedManager];
+    
+    //2.监听状态的改变(当网络状态改变的时候就会调用该block)
+    [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
+        /*
+         AFNetworkReachabilityStatusUnknown          = -1,  未知
+         AFNetworkReachabilityStatusNotReachable     = 0,   没有网络
+         AFNetworkReachabilityStatusReachableViaWWAN = 1,    3G|4G
+         AFNetworkReachabilityStatusReachableViaWiFi = 2,   WIFI
+         */
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+                NSLog(@"wifi");
+                break;
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+                NSLog(@"3G|4G");
+                break;
+            case AFNetworkReachabilityStatusNotReachable:
+                NSLog(@"没有网络");
+                break;
+            case AFNetworkReachabilityStatusUnknown:
+                NSLog(@"未知");
+                break;
+                
+            default:
+                break;
+        }
+    }];
+    
+    //3.手动开启 开始监听
+    [manager startMonitoring];
+}
+
+
+
 + (AppDelegate *)shareAppDelegate{
     return (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
