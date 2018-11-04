@@ -109,8 +109,18 @@
 		C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312E720BE753A002E345F /* DemoFoldingCell.m */; };
 		C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */; };
 		C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798820C535A2005CE5C9 /* NSString+Check.m */; };
-		C0603950218EE4DE00AF093C /* YLVoiceInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C060394F218EE4DE00AF093C /* YLVoiceInputView.m */; };
 		C0603954218EE58500AF093C /* YLAudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */; };
+		C060397B218F255A00AF093C /* voice_record_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C060396F218F255900AF093C /* voice_record_0@2x.png */; };
+		C060397C218F255A00AF093C /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603970218F255900AF093C /* voice_record_2@3x.png */; };
+		C060397D218F255A00AF093C /* voice_record_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603971218F255900AF093C /* voice_record_2@2x.png */; };
+		C060397E218F255A00AF093C /* voice_record_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603972218F255900AF093C /* voice_record_0@3x.png */; };
+		C060397F218F255A00AF093C /* RMAudioHud.m in Sources */ = {isa = PBXBuildFile; fileRef = C0603973218F255900AF093C /* RMAudioHud.m */; };
+		C0603980218F255A00AF093C /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603975218F255900AF093C /* voice_record_3@3x.png */; };
+		C0603981218F255A00AF093C /* voice_record_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603976218F255900AF093C /* voice_record_1@2x.png */; };
+		C0603982218F255A00AF093C /* voice_record_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603977218F255900AF093C /* voice_record_1@3x.png */; };
+		C0603983218F255A00AF093C /* voice_record_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603978218F255900AF093C /* voice_record_3@2x.png */; };
+		C0603984218F255A00AF093C /* RMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C060397A218F255900AF093C /* RMAudioManager.m */; };
+		C0603989218F298900AF093C /* YLFileMannger.m in Sources */ = {isa = PBXBuildFile; fileRef = C0603988218F298900AF093C /* YLFileMannger.m */; };
 		C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141520CD069200E8FB9D /* YLJParagraphModel.m */; };
 		C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141820CD09F300E8FB9D /* YLAdaptFontCell.m */; };
 		C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141B20CD0B7500E8FB9D /* YLAdaptFontViewController.m */; };
@@ -371,10 +381,22 @@
 		C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarTool.m"; sourceTree = "<group>"; };
 		C04A798820C535A2005CE5C9 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 		C04A798920C535A2005CE5C9 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
-		C060394E218EE4DE00AF093C /* YLVoiceInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVoiceInputView.h; sourceTree = "<group>"; };
-		C060394F218EE4DE00AF093C /* YLVoiceInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVoiceInputView.m; sourceTree = "<group>"; };
 		C0603952218EE58500AF093C /* YLAudioRecorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAudioRecorderViewController.h; sourceTree = "<group>"; };
 		C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAudioRecorderViewController.m; sourceTree = "<group>"; };
+		C060396F218F255900AF093C /* voice_record_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_0@2x.png"; sourceTree = "<group>"; };
+		C0603970218F255900AF093C /* voice_record_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@3x.png"; sourceTree = "<group>"; };
+		C0603971218F255900AF093C /* voice_record_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@2x.png"; sourceTree = "<group>"; };
+		C0603972218F255900AF093C /* voice_record_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_0@3x.png"; sourceTree = "<group>"; };
+		C0603973218F255900AF093C /* RMAudioHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAudioHud.m; sourceTree = "<group>"; };
+		C0603974218F255900AF093C /* RMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAudioManager.h; sourceTree = "<group>"; };
+		C0603975218F255900AF093C /* voice_record_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@3x.png"; sourceTree = "<group>"; };
+		C0603976218F255900AF093C /* voice_record_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_1@2x.png"; sourceTree = "<group>"; };
+		C0603977218F255900AF093C /* voice_record_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_1@3x.png"; sourceTree = "<group>"; };
+		C0603978218F255900AF093C /* voice_record_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@2x.png"; sourceTree = "<group>"; };
+		C0603979218F255900AF093C /* RMAudioHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAudioHud.h; sourceTree = "<group>"; };
+		C060397A218F255900AF093C /* RMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAudioManager.m; sourceTree = "<group>"; };
+		C0603987218F298900AF093C /* YLFileMannger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLFileMannger.h; sourceTree = "<group>"; };
+		C0603988218F298900AF093C /* YLFileMannger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFileMannger.m; sourceTree = "<group>"; };
 		C074141420CD069200E8FB9D /* YLJParagraphModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLJParagraphModel.h; sourceTree = "<group>"; };
 		C074141520CD069200E8FB9D /* YLJParagraphModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLJParagraphModel.m; sourceTree = "<group>"; };
 		C074141720CD09F300E8FB9D /* YLAdaptFontCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAdaptFontCell.h; sourceTree = "<group>"; };
@@ -965,6 +987,8 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C0603986218F296200AF093C /* 文件管理 */,
+				C060396D218F254600AF093C /* 录制声音 */,
 				C01D1790218C2083008F6013 /* 快速创建UI */,
 				C0128A6621899041002E3BA7 /* 清理缓存 */,
 				C0B9087C216C839200D044C6 /* 加密 */,
@@ -1286,8 +1310,6 @@
 		C060394D218EE49600AF093C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C060394E218EE4DE00AF093C /* YLVoiceInputView.h */,
-				C060394F218EE4DE00AF093C /* YLVoiceInputView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1299,6 +1321,50 @@
 				C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C060396D218F254600AF093C /* 录制声音 */ = {
+			isa = PBXGroup;
+			children = (
+				C060396E218F255900AF093C /* RMAudioManager */,
+			);
+			path = "录制声音";
+			sourceTree = "<group>";
+		};
+		C060396E218F255900AF093C /* RMAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0603985218F256600AF093C /* Resource */,
+				C0603979218F255900AF093C /* RMAudioHud.h */,
+				C0603973218F255900AF093C /* RMAudioHud.m */,
+				C0603974218F255900AF093C /* RMAudioManager.h */,
+				C060397A218F255900AF093C /* RMAudioManager.m */,
+			);
+			path = RMAudioManager;
+			sourceTree = "<group>";
+		};
+		C0603985218F256600AF093C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C060396F218F255900AF093C /* voice_record_0@2x.png */,
+				C0603970218F255900AF093C /* voice_record_2@3x.png */,
+				C0603971218F255900AF093C /* voice_record_2@2x.png */,
+				C0603972218F255900AF093C /* voice_record_0@3x.png */,
+				C0603975218F255900AF093C /* voice_record_3@3x.png */,
+				C0603976218F255900AF093C /* voice_record_1@2x.png */,
+				C0603977218F255900AF093C /* voice_record_1@3x.png */,
+				C0603978218F255900AF093C /* voice_record_3@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C0603986218F296200AF093C /* 文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				C0603987218F298900AF093C /* YLFileMannger.h */,
+				C0603988218F298900AF093C /* YLFileMannger.m */,
+			);
+			path = "文件管理";
 			sourceTree = "<group>";
 		};
 		C074141020CD05EA00E8FB9D /* 行高自适应 */ = {
@@ -2494,6 +2560,7 @@
 				C03A2442212C0405004B9347 /* Colon.json in Resources */,
 				C03A2443212C0405004B9347 /* H.json in Resources */,
 				C03A243A212C0405004B9347 /* S.json in Resources */,
+				C0603981218F255A00AF093C /* voice_record_1@2x.png in Resources */,
 				C03A244A212C0405004B9347 /* W.json in Resources */,
 				C0AEB41F20E215620030F533 /* channelAdd.png in Resources */,
 				C03A243F212C0405004B9347 /* P.json in Resources */,
@@ -2501,20 +2568,27 @@
 				C03A2438212C0405004B9347 /* G.json in Resources */,
 				C01D17A8218C338C008F6013 /* 04.png in Resources */,
 				C03A2446212C0405004B9347 /* Comma.json in Resources */,
+				C060397D218F255A00AF093C /* voice_record_2@2x.png in Resources */,
 				C03A2444212C0405004B9347 /* C.json in Resources */,
 				C03A2430212C0405004B9347 /* X.json in Resources */,
 				C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */,
 				C03A2447212C0405004B9347 /* O.json in Resources */,
+				C0603980218F255A00AF093C /* voice_record_3@3x.png in Resources */,
 				C03A244B212C0405004B9347 /* B.json in Resources */,
+				C060397C218F255A00AF093C /* voice_record_2@3x.png in Resources */,
 				C01D17A4218C338C008F6013 /* 02.png in Resources */,
 				C03A2449212C0405004B9347 /* N.json in Resources */,
+				C0603983218F255A00AF093C /* voice_record_3@2x.png in Resources */,
 				C03A2445212C0405004B9347 /* V.json in Resources */,
 				C03A2433212C0405004B9347 /* L.json in Resources */,
+				C060397B218F255A00AF093C /* voice_record_0@2x.png in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
+				C0603982218F255A00AF093C /* voice_record_1@3x.png in Resources */,
 				C01D17A9218C338C008F6013 /* 10.png in Resources */,
 				C021DC7421869EF70019FBE1 /* YLTailoringImageViewController.xib in Resources */,
 				C03A2452212C0865004B9347 /* Boat_Loader.json in Resources */,
+				C060397E218F255A00AF093C /* voice_record_0@3x.png in Resources */,
 				C03A2435212C0405004B9347 /* U.json in Resources */,
 				C03A2432212C0405004B9347 /* M.json in Resources */,
 				C03A2403212BF6F0004B9347 /* Switch.json in Resources */,
@@ -2639,6 +2713,7 @@
 				C0EBEFE521109796005726B2 /* imageView.m in Sources */,
 				C0B3018020D3ACA900F78CDD /* YYFPSLabel.m in Sources */,
 				C0B90857216C3EBD00D044C6 /* YLAnimatedTransitionViewController.m in Sources */,
+				C0603989218F298900AF093C /* YLFileMannger.m in Sources */,
 				C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */,
 				C0128A6921899067002E3BA7 /* YLCleanCache.m in Sources */,
 				C0A3272A212D307C00436A98 /* YLEditLabelViewController.m in Sources */,
@@ -2658,7 +2733,6 @@
 				C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */,
 				C09734112175D8E1004FBC24 /* YLTLoginView.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
-				C0603950218EE4DE00AF093C /* YLVoiceInputView.m in Sources */,
 				C097340E2175D44C004FBC24 /* YLLoginTextFieldView.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0C949E220E4C9FA00EF6EE1 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
@@ -2701,6 +2775,7 @@
 				C0C949F020E4D0A300EF6EE1 /* WaterFlowLayout.m in Sources */,
 				C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */,
 				C09734152175DD66004FBC24 /* YLLoginViewController.m in Sources */,
+				C060397F218F255A00AF093C /* RMAudioHud.m in Sources */,
 				C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */,
 				C032B40D20E3336700A54277 /* AYMenuData.m in Sources */,
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
@@ -2720,6 +2795,7 @@
 				C0EA4555214A48CF0043C3AD /* YLSettingModel.m in Sources */,
 				C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */,
 				C0C949F820E4DA5600EF6EE1 /* PersonListViewController.m in Sources */,
+				C0603984218F255A00AF093C /* RMAudioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
