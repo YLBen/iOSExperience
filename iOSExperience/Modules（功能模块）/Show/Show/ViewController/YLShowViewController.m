@@ -43,19 +43,22 @@
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 ////    KVO 监听tableView 偏移量
 //    [self.showListView.tableView addObserver: self forKeyPath: @"contentOffset" options: NSKeyValueObservingOptionNew context: nil];
-//
-//    自定义下拉刷新
-    self.logs = [[NSMutableArray alloc] init];
-    NSDate *date = [[NSDate alloc] init];
-    [self.logs addObject:date];
 
-    UIRefreshControl *rc = [[UIRefreshControl alloc] init];
-    rc.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新"];
-    [rc addTarget:self action:@selector(refreshTableView) forControlEvents:UIControlEventValueChanged];
-    self.showListView.tableView.refreshControl = rc;
-    
+
 }
 
+//- (void)viewWillAppear:(BOOL)animated {
+//    [super viewWillAppear:animated];
+//    CGRect frame = self.tabBarController.tabBar.frame;
+//    
+//    frame.origin.y = [UIScreen mainScreen].bounds.size.height - frame.size.height;
+//    
+//    frame.size =CGSizeMake(frame.size.width, frame.size.height);
+//    
+//    self.tabBarController.tabBar.frame = frame;
+//    
+//    
+//}
 - (void)dealloc {
 //    [self.showListView removeObserver:self forKeyPath:@"contentOffset"];
 //    self.showListView = nil;

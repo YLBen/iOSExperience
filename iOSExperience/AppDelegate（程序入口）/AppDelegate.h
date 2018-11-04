@@ -17,5 +17,6 @@
 @property(nonatomic,strong)YLTabBarControllerConfig *mainTabBar;
 @property(nonatomic,strong)YLAppInteractor *interactor;
 + (AppDelegate *)shareAppDelegate;
+
 @end
 

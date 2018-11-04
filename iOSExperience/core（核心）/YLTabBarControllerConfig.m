@@ -79,6 +79,7 @@ static NSString *const key_TabBarItemBadgeValue = @"tabBarItemBadgeValue";
         ctr.title = vcInfoDic[key_TabBarVCTitle];
         YLBaseNavigationController *navController = [[YLBaseNavigationController alloc]
                                                      initWithRootViewController:ctr];
+        
         [viewControllers addObject:navController];
     }
     

@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate (AppService)
+- (void)initWindow;
 
+- (void)appStart;
 
+-(void)networkStatusChangeAFN;
 @end

@@ -11,7 +11,8 @@
 #import "AppDelegate.h"
 #import "YLTabBarControllerConfig.h"
 #import "YLUserMannger.h"
-
+#import "YYFPSLabel.h"
+#import <UIView+YYAdd.h>
 #import "YLLoginViewController.h"
 @interface YLAppInteractor()
 {
@@ -43,7 +44,10 @@
     anima.duration = 0.3f;
     self.keyWindow.rootViewController = _tabBarCtr.tabBarController;
     [self.keyWindow.layer addAnimation:anima forKey:@"keyWindow"];
-    
+#if AV_DEV
+   [self showFPS];
+#endif
+   
     
 }
 
@@ -59,5 +63,14 @@
 - (void)destructorTabbar {
     _tabBarCtr = nil;
     
+}
+
+- (void)showFPS{
+    YYFPSLabel *_fpsLabel = [YYFPSLabel new];
+    [_fpsLabel sizeToFit];
+    _fpsLabel.bottom = SCREEN_HEIGHT - 55;
+    _fpsLabel.right = SCREEN_WIDTH - 10;
+    //    _fpsLabel.alpha = 0;
+    [[UIApplication sharedApplication].delegate.window addSubview:_fpsLabel];
 }
 @end

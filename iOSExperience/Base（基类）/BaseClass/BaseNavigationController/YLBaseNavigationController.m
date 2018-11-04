@@ -59,6 +59,8 @@
                                                                     action:@selector(backLastController)];
         viewController.navigationItem.leftBarButtonItem = leftItem;
         self.interactivePopGestureRecognizer.delegate = self;
+   
+        
     }
     [super pushViewController:viewController animated:animated];
 }

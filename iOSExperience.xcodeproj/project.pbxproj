@@ -14,6 +14,18 @@
 		C00E6DF22147A51700733F50 /* YLMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DF12147A51700733F50 /* YLMineHeaderView.m */; };
 		C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DF52147B06100733F50 /* YLMineViewController.m */; };
 		C0128A6921899067002E3BA7 /* YLCleanCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0128A6821899067002E3BA7 /* YLCleanCache.m */; };
+		C01D1793218C20D6008F6013 /* YLQuickCreateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D1792218C20D6008F6013 /* YLQuickCreateManager.m */; };
+		C01D1796218C26BA008F6013 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D1795218C26BA008F6013 /* AppDelegate+PushService.m */; };
+		C01D17A2218C338C008F6013 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D1798218C338C008F6013 /* 01.png */; };
+		C01D17A3218C338C008F6013 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D1799218C338C008F6013 /* 03.png */; };
+		C01D17A4218C338C008F6013 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179A218C338C008F6013 /* 02.png */; };
+		C01D17A5218C338C008F6013 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179B218C338C008F6013 /* 06.png */; };
+		C01D17A6218C338C008F6013 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179C218C338C008F6013 /* 07.png */; };
+		C01D17A7218C338C008F6013 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179D218C338C008F6013 /* 05.png */; };
+		C01D17A8218C338C008F6013 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179E218C338C008F6013 /* 04.png */; };
+		C01D17A9218C338C008F6013 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179F218C338C008F6013 /* 10.png */; };
+		C01D17AA218C338C008F6013 /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D17A0218C338C008F6013 /* 09.png */; };
+		C01D17AB218C338C008F6013 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D17A1218C338C008F6013 /* 08.png */; };
 		C021DC7321869EF70019FBE1 /* YLTailoringImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C021DC7121869EF70019FBE1 /* YLTailoringImageViewController.m */; };
 		C021DC7421869EF70019FBE1 /* YLTailoringImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C021DC7221869EF70019FBE1 /* YLTailoringImageViewController.xib */; };
 		C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */; };
@@ -97,6 +109,8 @@
 		C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312E720BE753A002E345F /* DemoFoldingCell.m */; };
 		C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */; };
 		C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798820C535A2005CE5C9 /* NSString+Check.m */; };
+		C0603950218EE4DE00AF093C /* YLVoiceInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C060394F218EE4DE00AF093C /* YLVoiceInputView.m */; };
+		C0603954218EE58500AF093C /* YLAudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */; };
 		C074141620CD069200E8FB9D /* YLJParagraphModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141520CD069200E8FB9D /* YLJParagraphModel.m */; };
 		C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141820CD09F300E8FB9D /* YLAdaptFontCell.m */; };
 		C074141C20CD0B7500E8FB9D /* YLAdaptFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C074141B20CD0B7500E8FB9D /* YLAdaptFontViewController.m */; };
@@ -216,6 +230,20 @@
 		C00E6DF52147B06100733F50 /* YLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMineViewController.m; sourceTree = "<group>"; };
 		C0128A6721899067002E3BA7 /* YLCleanCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCleanCache.h; sourceTree = "<group>"; };
 		C0128A6821899067002E3BA7 /* YLCleanCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCleanCache.m; sourceTree = "<group>"; };
+		C01D1791218C20D6008F6013 /* YLQuickCreateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLQuickCreateManager.h; sourceTree = "<group>"; };
+		C01D1792218C20D6008F6013 /* YLQuickCreateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLQuickCreateManager.m; sourceTree = "<group>"; };
+		C01D1794218C26BA008F6013 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
+		C01D1795218C26BA008F6013 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
+		C01D1798218C338C008F6013 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		C01D1799218C338C008F6013 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		C01D179A218C338C008F6013 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		C01D179B218C338C008F6013 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		C01D179C218C338C008F6013 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		C01D179D218C338C008F6013 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		C01D179E218C338C008F6013 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		C01D179F218C338C008F6013 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		C01D17A0218C338C008F6013 /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		C01D17A1218C338C008F6013 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
 		C021DC7021869EF70019FBE1 /* YLTailoringImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTailoringImageViewController.h; sourceTree = "<group>"; };
 		C021DC7121869EF70019FBE1 /* YLTailoringImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTailoringImageViewController.m; sourceTree = "<group>"; };
 		C021DC7221869EF70019FBE1 /* YLTailoringImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLTailoringImageViewController.xib; sourceTree = "<group>"; };
@@ -343,6 +371,10 @@
 		C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarTool.m"; sourceTree = "<group>"; };
 		C04A798820C535A2005CE5C9 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 		C04A798920C535A2005CE5C9 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		C060394E218EE4DE00AF093C /* YLVoiceInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLVoiceInputView.h; sourceTree = "<group>"; };
+		C060394F218EE4DE00AF093C /* YLVoiceInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLVoiceInputView.m; sourceTree = "<group>"; };
+		C0603952218EE58500AF093C /* YLAudioRecorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAudioRecorderViewController.h; sourceTree = "<group>"; };
+		C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAudioRecorderViewController.m; sourceTree = "<group>"; };
 		C074141420CD069200E8FB9D /* YLJParagraphModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLJParagraphModel.h; sourceTree = "<group>"; };
 		C074141520CD069200E8FB9D /* YLJParagraphModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLJParagraphModel.m; sourceTree = "<group>"; };
 		C074141720CD09F300E8FB9D /* YLAdaptFontCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAdaptFontCell.h; sourceTree = "<group>"; };
@@ -672,6 +704,32 @@
 			path = "清理缓存";
 			sourceTree = "<group>";
 		};
+		C01D1790218C2083008F6013 /* 快速创建UI */ = {
+			isa = PBXGroup;
+			children = (
+				C01D1791218C20D6008F6013 /* YLQuickCreateManager.h */,
+				C01D1792218C20D6008F6013 /* YLQuickCreateManager.m */,
+			);
+			path = "快速创建UI";
+			sourceTree = "<group>";
+		};
+		C01D1797218C338C008F6013 /* 下拉刷新gif */ = {
+			isa = PBXGroup;
+			children = (
+				C01D1798218C338C008F6013 /* 01.png */,
+				C01D1799218C338C008F6013 /* 03.png */,
+				C01D179A218C338C008F6013 /* 02.png */,
+				C01D179B218C338C008F6013 /* 06.png */,
+				C01D179C218C338C008F6013 /* 07.png */,
+				C01D179D218C338C008F6013 /* 05.png */,
+				C01D179E218C338C008F6013 /* 04.png */,
+				C01D179F218C338C008F6013 /* 10.png */,
+				C01D17A0218C338C008F6013 /* 09.png */,
+				C01D17A1218C338C008F6013 /* 08.png */,
+			);
+			path = "下拉刷新gif";
+			sourceTree = "<group>";
+		};
 		C021DC6F21869E950019FBE1 /* 裁剪图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -838,6 +896,8 @@
 				C033FEFF20B5176E00470BFC /* AppDelegate.m */,
 				C04312D420BE3D54002E345F /* AppDelegate+AppService.h */,
 				C04312D520BE3D54002E345F /* AppDelegate+AppService.m */,
+				C01D1794218C26BA008F6013 /* AppDelegate+PushService.h */,
+				C01D1795218C26BA008F6013 /* AppDelegate+PushService.m */,
 			);
 			path = "AppDelegate（程序入口）";
 			sourceTree = "<group>";
@@ -888,6 +948,7 @@
 		C033FF1920B522E600470BFC /* Resource（资源文件夹） */ = {
 			isa = PBXGroup;
 			children = (
+				C01D1797218C338C008F6013 /* 下拉刷新gif */,
 				C03A2400212BF6F0004B9347 /* json动画 */,
 				C033FF0120B5176E00470BFC /* ViewController.h */,
 				C033FF0220B5176E00470BFC /* ViewController.m */,
@@ -904,6 +965,7 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C01D1790218C2083008F6013 /* 快速创建UI */,
 				C0128A6621899041002E3BA7 /* 清理缓存 */,
 				C0B9087C216C839200D044C6 /* 加密 */,
 				C0B90870216C7F0800D044C6 /* NetWork */,
@@ -1210,6 +1272,33 @@
 			children = (
 			);
 			path = "首字母大写或小写";
+			sourceTree = "<group>";
+		};
+		C060394C218EE48700AF093C /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				C0603951218EE52B00AF093C /* ViewController */,
+				C060394D218EE49600AF093C /* View */,
+			);
+			path = "录音";
+			sourceTree = "<group>";
+		};
+		C060394D218EE49600AF093C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060394E218EE4DE00AF093C /* YLVoiceInputView.h */,
+				C060394F218EE4DE00AF093C /* YLVoiceInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0603951218EE52B00AF093C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0603952218EE58500AF093C /* YLAudioRecorderViewController.h */,
+				C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C074141020CD05EA00E8FB9D /* 行高自适应 */ = {
@@ -2096,6 +2185,7 @@
 		C0E5F1D721709D7C0080D925 /* subViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C060394C218EE48700AF093C /* 录音 */,
 				C021DC6F21869E950019FBE1 /* 裁剪图片 */,
 				C0E5F1D821709D930080D925 /* 多图选择 */,
 			);
@@ -2374,10 +2464,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01D17A3218C338C008F6013 /* 03.png in Resources */,
 				C03A2441212C0405004B9347 /* D.json in Resources */,
 				C03A2437212C0405004B9347 /* R.json in Resources */,
 				C03A2439212C0405004B9347 /* F.json in Resources */,
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
+				C01D17AB218C338C008F6013 /* 08.png in Resources */,
+				C01D17A6218C338C008F6013 /* 07.png in Resources */,
 				C03A243B212C0405004B9347 /* J.json in Resources */,
 				C03A2404212BF6F0004B9347 /* LottieLogo1.json in Resources */,
 				C03A2448212C0405004B9347 /* Z.json in Resources */,
@@ -2386,12 +2479,16 @@
 				C032B40920E3336700A54277 /* AYMenuCell.xib in Resources */,
 				C032B40820E3336700A54277 /* qj@2x.png in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
+				C01D17A5218C338C008F6013 /* 06.png in Resources */,
+				C01D17AA218C338C008F6013 /* 09.png in Resources */,
 				C03A2431212C0405004B9347 /* BlinkingCursor.json in Resources */,
 				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
 				C03A243D212C0405004B9347 /* E.json in Resources */,
 				C0D339082184A15700C73993 /* YL56ViewController.xib in Resources */,
 				C03A2440212C0405004B9347 /* Q.json in Resources */,
 				C03A2436212C0405004B9347 /* K.json in Resources */,
+				C01D17A2218C338C008F6013 /* 01.png in Resources */,
+				C01D17A7218C338C008F6013 /* 05.png in Resources */,
 				C032B40720E3336700A54277 /* qj@3x.png in Resources */,
 				C0A3272B212D307C00436A98 /* YLEditLabelViewController.xib in Resources */,
 				C03A2442212C0405004B9347 /* Colon.json in Resources */,
@@ -2402,17 +2499,20 @@
 				C03A243F212C0405004B9347 /* P.json in Resources */,
 				C00E6DEE21479F7C00733F50 /* YLMineDefaultCell.xib in Resources */,
 				C03A2438212C0405004B9347 /* G.json in Resources */,
+				C01D17A8218C338C008F6013 /* 04.png in Resources */,
 				C03A2446212C0405004B9347 /* Comma.json in Resources */,
 				C03A2444212C0405004B9347 /* C.json in Resources */,
 				C03A2430212C0405004B9347 /* X.json in Resources */,
 				C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */,
 				C03A2447212C0405004B9347 /* O.json in Resources */,
 				C03A244B212C0405004B9347 /* B.json in Resources */,
+				C01D17A4218C338C008F6013 /* 02.png in Resources */,
 				C03A2449212C0405004B9347 /* N.json in Resources */,
 				C03A2445212C0405004B9347 /* V.json in Resources */,
 				C03A2433212C0405004B9347 /* L.json in Resources */,
 				C033FF0820B5177000470BFC /* Assets.xcassets in Resources */,
 				C083392620BAF73100F6CAF6 /* YLShowImageViewController.xib in Resources */,
+				C01D17A9218C338C008F6013 /* 10.png in Resources */,
 				C021DC7421869EF70019FBE1 /* YLTailoringImageViewController.xib in Resources */,
 				C03A2452212C0865004B9347 /* Boat_Loader.json in Resources */,
 				C03A2435212C0405004B9347 /* U.json in Resources */,
@@ -2558,6 +2658,7 @@
 				C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */,
 				C09734112175D8E1004FBC24 /* YLTLoginView.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
+				C0603950218EE4DE00AF093C /* YLVoiceInputView.m in Sources */,
 				C097340E2175D44C004FBC24 /* YLLoginTextFieldView.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0C949E220E4C9FA00EF6EE1 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
@@ -2573,6 +2674,7 @@
 				C0BB15EB20B9A50F00A0095A /* UIImage+YLHelper.m in Sources */,
 				C032B41320E3678800A54277 /* YLMenuPushViewController.m in Sources */,
 				C00E6DF22147A51700733F50 /* YLMineHeaderView.m in Sources */,
+				C01D1796218C26BA008F6013 /* AppDelegate+PushService.m in Sources */,
 				C04312D620BE3D54002E345F /* AppDelegate+AppService.m in Sources */,
 				C0B90874216C80A500D044C6 /* NSDictionary+ATHelper.m in Sources */,
 				C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */,
@@ -2585,6 +2687,7 @@
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,
 				C04312E320BE7511002E345F /* UIView+SnapShot.m in Sources */,
 				C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */,
+				C0603954218EE58500AF093C /* YLAudioRecorderViewController.m in Sources */,
 				C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */,
 				C0B9087A216C80F600D044C6 /* ATNetworkManager.m in Sources */,
 				C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */,
@@ -2593,6 +2696,7 @@
 				C00387E02133DB8F0037E6BF /* YLTouchListTableViewController.m in Sources */,
 				C0A32776212D692100436A98 /* YLByAroundViewController.m in Sources */,
 				C032B3F920E3308700A54277 /* YLMenuCellModel.m in Sources */,
+				C01D1793218C20D6008F6013 /* YLQuickCreateManager.m in Sources */,
 				C0BB15FA20B9A6D900A0095A /* UITabBar+YLBadge.m in Sources */,
 				C0C949F020E4D0A300EF6EE1 /* WaterFlowLayout.m in Sources */,
 				C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */,

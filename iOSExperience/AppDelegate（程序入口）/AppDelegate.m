@@ -6,40 +6,39 @@
 //  Copyright © 2018年 avatar. All rights reserved.
 //
 
-//*           _____                    _____                    _____                    _____
-//*          /\    \                  /\    \                  /\    \                  /\    \
-//*         /::\____\                /::\    \                /::\    \                /::\    \
-//*        /:::/    /                \:::\    \              /::::\    \              /::::\    \
-//*       /:::/    /                  \:::\    \            /::::::\    \            /::::::\    \
-//*      /:::/    /                    \:::\    \          /:::/\:::\    \          /:::/\:::\    \
-//*     /:::/____/                      \:::\    \        /:::/__\:::\    \        /:::/__\:::\    \
-//*    /::::\    \                      /::::\    \      /::::\   \:::\    \      /::::\   \:::\    \
-//*   /::::::\    \   _____    ____    /::::::\    \    /::::::\   \:::\    \    /::::::\   \:::\    \
-//*  /:::/\:::\    \ /\    \  /\   \  /:::/\:::\    \  /:::/\:::\   \:::\____\  /:::/\:::\   \:::\    \
-//* /:::/  \:::\    /::\____\/::\   \/:::/  \:::\____\/:::/  \:::\   \:::|    |/:::/__\:::\   \:::\____\
-//* \::/    \:::\  /:::/    /\:::\  /:::/    \::/    /\::/   |::::\  /:::|____|\:::\   \:::\   \::/    /
-//*  \/____/ \:::\/:::/    /  \:::\/:::/    / \/____/  \/____|:::::\/:::/    /  \:::\   \:::\   \/____/
-//*           \::::::/    /    \::::::/    /                 |:::::::::/    /    \:::\   \:::\    \
-//*            \::::/    /      \::::/____/                  |::|\::::/    /      \:::\   \:::\____\
-//*            /:::/    /        \:::\    \                  |::| \::/____/        \:::\   \::/    /
-//*           /:::/    /          \:::\    \                 |::|  ~|               \:::\   \/____/
-//*          /:::/    /            \:::\    \                |::|   |                \:::\    \
-//*         /:::/    /              \:::\____\               \::|   |                 \:::\____\
-//*         \::/    /                \::/    /                \:|   |                  \::/    /
-//*          \/____/                  \/____/                  \|___|                   \/____/
-//*
-
+/**
+ *      ┌─┐       ┌─┐ + +
+ *   ┌──┘ ┴───────┘ ┴──┐++
+ *   │                 │
+ *   │       ───       │++ + + +
+ *   ███████───███████ │+
+ *   │                 │+
+ *   │       ─┴─       │
+ *   │                 │
+ *   └───┐         ┌───┘
+ *       │         │
+ *       │         │   + +
+ *       │         │
+ *       │         └──────────────┐
+ *       │                        │
+ *       │                        ├─┐
+ *       │                        ┌─┘
+ *       │                        │
+ *       └─┐  ┐  ┌───────┬──┐  ┌──┘  + + + +
+ *         │ ─┤ ─┤       │ ─┤ ─┤
+ *         └──┴──┘       └──┴──┘  + + + +
+ *                神兽保佑
+ *               代码无BUG!
+ */
 
 #import "AppDelegate.h"
 #import "YLTabBarControllerConfig.h"
-#import <UserNotifications/UserNotifications.h>
-#import "YYFPSLabel.h"
 #import <UIView+YYAdd.h>
 #import <Bugly/Bugly.h>
-#import "AdPageView.h"
-#import "YLRunWebViewViewController.h"
-#import <AFNetworking.h>
-@interface AppDelegate ()<UNUserNotificationCenterDelegate>
+
+#import "AppDelegate+AppService.h"
+#import "AppDelegate+PushService.h"
+@interface AppDelegate ()
 
 @end
 
@@ -47,93 +46,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //接入腾讯bugly
     [Bugly startWithAppId:@"89f9662ded"];
     
 //    注册本地通知
     [self RegisteredNotification];
     NSLog(@"%@",[NSHomeDirectory() stringByAppendingFormat:@"/tmp"]);
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-//    YLTabBarControllerConfig *tabBar = [[YLTabBarControllerConfig alloc] init];
-//    _mainTabBar = tabBar;
-//    self.window.rootViewController = tabBar.tabBarController;
-    self.interactor = [YLAppInteractor new];
-    self.interactor.keyWindow = self.window;
-    [self.interactor startUIFlow];
-    
-    
-    [self.window makeKeyAndVisible];
-    [self showFPS];
+    [self initWindow];
+//    广告页
     [self appStart];
 //    设置应用角标
     [self showAppCount];
+//    网络状态监听
     [self networkStatusChangeAFN];
+    
     return YES;
-}
-- (void)showFPS{
-    YYFPSLabel *_fpsLabel = [YYFPSLabel new];
-    [_fpsLabel sizeToFit];
-    _fpsLabel.bottom = SCREEN_HEIGHT - 55;
-    _fpsLabel.right = SCREEN_WIDTH - 10;
-    //    _fpsLabel.alpha = 0;
-    [[UIApplication sharedApplication].delegate.window addSubview:_fpsLabel];
-}
-
-- (void)appStart{
-    //加载广告
-    AdPageView *adView = [[AdPageView alloc] initWithFrame:[UIScreen mainScreen].bounds withTapBlock:^{
-        YLRunWebViewViewController *ctr = [[YLRunWebViewViewController alloc] init];
-        ctr.url = @"http://www.hao123.com";
-        [[UIApplication sharedApplication].delegate.window.rootViewController presentViewController:ctr animated:YES completion:nil];
-    }];
-    adView = adView;
-}
-
-- (void)showAppCount {
-    UIApplication *app = [UIApplication sharedApplication];
-    app.applicationIconBadgeNumber = 10;
-    // 创建通知对象
-    UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
-    // 注册用户通知
-    [app registerUserNotificationSettings:setting];
-    
-}
-
--(void)networkStatusChangeAFN
-{
-    //1.获得一个网络状态监听管理者
-    AFNetworkReachabilityManager *manager =  [AFNetworkReachabilityManager sharedManager];
-    
-    //2.监听状态的改变(当网络状态改变的时候就会调用该block)
-    [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-        
-        /*
-         AFNetworkReachabilityStatusUnknown          = -1,  未知
-         AFNetworkReachabilityStatusNotReachable     = 0,   没有网络
-         AFNetworkReachabilityStatusReachableViaWWAN = 1,    3G|4G
-         AFNetworkReachabilityStatusReachableViaWiFi = 2,   WIFI
-         */
-        switch (status) {
-            case AFNetworkReachabilityStatusReachableViaWiFi:
-                NSLog(@"wifi");
-                break;
-            case AFNetworkReachabilityStatusReachableViaWWAN:
-                NSLog(@"3G|4G");
-                break;
-            case AFNetworkReachabilityStatusNotReachable:
-                NSLog(@"没有网络");
-                break;
-            case AFNetworkReachabilityStatusUnknown:
-                NSLog(@"未知");
-                break;
-                
-            default:
-                break;
-        }
-    }];
-    
-    //3.手动开启 开始监听
-    [manager startMonitoring];
 }
 
 
@@ -168,46 +95,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-- (void)RegisteredNotification {
-    
-    // 使用 UNUserNotificationCenter 来管理通知
-    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-    //监听回调事件
-    center.delegate = self;
-    
-    //iOS 10 使用以下方法注册，才能得到授权，注册通知以后，会自动注册 deviceToken，如果获取不到 deviceToken，Xcode8下要注意开启 Capability->Push Notification。
-    [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound)
-                          completionHandler:^(BOOL granted, NSError * _Nullable error) {
-                              // Enable or disable features based on authorization.
-                          }];
-    
-    //获取当前的通知设置，UNNotificationSettings 是只读对象，不能直接修改，只能通过以下方法获取
-    [center getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
-        
-    }];
-    
-}
 
-#pragma mark - UNUserNotificationCenterDelegate
-//在展示通知前进行处理，即有机会在展示通知前再修改通知内容。
--(void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler{
-    NSDictionary * userInfo = notification.request.content.userInfo;
-    UNNotificationRequest *request = notification.request; // 收到推送的请求
-    UNNotificationContent *content = request.content; // 收到推送的消息内容
-    NSNumber *badge = content.badge;  // 推送消息的角标
-    NSString *body = content.body;    // 推送消息体
-    UNNotificationSound *sound = content.sound;  // 推送消息的声音
-    NSString *subtitle = content.subtitle;  // 推送消息的副标题
-    NSString *title = content.title;  // 推送消息的标题
-    
-    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
-        NSLog(@"iOS10 前台收到远程通知:%@", body);
-        
-    } else {
-        // 判断为本地通知
-        NSLog(@"iOS10 前台收到本地通知:{\\\\nbody:%@，\\\\ntitle:%@,\\\\nsubtitle:%@,\\\\nbadge：%@，\\\\nsound：%@，\\\\nuserInfo：%@\\\\n}",body,title,subtitle,badge,sound,userInfo);
-    }
-    completionHandler(UNNotificationPresentationOptionBadge|UNNotificationPresentationOptionSound|UNNotificationPresentationOptionAlert); // 需要执行这个方法，选择是否提醒用户，有Badge、Sound、Alert三种类型可以设置
-}
+
 
 @end

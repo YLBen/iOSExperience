@@ -15,7 +15,7 @@
 // ViewModel
 
 // tools
-
+#import <MJRefresh/MJRefresh.h>
 // category
 
 // third party
@@ -47,8 +47,23 @@
 #pragma mark - private methods
 - (void)initConstraint {
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self);
+        make.top.left.right.equalTo(self);
+        make.bottom.equalTo(self.mas_bottom);
     }];
+}
+
+- (void)loadNewData {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.tableView.mj_header endRefreshing];
+    });
+    
+}
+
+- (void)loadMoreData {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.tableView.mj_footer endRefreshing];
+    });
+    
 }
 #pragma mark - getter && setter
 - (void)setDataSouce:(NSArray *)dataSouce {
@@ -62,6 +77,27 @@
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.tableFooterView = [UIView new];
+        MJRefreshGifHeader *header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+        // 设置普通状态的动画图片
+        NSArray *idleImages = @[[UIImage imageNamed:@"01"], [UIImage imageNamed:@"02"], [UIImage imageNamed:@"03"]];
+        [header setImages:idleImages forState:MJRefreshStateIdle];
+        
+        // 设置即将刷新状态的动画图片（一松开就会刷新的状态）
+        NSArray *pullingImages = @[[UIImage imageNamed:@"04"], [UIImage imageNamed:@"05"], [UIImage imageNamed:@"06"]];
+        [header setImages:pullingImages forState:MJRefreshStatePulling];
+        
+        // 设置正在刷新状态的动画图片
+        NSArray *refreshingImages = @[[UIImage imageNamed:@"07"], [UIImage imageNamed:@"08"], [UIImage imageNamed:@"09"]];
+        [header setImages:refreshingImages forState:MJRefreshStateRefreshing];
+//        // 隐藏时间
+//        header.lastUpdatedTimeLabel.hidden = YES;
+//
+//        // 隐藏状态
+//        header.stateLabel.hidden = YES;
+        // 设置 header
+        _tableView.mj_header = header;
+        _tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+        
 //        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     }
     return _tableView;

@@ -32,7 +32,17 @@
 }
 
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    if ([self.navigationController.navigationBar isHidden]) {
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }else {
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+        
+    }
+    
+    
+    
+}
 
 
 @end

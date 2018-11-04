@@ -104,6 +104,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"13"
                             },
+                        @{
+                            YLLetfTitle : @"录音",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"14"
+                            },
                         
                         ];
     
