@@ -18,5 +18,8 @@ pod 'lottie-ios'
 pod 'DateTools'
 pod 'Bugly'
 
-
+##友盟
+pod 'UMCCommon'
+pod 'UMCPush'
+pod 'UMCSecurityPlugins'
 end

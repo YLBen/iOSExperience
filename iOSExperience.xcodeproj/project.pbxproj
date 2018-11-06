@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C00387E02133DB8F0037E6BF /* YLTouchListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00387DF2133DB8F0037E6BF /* YLTouchListTableViewController.m */; };
 		C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C0E5D211ED29900842F3D /* YLLinkageTableViewViewController.m */; };
 		C00E6DED21479F7C00733F50 /* YLMineDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C00E6DEB21479F7C00733F50 /* YLMineDefaultCell.m */; };
 		C00E6DEE21479F7C00733F50 /* YLMineDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C00E6DEC21479F7C00733F50 /* YLMineDefaultCell.xib */; };
@@ -202,8 +201,18 @@
 		C0C949FB20E4DABD00EF6EE1 /* PersonListLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C949F920E4DABD00EF6EE1 /* PersonListLogic.m */; };
 		C0C9C2FC20C8DCCE00FAB6EA /* YLFuzzyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */; };
 		C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */; };
-		C0D339072184A15700C73993 /* YL56ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D339052184A15700C73993 /* YL56ViewController.m */; };
-		C0D339082184A15700C73993 /* YL56ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0D339062184A15700C73993 /* YL56ViewController.xib */; };
+		C0CBFA4A21902A4E00AD4801 /* YLCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA4821902A4E00AD4801 /* YLCollectionHeaderView.m */; };
+		C0CBFA4D21902A7400AD4801 /* YLCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA4C21902A7400AD4801 /* YLCollectionFooterView.m */; };
+		C0CBFA5021902AF800AD4801 /* YLDefaultCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA4F21902AF800AD4801 /* YLDefaultCollectionViewCell.m */; };
+		C0CBFA5421902CD000AD4801 /* YLDefaultCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA5321902CD000AD4801 /* YLDefaultCollectionViewController.m */; };
+		C0CBFA59219039BD00AD4801 /* YLGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA58219039BD00AD4801 /* YLGuideViewController.m */; };
+		C0CBFA5D219039F100AD4801 /* YLGuideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA5C219039F100AD4801 /* YLGuideCollectionViewCell.m */; };
+		C0CBFA6321915F5300AD4801 /* YLEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA6221915F5300AD4801 /* YLEffectsTableViewController.m */; };
+		C0CBFA682191613500AD4801 /* CYXPhotoViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA672191613500AD4801 /* CYXPhotoViewLayout.m */; };
+		C0CBFA6B2191663A00AD4801 /* YLPhotoViewLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA6A2191663A00AD4801 /* YLPhotoViewLayoutViewController.m */; };
+		C0CBFA6E21916BD700AD4801 /* RGCardViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA6D21916BD700AD4801 /* RGCardViewLayout.m */; };
+		C0CBFA7121916C7D00AD4801 /* YLCardViewLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CBFA7021916C7D00AD4801 /* YLCardViewLayoutViewController.m */; };
+		C0CBFA732191724B00AD4801 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CBFA722191724B00AD4801 /* UserNotifications.framework */; };
 		C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */; };
 		C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */; };
 		C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD320F6FF1A00EEB95E /* shony.m */; };
@@ -227,8 +236,6 @@
 
 /* Begin PBXFileReference section */
 		13679B75C473A6BA40024BA8 /* Pods-iOSExperience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.debug.xcconfig"; sourceTree = "<group>"; };
-		C00387DE2133DB8F0037E6BF /* YLTouchListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTouchListTableViewController.h; sourceTree = "<group>"; };
-		C00387DF2133DB8F0037E6BF /* YLTouchListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTouchListTableViewController.m; sourceTree = "<group>"; };
 		C00C0E5C211ED29900842F3D /* YLLinkageTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLinkageTableViewViewController.h; sourceTree = "<group>"; };
 		C00C0E5D211ED29900842F3D /* YLLinkageTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLinkageTableViewViewController.m; sourceTree = "<group>"; };
 		C00E6DEA21479F7C00733F50 /* YLMineDefaultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMineDefaultCell.h; sourceTree = "<group>"; };
@@ -562,9 +569,30 @@
 		C0C9C2FB20C8DCCE00FAB6EA /* YLFuzzyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLFuzzyViewController.m; sourceTree = "<group>"; };
 		C0C9C2FE20C9020800FAB6EA /* YLEditableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEditableViewController.h; sourceTree = "<group>"; };
 		C0C9C2FF20C9020800FAB6EA /* YLEditableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEditableViewController.m; sourceTree = "<group>"; };
-		C0D339042184A15700C73993 /* YL56ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YL56ViewController.h; sourceTree = "<group>"; };
-		C0D339052184A15700C73993 /* YL56ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YL56ViewController.m; sourceTree = "<group>"; };
-		C0D339062184A15700C73993 /* YL56ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YL56ViewController.xib; sourceTree = "<group>"; };
+		C0CBFA4821902A4E00AD4801 /* YLCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCollectionHeaderView.m; sourceTree = "<group>"; };
+		C0CBFA4921902A4E00AD4801 /* YLCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCollectionHeaderView.h; sourceTree = "<group>"; };
+		C0CBFA4B21902A7400AD4801 /* YLCollectionFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCollectionFooterView.h; sourceTree = "<group>"; };
+		C0CBFA4C21902A7400AD4801 /* YLCollectionFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCollectionFooterView.m; sourceTree = "<group>"; };
+		C0CBFA4E21902AF800AD4801 /* YLDefaultCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLDefaultCollectionViewCell.h; sourceTree = "<group>"; };
+		C0CBFA4F21902AF800AD4801 /* YLDefaultCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLDefaultCollectionViewCell.m; sourceTree = "<group>"; };
+		C0CBFA5221902CD000AD4801 /* YLDefaultCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLDefaultCollectionViewController.h; sourceTree = "<group>"; };
+		C0CBFA5321902CD000AD4801 /* YLDefaultCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLDefaultCollectionViewController.m; sourceTree = "<group>"; };
+		C0CBFA57219039BD00AD4801 /* YLGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLGuideViewController.h; sourceTree = "<group>"; };
+		C0CBFA58219039BD00AD4801 /* YLGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLGuideViewController.m; sourceTree = "<group>"; };
+		C0CBFA5B219039F100AD4801 /* YLGuideCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLGuideCollectionViewCell.h; sourceTree = "<group>"; };
+		C0CBFA5C219039F100AD4801 /* YLGuideCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLGuideCollectionViewCell.m; sourceTree = "<group>"; };
+		C0CBFA6121915F5300AD4801 /* YLEffectsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEffectsTableViewController.h; sourceTree = "<group>"; };
+		C0CBFA6221915F5300AD4801 /* YLEffectsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLEffectsTableViewController.m; sourceTree = "<group>"; };
+		C0CBFA662191613500AD4801 /* CYXPhotoViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPhotoViewLayout.h; sourceTree = "<group>"; };
+		C0CBFA672191613500AD4801 /* CYXPhotoViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPhotoViewLayout.m; sourceTree = "<group>"; };
+		C0CBFA692191663A00AD4801 /* YLPhotoViewLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPhotoViewLayoutViewController.h; sourceTree = "<group>"; };
+		C0CBFA6A2191663A00AD4801 /* YLPhotoViewLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPhotoViewLayoutViewController.m; sourceTree = "<group>"; };
+		C0CBFA6C21916BD700AD4801 /* RGCardViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCardViewLayout.h; sourceTree = "<group>"; };
+		C0CBFA6D21916BD700AD4801 /* RGCardViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCardViewLayout.m; sourceTree = "<group>"; };
+		C0CBFA6F21916C7D00AD4801 /* YLCardViewLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCardViewLayoutViewController.h; sourceTree = "<group>"; };
+		C0CBFA7021916C7D00AD4801 /* YLCardViewLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCardViewLayoutViewController.m; sourceTree = "<group>"; };
+		C0CBFA722191724B00AD4801 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C0CBFA742191725B00AD4801 /* iOSExperience.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSExperience.entitlements; sourceTree = "<group>"; };
 		C0DE1ACD20F6FEE200EEB95E /* YLsimpleButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLsimpleButtonsViewController.h; sourceTree = "<group>"; };
 		C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLsimpleButtonsViewController.m; sourceTree = "<group>"; };
 		C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyperLinks.m; sourceTree = "<group>"; };
@@ -609,6 +637,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CBFA732191724B00AD4801 /* UserNotifications.framework in Frameworks */,
 				DFD54AB3BA9BCAFBF551AF83 /* libPods-iOSExperience.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,34 +652,6 @@
 				DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		C00387DD2133DB660037E6BF /* 触摸事件 */ = {
-			isa = PBXGroup;
-			children = (
-				C00387E22133DE040037E6BF /* 单点触摸 */,
-				C00387E12133DE010037E6BF /* New Group */,
-				C00387DE2133DB8F0037E6BF /* YLTouchListTableViewController.h */,
-				C00387DF2133DB8F0037E6BF /* YLTouchListTableViewController.m */,
-				C0D339042184A15700C73993 /* YL56ViewController.h */,
-				C0D339052184A15700C73993 /* YL56ViewController.m */,
-				C0D339062184A15700C73993 /* YL56ViewController.xib */,
-			);
-			path = "触摸事件";
-			sourceTree = "<group>";
-		};
-		C00387E12133DE010037E6BF /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		C00387E22133DE040037E6BF /* 单点触摸 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "单点触摸";
 			sourceTree = "<group>";
 		};
 		C00C0E5A211ECC6E00842F3D /* tableView二级联动 */ = {
@@ -898,6 +899,7 @@
 		C033FEFD20B5176E00470BFC /* iOSExperience */ = {
 			isa = PBXGroup;
 			children = (
+				C0CBFA742191725B00AD4801 /* iOSExperience.entitlements */,
 				C033FF1420B519CF00470BFC /* AppDelegate（程序入口） */,
 				C033FF1520B519EF00470BFC /* Modules（功能模块） */,
 				C033FF1B20B5231F00470BFC /* ThridParty（第三方库） */,
@@ -1521,8 +1523,10 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0CBFA5E2191473300AD4801 /* 带特效的图片浏览器 */,
+				C0CBFA552190397A00AD4801 /* 新手引导页 */,
+				C0CBFA4621902A1200AD4801 /* 普通CollectionView */,
 				C0B90852216C3DA300D044C6 /* 自定义转场动画 */,
-				C00387DD2133DB660037E6BF /* 触摸事件 */,
 				C08E3C27212E9E600062687E /* 图片轮播器 */,
 				C0A32771212D689C00436A98 /* 图文环绕 */,
 				C0A32722212D302A00436A98 /* label复制.粘贴.剪切 */,
@@ -2208,6 +2212,105 @@
 			path = "可编辑的tableView";
 			sourceTree = "<group>";
 		};
+		C0CBFA4621902A1200AD4801 /* 普通CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA5121902C9100AD4801 /* ViewController */,
+				C0CBFA4721902A2A00AD4801 /* View */,
+			);
+			path = "普通CollectionView";
+			sourceTree = "<group>";
+		};
+		C0CBFA4721902A2A00AD4801 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA4921902A4E00AD4801 /* YLCollectionHeaderView.h */,
+				C0CBFA4821902A4E00AD4801 /* YLCollectionHeaderView.m */,
+				C0CBFA4B21902A7400AD4801 /* YLCollectionFooterView.h */,
+				C0CBFA4C21902A7400AD4801 /* YLCollectionFooterView.m */,
+				C0CBFA4E21902AF800AD4801 /* YLDefaultCollectionViewCell.h */,
+				C0CBFA4F21902AF800AD4801 /* YLDefaultCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0CBFA5121902C9100AD4801 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA5221902CD000AD4801 /* YLDefaultCollectionViewController.h */,
+				C0CBFA5321902CD000AD4801 /* YLDefaultCollectionViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0CBFA552190397A00AD4801 /* 新手引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA5A219039C100AD4801 /* View */,
+				C0CBFA56219039A000AD4801 /* ViewController */,
+			);
+			path = "新手引导页";
+			sourceTree = "<group>";
+		};
+		C0CBFA56219039A000AD4801 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA57219039BD00AD4801 /* YLGuideViewController.h */,
+				C0CBFA58219039BD00AD4801 /* YLGuideViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0CBFA5A219039C100AD4801 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA5B219039F100AD4801 /* YLGuideCollectionViewCell.h */,
+				C0CBFA5C219039F100AD4801 /* YLGuideCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0CBFA5E2191473300AD4801 /* 带特效的图片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA5F2191474B00AD4801 /* 带特效的图片浏览器 */,
+			);
+			path = "带特效的图片浏览器";
+			sourceTree = "<group>";
+		};
+		C0CBFA5F2191474B00AD4801 /* 带特效的图片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA652191610700AD4801 /* layout */,
+				C0CBFA64219160F600AD4801 /* ViewController */,
+				C0CBFA6121915F5300AD4801 /* YLEffectsTableViewController.h */,
+				C0CBFA6221915F5300AD4801 /* YLEffectsTableViewController.m */,
+			);
+			path = "带特效的图片浏览器";
+			sourceTree = "<group>";
+		};
+		C0CBFA64219160F600AD4801 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA692191663A00AD4801 /* YLPhotoViewLayoutViewController.h */,
+				C0CBFA6A2191663A00AD4801 /* YLPhotoViewLayoutViewController.m */,
+				C0CBFA6F21916C7D00AD4801 /* YLCardViewLayoutViewController.h */,
+				C0CBFA7021916C7D00AD4801 /* YLCardViewLayoutViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0CBFA652191610700AD4801 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBFA6C21916BD700AD4801 /* RGCardViewLayout.h */,
+				C0CBFA6D21916BD700AD4801 /* RGCardViewLayout.m */,
+				C0CBFA662191613500AD4801 /* CYXPhotoViewLayout.h */,
+				C0CBFA672191613500AD4801 /* CYXPhotoViewLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
 		C0DE1ACB20F6FE9100EEB95E /* 一些按钮 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2465,6 +2568,7 @@
 		C6D9A2D05D70ED46CFE896D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0CBFA722191724B00AD4801 /* UserNotifications.framework */,
 				FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */,
 			);
 			name = Frameworks;
@@ -2504,6 +2608,14 @@
 				TargetAttributes = {
 					C033FEFA20B5176E00470BFC = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -2550,7 +2662,6 @@
 				C03A2431212C0405004B9347 /* BlinkingCursor.json in Resources */,
 				C04312D320BE3A69002E345F /* YLLocalNotificationsViewController.xib in Resources */,
 				C03A243D212C0405004B9347 /* E.json in Resources */,
-				C0D339082184A15700C73993 /* YL56ViewController.xib in Resources */,
 				C03A2440212C0405004B9347 /* Q.json in Resources */,
 				C03A2436212C0405004B9347 /* K.json in Resources */,
 				C01D17A2218C338C008F6013 /* 01.png in Resources */,
@@ -2652,6 +2763,7 @@
 				C083391620BAE1F700F6CAF6 /* YLBaseFrameModel.m in Sources */,
 				C0B90891216C98BB00D044C6 /* YLAdvancedViewController+add.m in Sources */,
 				C03ACE7420C6873D001B5C30 /* YLScratchableLatexViewController.m in Sources */,
+				C0CBFA5421902CD000AD4801 /* YLDefaultCollectionViewController.m in Sources */,
 				C0C949E120E4C9FA00EF6EE1 /* UICollectionView+IndexPath.m in Sources */,
 				C08338F320BAD84100F6CAF6 /* YLTabBarControllerConfig.m in Sources */,
 				C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */,
@@ -2668,6 +2780,7 @@
 				C0B9087F216C83B800D044C6 /* NSData+AES.m in Sources */,
 				C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */,
 				C032B3F320E32B1400A54277 /* YLMenuViewController.m in Sources */,
+				C0CBFA4D21902A7400AD4801 /* YLCollectionFooterView.m in Sources */,
 				C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */,
 				C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */,
 				C0BBB211216FADEB00414705 /* YLTranstionAnimationPush.m in Sources */,
@@ -2681,7 +2794,9 @@
 				C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */,
 				C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */,
 				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
+				C0CBFA5D219039F100AD4801 /* YLGuideCollectionViewCell.m in Sources */,
 				C00E6DED21479F7C00733F50 /* YLMineDefaultCell.m in Sources */,
+				C0CBFA7121916C7D00AD4801 /* YLCardViewLayoutViewController.m in Sources */,
 				C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */,
 				C021DC7321869EF70019FBE1 /* YLTailoringImageViewController.m in Sources */,
 				C03DA8CF20EB78480089BC12 /* AFN_Download_Tool.m in Sources */,
@@ -2704,7 +2819,9 @@
 				C0A32732212D335800436A98 /* YLShowViewController+add.m in Sources */,
 				C0BB15E720B9A4B000A0095A /* UIFont+YLHelper.m in Sources */,
 				C0BBB214216FB04600414705 /* YLTranstionAnimationPop.m in Sources */,
+				C0CBFA682191613500AD4801 /* CYXPhotoViewLayout.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
+				C0CBFA5021902AF800AD4801 /* YLDefaultCollectionViewCell.m in Sources */,
 				C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */,
 				C03A240D212C023C004B9347 /* AnimatedTextField.m in Sources */,
 				C0C949ED20E4CDF600EF6EE1 /* PersonListCollectionViewCell.m in Sources */,
@@ -2722,6 +2839,8 @@
 				C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */,
 				C032B40C20E3336700A54277 /* AYMenuCell.m in Sources */,
 				C04312E520BE7511002E345F /* HSRotatedView.m in Sources */,
+				C0CBFA6321915F5300AD4801 /* YLEffectsTableViewController.m in Sources */,
+				C0CBFA6B2191663A00AD4801 /* YLPhotoViewLayoutViewController.m in Sources */,
 				C08E3C2B212E9EA70062687E /* YLPictureRepeaterViewController.m in Sources */,
 				C0BB15D920B9A26A00A0095A /* YLBaseViewModel.m in Sources */,
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
@@ -2738,6 +2857,7 @@
 				C0C949E220E4C9FA00EF6EE1 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				C0AEB42020E215620030F533 /* TableViewController.m in Sources */,
 				C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */,
+				C0CBFA59219039BD00AD4801 /* YLGuideViewController.m in Sources */,
 				C0B3018520D3B45D00F78CDD /* AdPageView.m in Sources */,
 				C097340A2175D408004FBC24 /* YLLoginInfoModel.m in Sources */,
 				C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */,
@@ -2753,6 +2873,7 @@
 				C0B90874216C80A500D044C6 /* NSDictionary+ATHelper.m in Sources */,
 				C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
+				C0CBFA4A21902A4E00AD4801 /* YLCollectionHeaderView.m in Sources */,
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
@@ -2767,7 +2888,6 @@
 				C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */,
 				C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */,
 				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,
-				C00387E02133DB8F0037E6BF /* YLTouchListTableViewController.m in Sources */,
 				C0A32776212D692100436A98 /* YLByAroundViewController.m in Sources */,
 				C032B3F920E3308700A54277 /* YLMenuCellModel.m in Sources */,
 				C01D1793218C20D6008F6013 /* YLQuickCreateManager.m in Sources */,
@@ -2778,6 +2898,7 @@
 				C060397F218F255A00AF093C /* RMAudioHud.m in Sources */,
 				C0EBEFCA21108FB4005726B2 /* CustomProgressView.m in Sources */,
 				C032B40D20E3336700A54277 /* AYMenuData.m in Sources */,
+				C0CBFA6E21916BD700AD4801 /* RGCardViewLayout.m in Sources */,
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
 				C032B40A20E3336700A54277 /* AYMenuView.m in Sources */,
 				C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */,
@@ -2785,7 +2906,6 @@
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
 				C09734192175E503004FBC24 /* YLUserModel.m in Sources */,
 				C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */,
-				C0D339072184A15700C73993 /* YL56ViewController.m in Sources */,
 				C0B9088E216C968F00D044C6 /* YLAdvancedViewModel.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,

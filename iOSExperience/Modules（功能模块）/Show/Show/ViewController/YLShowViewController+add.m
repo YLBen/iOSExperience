@@ -35,9 +35,11 @@
 #import "YLEditLabelViewController.h"
 #import "YLByAroundViewController.h"
 #import "YLPictureRepeaterViewController.h"
-#import "YLTouchListTableViewController.h"
+#import "YLDefaultCollectionViewController.h"
 #import "YLAnimatedTransitionViewController.h"
 
+#import "YLGuideViewController.h"
+#import "YLEffectsTableViewController.h"
 @implementation YLShowViewController (add)
 - (void)pushToViewControllerWithTag:(NSString *)tag {
     if ([tag isEqualToString:@"0"]) {
@@ -157,13 +159,22 @@
         //YLEditLabelViewController
     }
     else if ([tag isEqualToString:@"28"]) {
-        YLTouchListTableViewController *ctr = [[YLTouchListTableViewController alloc] init];
+        YLDefaultCollectionViewController *ctr = [[YLDefaultCollectionViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
-        //YLEditLabelViewController
     }
+//    else if ([tag isEqualToString:@"29"]) {
+//
+//        YLAnimatedTransitionViewController *ctr = [[YLAnimatedTransitionViewController alloc] init];
+//        [self.navigationController pushViewController:ctr animated:YES];
+//    }
     else if ([tag isEqualToString:@"29"]) {
-       
-        YLAnimatedTransitionViewController *ctr = [[YLAnimatedTransitionViewController alloc] init];
+        
+        YLGuideViewController *ctr = [[YLGuideViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"30"]) {
+        
+        YLEffectsTableViewController *ctr = [[YLEffectsTableViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
     
