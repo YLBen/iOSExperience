@@ -3,7 +3,7 @@
 //  CYLTabBarController
 //
 //  v1.16.0 Created by 微博@iOS程序犭袁 ( http://weibo.com/luohanchenyilong/ ) on 10/20/15.
-//  Copyright © 2015 https://github.com/ChenYilong . All rights reserved.
+//  Copyright © 2018 https://github.com/ChenYilong . All rights reserved.
 //
 
 #import "CYLTabBarController.h"
@@ -14,10 +14,14 @@
 NSString *const CYLTabBarItemTitle = @"CYLTabBarItemTitle";
 NSString *const CYLTabBarItemImage = @"CYLTabBarItemImage";
 NSString *const CYLTabBarItemSelectedImage = @"CYLTabBarItemSelectedImage";
+NSString *const CYLTabBarItemImageInsets = @"CYLTabBarItemImageInsets";
+NSString *const CYLTabBarItemTitlePositionAdjustment = @"CYLTabBarItemTitlePositionAdjustment";
 
 NSUInteger CYLTabbarItemsCount = 0;
 NSUInteger CYLPlusButtonIndex = 0;
 CGFloat CYLTabBarItemWidth = 0.0f;
+CGFloat CYLTabBarHeight = 0.0f;
+
 NSString *const CYLTabBarItemWidthDidChangeNotification = @"CYLTabBarItemWidthDidChangeNotification";
 static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageViewDefaultOffsetContext;
 
@@ -47,12 +51,20 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
     }
 }
 
+- (void)setSelectedIndex:(NSUInteger)selectedIndex {
+    [super setSelectedIndex:selectedIndex];
+    [self updateSelectionStatusIfNeededForTabBarController:nil shouldSelectViewController:nil];
+}
+
 - (void)setViewDidLayoutSubViewsBlock:(CYLViewDidLayoutSubViewsBlock)viewDidLayoutSubviewsBlock {
     _viewDidLayoutSubviewsBlock = viewDidLayoutSubviewsBlock;
 }
 
 - (void)viewDidLayoutSubviews {
-    [self.tabBar layoutSubviews];//Fix issue #93
+    CGFloat deviceVersion = [[[UIDevice currentDevice] systemVersion] floatValue];
+    if (deviceVersion >= 10 && deviceVersion < 10.2) {
+        [self.tabBar layoutSubviews];//Fix issue #93
+    }
     UITabBar *tabBar =  self.tabBar;
     for (UIControl *control in tabBar.subviews) {
         if ([control isKindOfClass:[UIControl class]]) {
@@ -74,6 +86,11 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
         frame.origin.y = self.view.frame.size.height - tabBarHeight;
         frame;
     });
+}
+
+- (void)setTabBarHeight:(CGFloat)tabBarHeight {
+    _tabBarHeight = tabBarHeight;
+    CYLTabBarHeight = tabBarHeight;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
@@ -185,7 +202,8 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
 
 - (void)hideTabBadgeBackgroundSeparator {
     [self.tabBar layoutIfNeeded];
-    self.tabBar.cyl_tabBadgeBackgroundSeparator.hidden = YES;
+    self.tabBar.cyl_tabBadgeBackgroundSeparator.alpha = 0;
+    self.tabBar.barStyle = UIBarStyleBlack;
 }
 
 + (BOOL)havePlusButton {
@@ -296,10 +314,20 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
             NSString *title = nil;
             id normalImageInfo = nil;
             id selectedImageInfo = nil;
+            UIOffset titlePositionAdjustment = UIOffsetZero;
+            UIEdgeInsets imageInsets = UIEdgeInsetsZero;
             if (viewController != CYLPlusChildViewController) {
                 title = _tabBarItemsAttributes[idx][CYLTabBarItemTitle];
                 normalImageInfo = _tabBarItemsAttributes[idx][CYLTabBarItemImage];
                 selectedImageInfo = _tabBarItemsAttributes[idx][CYLTabBarItemSelectedImage];
+                
+                NSValue *offsetValue = _tabBarItemsAttributes[idx][CYLTabBarItemTitlePositionAdjustment];
+                UIOffset offset = [offsetValue UIOffsetValue];
+                titlePositionAdjustment = offset;
+                
+                NSValue *insetsValue = _tabBarItemsAttributes[idx][CYLTabBarItemImageInsets];
+                UIEdgeInsets insets = [insetsValue UIEdgeInsetsValue];
+                imageInsets = insets;
             } else {
                 idx--;
             }
@@ -307,7 +335,11 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
             [self addOneChildViewController:viewController
                                   WithTitle:title
                             normalImageInfo:normalImageInfo
-                          selectedImageInfo:selectedImageInfo];
+                          selectedImageInfo:selectedImageInfo
+                    titlePositionAdjustment:titlePositionAdjustment
+                                imageInsets:imageInsets
+             
+             ];
             [[viewController cyl_getViewControllerInsteadOfNavigationController] cyl_setTabBarController:self];
             idx++;
         }
@@ -317,6 +349,13 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
         }
         _viewControllers = nil;
     }
+}
+
+- (void)setTintColor:(UIColor *)tintColor {
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 8.f) {
+        [self.tabBar setSelectedImageTintColor:tintColor];
+    }
+    self.tabBar.tintColor = tintColor;
 }
 
 /**
@@ -330,23 +369,25 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
 - (void)addOneChildViewController:(UIViewController *)viewController
                         WithTitle:(NSString *)title
                   normalImageInfo:(id)normalImageInfo
-                selectedImageInfo:(id)selectedImageInfo {
+                selectedImageInfo:(id)selectedImageInfo
+          titlePositionAdjustment:(UIOffset)titlePositionAdjustment
+                      imageInsets:(UIEdgeInsets)imageInsets {
     viewController.tabBarItem.title = title;
     if (normalImageInfo) {
         UIImage *normalImage = [self getImageFromImageInfo:normalImageInfo];
-        normalImage = [normalImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         viewController.tabBarItem.image = normalImage;
     }
     if (selectedImageInfo) {
         UIImage *selectedImage = [self getImageFromImageInfo:selectedImageInfo];
-        selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         viewController.tabBarItem.selectedImage = selectedImage;
+    } 
+    if (self.shouldCustomizeImageInsets || ([self isNOTEmptyForImageInsets:imageInsets])) {
+        UIEdgeInsets insets = (([self isNOTEmptyForImageInsets:imageInsets]) ? imageInsets : self.imageInsets);
+        viewController.tabBarItem.imageInsets = insets;
     }
-    if (self.shouldCustomizeImageInsets) {
-        viewController.tabBarItem.imageInsets = self.imageInsets;
-    }
-    if (self.shouldCustomizeTitlePositionAdjustment) {
-        viewController.tabBarItem.titlePositionAdjustment = self.titlePositionAdjustment;
+    if (self.shouldCustomizeTitlePositionAdjustment || [self isNOTEmptyForTitlePositionAdjustment:titlePositionAdjustment]) {
+        UIOffset offset = (([self isNOTEmptyForTitlePositionAdjustment:titlePositionAdjustment]) ? titlePositionAdjustment : self.titlePositionAdjustment);
+        viewController.tabBarItem.titlePositionAdjustment = offset;
     }
     [self addChildViewController:viewController];
 }
@@ -355,6 +396,7 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
     UIImage *image = nil;
     if ([imageInfo isKindOfClass:[NSString class]]) {
         image = [UIImage imageNamed:imageInfo];
+        image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     } else if ([imageInfo isKindOfClass:[UIImage class]]) {
         image = (UIImage *)imageInfo;
     }
@@ -362,13 +404,27 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
 }
 
 - (BOOL)shouldCustomizeImageInsets {
-    BOOL shouldCustomizeImageInsets = self.imageInsets.top != 0.f || self.imageInsets.left != 0.f || self.imageInsets.bottom != 0.f || self.imageInsets.right != 0.f;
+    BOOL shouldCustomizeImageInsets = [self isNOTEmptyForImageInsets:self.imageInsets];
     return shouldCustomizeImageInsets;
 }
 
 - (BOOL)shouldCustomizeTitlePositionAdjustment {
-    BOOL shouldCustomizeTitlePositionAdjustment = self.titlePositionAdjustment.horizontal != 0.f || self.titlePositionAdjustment.vertical != 0.f;
+    BOOL shouldCustomizeTitlePositionAdjustment = [self isNOTEmptyForTitlePositionAdjustment:self.titlePositionAdjustment];
     return shouldCustomizeTitlePositionAdjustment;
+}
+
+- (BOOL)isNOTEmptyForImageInsets:(UIEdgeInsets)imageInsets {
+    if (imageInsets.top != 0 || imageInsets.left != 0 || imageInsets.bottom != 0 || imageInsets.right != 0) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL)isNOTEmptyForTitlePositionAdjustment:(UIOffset)titlePositionAdjustment {
+    if (titlePositionAdjustment.horizontal != 0 || titlePositionAdjustment.vertical != 0) {
+        return YES;
+    }
+    return NO;
 }
 
 #pragma mark -
@@ -404,14 +460,17 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
 
 - (void)updateSelectionStatusIfNeededForTabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     UIButton *plusButton = CYLExternPlusButton;
-    CYLTabBarController *tabBarViewController = [[CYLPlusChildViewController cyl_getViewControllerInsteadOfNavigationController] cyl_tabBarController];
-   NSArray *viewControllers = tabBarViewController.viewControllers;
-    BOOL isAdded = [self isPlusViewControllerAdded:viewControllers];
-    BOOL hasPlusChildViewController = isAdded;
-    BOOL isNotCurrentViewController = ![self isEqualViewController:viewController compairedViewController:CYLPlusChildViewController];
-    BOOL shouldConfigureSelectionStatus = (hasPlusChildViewController && isNotCurrentViewController);
+    if (!viewController) {
+        viewController = self.selectedViewController;
+    }
+     BOOL isCurrentViewController = [self isEqualViewController:viewController compairedViewController:CYLPlusChildViewController];
+    BOOL shouldConfigureSelectionStatus = (!isCurrentViewController);
     if (shouldConfigureSelectionStatus) {
         plusButton.selected = NO;
+        [self didSelectControl:viewController.tabBarItem.cyl_tabButton];
+    } else {
+        plusButton.selected = YES;
+        [self didSelectControl:plusButton];
     }
 }
 
@@ -438,7 +497,7 @@ static void * const CYLTabImageViewDefaultOffsetContext = (void*)&CYLTabImageVie
     if ([self.delegate respondsToSelector:actin]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-        [self.delegate performSelector:actin withObject:self withObject:control];
+        [self.delegate performSelector:actin withObject:self withObject:control ?: self.selectedViewController.tabBarItem.cyl_tabButton];
 #pragma clang diagnostic pop
     }
 }

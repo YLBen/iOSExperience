@@ -2610,10 +2610,10 @@
 						CreatedOnToolsVersion = 9.3;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.Push = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -2721,7 +2721,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSExperience/Pods-iOSExperience-resources.sh",
 				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
@@ -2732,7 +2732,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSExperience/Pods-iOSExperience-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6BB4BE389FA89E46FFE0BB95 /* [CP] Check Pods Manifest.lock */ = {
@@ -3056,8 +3056,9 @@
 			baseConfigurationReference = 13679B75C473A6BA40024BA8 /* Pods-iOSExperience.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSExperience/iOSExperience.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HHH85LCW4M;
+				DEVELOPMENT_TEAM = 68883QDKWX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSExperience/Resource（资源文件夹）/YLHeader.pch";
 				INFOPLIST_FILE = "iOSExperience/Resource（资源文件夹）/Info.plist";
@@ -3065,7 +3066,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.iOSExperience;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenYL.iOSExperience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3076,8 +3077,9 @@
 			baseConfigurationReference = DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOSExperience/iOSExperience.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HHH85LCW4M;
+				DEVELOPMENT_TEAM = 68883QDKWX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSExperience/Resource（资源文件夹）/YLHeader.pch";
 				INFOPLIST_FILE = "iOSExperience/Resource（资源文件夹）/Info.plist";
@@ -3085,7 +3087,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.avatar.iOSExperience;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BenYL.iOSExperience;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
