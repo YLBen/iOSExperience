@@ -20,6 +20,7 @@
 #import "LADownloadTestViewController.h"
 #import "YLAnimatedTransitionViewController.h"
 #import "YLAudioRecorderViewController.h"
+#import "YLLocalH5ViewController.h"
 
 #import "UIView+YLLoading.h"
 @implementation YLAdvancedViewController (add)
@@ -79,6 +80,13 @@
         //        YLAnimatedTransitionViewController *ctr = [[YLAnimatedTransitionViewController alloc] init];
         //        [self.navigationController pushViewController:ctr animated:YES];
         YLAudioRecorderViewController *ctr = [[YLAudioRecorderViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"15"]) {
+        //        暂时封印
+        //        YLAnimatedTransitionViewController *ctr = [[YLAnimatedTransitionViewController alloc] init];
+        //        [self.navigationController pushViewController:ctr animated:YES];
+        YLLocalH5ViewController *ctr = [[YLLocalH5ViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

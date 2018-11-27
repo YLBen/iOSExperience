@@ -40,6 +40,8 @@
 
 #import "YLGuideViewController.h"
 #import "YLEffectsTableViewController.h"
+#import "YLPassByValueTableViewController.h"
+#import "YLQrCodeViewController.h"
 @implementation YLShowViewController (add)
 - (void)pushToViewControllerWithTag:(NSString *)tag {
     if ([tag isEqualToString:@"0"]) {
@@ -177,9 +179,17 @@
         YLEffectsTableViewController *ctr = [[YLEffectsTableViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
-    
+    else if ([tag isEqualToString:@"31"]) {
+        
+        YLPassByValueTableViewController *ctr = [[YLPassByValueTableViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"32"]) {
+        
+        YLQrCodeViewController *ctr = [[YLQrCodeViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
 }
-
 
 
 @end

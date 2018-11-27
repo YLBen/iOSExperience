@@ -13,6 +13,8 @@
 #import <Masonry.h>
 #import "UIViewController+AlertViewAndActionSheet.h"
 #import "AppDelegate.h"
+
+#import "YLFileMannger.h"
 @interface YLSettingViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NSArray *dataSouce;
@@ -171,8 +173,10 @@
 }
 -(float)folderSizeAtPath:(NSString *)path{
     NSFileManager *fileManager=[NSFileManager defaultManager];
-    NSString *cachePath=[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
-    cachePath=[cachePath stringByAppendingPathComponent:path];
+//    NSString *cachePath=[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
+//    cachePath=[cachePath stringByAppendingPathComponent:path];
+    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
+    
     long long folderSize=0;
     if ([fileManager fileExistsAtPath:cachePath])
     {

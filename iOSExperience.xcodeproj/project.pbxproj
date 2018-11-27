@@ -15,7 +15,6 @@
 		C0128A6921899067002E3BA7 /* YLCleanCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C0128A6821899067002E3BA7 /* YLCleanCache.m */; };
 		C01D1793218C20D6008F6013 /* YLQuickCreateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D1792218C20D6008F6013 /* YLQuickCreateManager.m */; };
 		C01D1796218C26BA008F6013 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = C01D1795218C26BA008F6013 /* AppDelegate+PushService.m */; };
-		C01D17A2218C338C008F6013 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D1798218C338C008F6013 /* 01.png */; };
 		C01D17A3218C338C008F6013 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D1799218C338C008F6013 /* 03.png */; };
 		C01D17A4218C338C008F6013 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179A218C338C008F6013 /* 02.png */; };
 		C01D17A5218C338C008F6013 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D179B218C338C008F6013 /* 06.png */; };
@@ -94,6 +93,21 @@
 		C03ACE7720C68762001B5C30 /* YLScratchableLatexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7620C68762001B5C30 /* YLScratchableLatexModel.m */; };
 		C03ACE7A20C68790001B5C30 /* YLScratchableLatexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */; };
 		C03ACE7D20C687AA001B5C30 /* YLScratchableLatexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03ACE7C20C687AA001B5C30 /* YLScratchableLatexView.m */; };
+		C03CCA4221ACE4A2002514A0 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA4121ACE4A2002514A0 /* 01.png */; };
+		C03CCA5A21ACE57B002514A0 /* YLLocalH5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03CCA5821ACE57B002514A0 /* YLLocalH5ViewController.m */; };
+		C03CCA5B21ACE57B002514A0 /* YLLocalH5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA5921ACE57B002514A0 /* YLLocalH5ViewController.xib */; };
+		C03CCA7121ACEDA1002514A0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6121ACEDA1002514A0 /* index.html */; };
+		C03CCA7221ACEDA1002514A0 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6321ACEDA1002514A0 /* index.css */; };
+		C03CCA7321ACEDA1002514A0 /* weixindenglu.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6521ACEDA1002514A0 /* weixindenglu.png */; };
+		C03CCA7421ACEDA1002514A0 /* pwd.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6621ACEDA1002514A0 /* pwd.png */; };
+		C03CCA7521ACEDA1002514A0 /* qq-copy-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6721ACEDA1002514A0 /* qq-copy-copy.png */; };
+		C03CCA7621ACEDA1002514A0 /* weibodenglu.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6821ACEDA1002514A0 /* weibodenglu.png */; };
+		C03CCA7721ACEDA1002514A0 /* yonghu.png in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6921ACEDA1002514A0 /* yonghu.png */; };
+		C03CCA7821ACEDA1002514A0 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6A21ACEDA1002514A0 /* 0.jpg */; };
+		C03CCA7921ACEDA1002514A0 /* 登录界面.iml in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6D21ACEDA1002514A0 /* 登录界面.iml */; };
+		C03CCA7A21ACEDA1002514A0 /* workspace.xml in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6E21ACEDA1002514A0 /* workspace.xml */; };
+		C03CCA7B21ACEDA1002514A0 /* modules.xml in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA6F21ACEDA1002514A0 /* modules.xml */; };
+		C03CCA7C21ACEDA1002514A0 /* misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = C03CCA7021ACEDA1002514A0 /* misc.xml */; };
 		C03DA88320EA24030089BC12 /* SUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA87F20EA24030089BC12 /* SUTableView.m */; };
 		C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA88020EA24030089BC12 /* SUTableViewInterceptor.m */; };
 		C03DA88720EA243D0089BC12 /* YLUnlimitedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DA88620EA243D0089BC12 /* YLUnlimitedViewController.m */; };
@@ -108,6 +122,7 @@
 		C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04312E720BE753A002E345F /* DemoFoldingCell.m */; };
 		C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */; };
 		C04A798A20C535A2005CE5C9 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C04A798820C535A2005CE5C9 /* NSString+Check.m */; };
+		C04CCFD82199177900FEF109 /* YLPassByValueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04CCFD72199177900FEF109 /* YLPassByValueTableViewController.m */; };
 		C0603954218EE58500AF093C /* YLAudioRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */; };
 		C060397B218F255A00AF093C /* voice_record_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C060396F218F255900AF093C /* voice_record_0@2x.png */; };
 		C060397C218F255A00AF093C /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0603970218F255900AF093C /* voice_record_2@3x.png */; };
@@ -216,6 +231,8 @@
 		C0DE1ACF20F6FEE200EEB95E /* YLsimpleButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1ACE20F6FEE200EEB95E /* YLsimpleButtonsViewController.m */; };
 		C0DE1AD520F6FF1A00EEB95E /* HyperLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD120F6FF1A00EEB95E /* HyperLinks.m */; };
 		C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1AD320F6FF1A00EEB95E /* shony.m */; };
+		C0E9509D21A3E7C6003743E6 /* YLQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E9509B21A3E7C6003743E6 /* YLQrCodeViewController.m */; };
+		C0E9509E21A3E7C6003743E6 /* YLQrCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E9509C21A3E7C6003743E6 /* YLQrCodeViewController.xib */; };
 		C0EA454F214A40190043C3AD /* YLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA454E214A40190043C3AD /* YLSettingViewController.m */; };
 		C0EA4555214A48CF0043C3AD /* YLSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA4554214A48CF0043C3AD /* YLSettingModel.m */; };
 		C0EA455E214A6A080043C3AD /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA4559214A6A070043C3AD /* UIViewController+AlertViewAndActionSheet.m */; };
@@ -251,7 +268,6 @@
 		C01D1792218C20D6008F6013 /* YLQuickCreateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLQuickCreateManager.m; sourceTree = "<group>"; };
 		C01D1794218C26BA008F6013 /* AppDelegate+PushService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+PushService.h"; sourceTree = "<group>"; };
 		C01D1795218C26BA008F6013 /* AppDelegate+PushService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+PushService.m"; sourceTree = "<group>"; };
-		C01D1798218C338C008F6013 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		C01D1799218C338C008F6013 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		C01D179A218C338C008F6013 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		C01D179B218C338C008F6013 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
@@ -361,6 +377,22 @@
 		C03ACE7920C68790001B5C30 /* YLScratchableLatexCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexCell.m; sourceTree = "<group>"; };
 		C03ACE7B20C687AA001B5C30 /* YLScratchableLatexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLScratchableLatexView.h; sourceTree = "<group>"; };
 		C03ACE7C20C687AA001B5C30 /* YLScratchableLatexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLScratchableLatexView.m; sourceTree = "<group>"; };
+		C03CCA4121ACE4A2002514A0 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		C03CCA5721ACE57B002514A0 /* YLLocalH5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLocalH5ViewController.h; sourceTree = "<group>"; };
+		C03CCA5821ACE57B002514A0 /* YLLocalH5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLocalH5ViewController.m; sourceTree = "<group>"; };
+		C03CCA5921ACE57B002514A0 /* YLLocalH5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalH5ViewController.xib; sourceTree = "<group>"; };
+		C03CCA6121ACEDA1002514A0 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C03CCA6321ACEDA1002514A0 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		C03CCA6521ACEDA1002514A0 /* weixindenglu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixindenglu.png; sourceTree = "<group>"; };
+		C03CCA6621ACEDA1002514A0 /* pwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pwd.png; sourceTree = "<group>"; };
+		C03CCA6721ACEDA1002514A0 /* qq-copy-copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq-copy-copy.png"; sourceTree = "<group>"; };
+		C03CCA6821ACEDA1002514A0 /* weibodenglu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weibodenglu.png; sourceTree = "<group>"; };
+		C03CCA6921ACEDA1002514A0 /* yonghu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yonghu.png; sourceTree = "<group>"; };
+		C03CCA6A21ACEDA1002514A0 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		C03CCA6D21ACEDA1002514A0 /* 登录界面.iml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "登录界面.iml"; sourceTree = "<group>"; };
+		C03CCA6E21ACEDA1002514A0 /* workspace.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		C03CCA6F21ACEDA1002514A0 /* modules.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		C03CCA7021ACEDA1002514A0 /* misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
 		C03DA87F20EA24030089BC12 /* SUTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUTableView.m; sourceTree = "<group>"; };
 		C03DA88020EA24030089BC12 /* SUTableViewInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUTableViewInterceptor.m; sourceTree = "<group>"; };
 		C03DA88120EA24030089BC12 /* SUTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUTableView.h; sourceTree = "<group>"; };
@@ -388,6 +420,8 @@
 		C04A798520C53466005CE5C9 /* NSDate+CalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarTool.m"; sourceTree = "<group>"; };
 		C04A798820C535A2005CE5C9 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 		C04A798920C535A2005CE5C9 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		C04CCFD62199177900FEF109 /* YLPassByValueTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPassByValueTableViewController.h; sourceTree = "<group>"; };
+		C04CCFD72199177900FEF109 /* YLPassByValueTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPassByValueTableViewController.m; sourceTree = "<group>"; };
 		C0603952218EE58500AF093C /* YLAudioRecorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAudioRecorderViewController.h; sourceTree = "<group>"; };
 		C0603953218EE58500AF093C /* YLAudioRecorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAudioRecorderViewController.m; sourceTree = "<group>"; };
 		C060396F218F255900AF093C /* voice_record_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_0@2x.png"; sourceTree = "<group>"; };
@@ -599,6 +633,9 @@
 		C0DE1AD220F6FF1A00EEB95E /* shony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shony.h; sourceTree = "<group>"; };
 		C0DE1AD320F6FF1A00EEB95E /* shony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shony.m; sourceTree = "<group>"; };
 		C0DE1AD420F6FF1A00EEB95E /* HyperLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyperLinks.h; sourceTree = "<group>"; };
+		C0E9509A21A3E7C6003743E6 /* YLQrCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLQrCodeViewController.h; sourceTree = "<group>"; };
+		C0E9509B21A3E7C6003743E6 /* YLQrCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLQrCodeViewController.m; sourceTree = "<group>"; };
+		C0E9509C21A3E7C6003743E6 /* YLQrCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLQrCodeViewController.xib; sourceTree = "<group>"; };
 		C0EA454D214A40190043C3AD /* YLSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSettingViewController.h; sourceTree = "<group>"; };
 		C0EA454E214A40190043C3AD /* YLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSettingViewController.m; sourceTree = "<group>"; };
 		C0EA4553214A48CF0043C3AD /* YLSettingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSettingModel.h; sourceTree = "<group>"; };
@@ -739,7 +776,7 @@
 		C01D1797218C338C008F6013 /* 下拉刷新gif */ = {
 			isa = PBXGroup;
 			children = (
-				C01D1798218C338C008F6013 /* 01.png */,
+				C03CCA4121ACE4A2002514A0 /* 01.png */,
 				C01D1799218C338C008F6013 /* 03.png */,
 				C01D179A218C338C008F6013 /* 02.png */,
 				C01D179B218C338C008F6013 /* 06.png */,
@@ -972,6 +1009,7 @@
 		C033FF1920B522E600470BFC /* Resource（资源文件夹） */ = {
 			isa = PBXGroup;
 			children = (
+				C03CCA6021ACEDA1002514A0 /* 登录界面 */,
 				C01D1797218C338C008F6013 /* 下拉刷新gif */,
 				C03A2400212BF6F0004B9347 /* json动画 */,
 				C033FF0120B5176E00470BFC /* ViewController.h */,
@@ -1162,6 +1200,67 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C03CCA4321ACE4E6002514A0 /* 加载本地H5 */ = {
+			isa = PBXGroup;
+			children = (
+				C03CCA5721ACE57B002514A0 /* YLLocalH5ViewController.h */,
+				C03CCA5821ACE57B002514A0 /* YLLocalH5ViewController.m */,
+				C03CCA5921ACE57B002514A0 /* YLLocalH5ViewController.xib */,
+			);
+			path = "加载本地H5";
+			sourceTree = "<group>";
+		};
+		C03CCA6021ACEDA1002514A0 /* 登录界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C03CCA6121ACEDA1002514A0 /* index.html */,
+				C03CCA6221ACEDA1002514A0 /* CSS */,
+				C03CCA6421ACEDA1002514A0 /* image */,
+				C03CCA6B21ACEDA1002514A0 /* .idea */,
+			);
+			path = "登录界面";
+			sourceTree = "<group>";
+		};
+		C03CCA6221ACEDA1002514A0 /* CSS */ = {
+			isa = PBXGroup;
+			children = (
+				C03CCA6321ACEDA1002514A0 /* index.css */,
+			);
+			path = CSS;
+			sourceTree = "<group>";
+		};
+		C03CCA6421ACEDA1002514A0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C03CCA6521ACEDA1002514A0 /* weixindenglu.png */,
+				C03CCA6621ACEDA1002514A0 /* pwd.png */,
+				C03CCA6721ACEDA1002514A0 /* qq-copy-copy.png */,
+				C03CCA6821ACEDA1002514A0 /* weibodenglu.png */,
+				C03CCA6921ACEDA1002514A0 /* yonghu.png */,
+				C03CCA6A21ACEDA1002514A0 /* 0.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C03CCA6B21ACEDA1002514A0 /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				C03CCA6C21ACEDA1002514A0 /* inspectionProfiles */,
+				C03CCA6D21ACEDA1002514A0 /* 登录界面.iml */,
+				C03CCA6E21ACEDA1002514A0 /* workspace.xml */,
+				C03CCA6F21ACEDA1002514A0 /* modules.xml */,
+				C03CCA7021ACEDA1002514A0 /* misc.xml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		C03CCA6C21ACEDA1002514A0 /* inspectionProfiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = inspectionProfiles;
+			sourceTree = "<group>";
+		};
 		C03DA87920EA237E0089BC12 /* 无限滚动的tableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1298,6 +1397,15 @@
 			children = (
 			);
 			path = "首字母大写或小写";
+			sourceTree = "<group>";
+		};
+		C04CCFD5219916D500FEF109 /* 控制器传值 */ = {
+			isa = PBXGroup;
+			children = (
+				C04CCFD62199177900FEF109 /* YLPassByValueTableViewController.h */,
+				C04CCFD72199177900FEF109 /* YLPassByValueTableViewController.m */,
+			);
+			path = "控制器传值";
 			sourceTree = "<group>";
 		};
 		C060394C218EE48700AF093C /* 录音 */ = {
@@ -1523,6 +1631,8 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C0E9509621A3E6B8003743E6 /* 生成二维码 */,
+				C04CCFD5219916D500FEF109 /* 控制器传值 */,
 				C0CBFA5E2191473300AD4801 /* 带特效的图片浏览器 */,
 				C0CBFA552190397A00AD4801 /* 新手引导页 */,
 				C0CBFA4621902A1200AD4801 /* 普通CollectionView */,
@@ -2354,6 +2464,7 @@
 		C0E5F1D721709D7C0080D925 /* subViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C03CCA4321ACE4E6002514A0 /* 加载本地H5 */,
 				C060394C218EE48700AF093C /* 录音 */,
 				C021DC6F21869E950019FBE1 /* 裁剪图片 */,
 				C0E5F1D821709D930080D925 /* 多图选择 */,
@@ -2366,6 +2477,16 @@
 			children = (
 			);
 			path = "多图选择";
+			sourceTree = "<group>";
+		};
+		C0E9509621A3E6B8003743E6 /* 生成二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				C0E9509A21A3E7C6003743E6 /* YLQrCodeViewController.h */,
+				C0E9509B21A3E7C6003743E6 /* YLQrCodeViewController.m */,
+				C0E9509C21A3E7C6003743E6 /* YLQrCodeViewController.xib */,
+			);
+			path = "生成二维码";
 			sourceTree = "<group>";
 		};
 		C0EA454B214A3C660043C3AD /* Setting */ = {
@@ -2643,17 +2764,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01D17A3218C338C008F6013 /* 03.png in Resources */,
+				C03CCA5B21ACE57B002514A0 /* YLLocalH5ViewController.xib in Resources */,
 				C03A2441212C0405004B9347 /* D.json in Resources */,
 				C03A2437212C0405004B9347 /* R.json in Resources */,
 				C03A2439212C0405004B9347 /* F.json in Resources */,
 				C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */,
 				C01D17AB218C338C008F6013 /* 08.png in Resources */,
+				C03CCA7421ACEDA1002514A0 /* pwd.png in Resources */,
 				C01D17A6218C338C008F6013 /* 07.png in Resources */,
 				C03A243B212C0405004B9347 /* J.json in Resources */,
 				C03A2404212BF6F0004B9347 /* LottieLogo1.json in Resources */,
 				C03A2448212C0405004B9347 /* Z.json in Resources */,
+				C03CCA7C21ACEDA1002514A0 /* misc.xml in Resources */,
 				C03A242F212C0405004B9347 /* A.json in Resources */,
 				C03A242E212C0405004B9347 /* T.json in Resources */,
+				C03CCA7621ACEDA1002514A0 /* weibodenglu.png in Resources */,
 				C032B40920E3336700A54277 /* AYMenuCell.xib in Resources */,
 				C032B40820E3336700A54277 /* qj@2x.png in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
@@ -2664,12 +2789,12 @@
 				C03A243D212C0405004B9347 /* E.json in Resources */,
 				C03A2440212C0405004B9347 /* Q.json in Resources */,
 				C03A2436212C0405004B9347 /* K.json in Resources */,
-				C01D17A2218C338C008F6013 /* 01.png in Resources */,
 				C01D17A7218C338C008F6013 /* 05.png in Resources */,
 				C032B40720E3336700A54277 /* qj@3x.png in Resources */,
 				C0A3272B212D307C00436A98 /* YLEditLabelViewController.xib in Resources */,
 				C03A2442212C0405004B9347 /* Colon.json in Resources */,
 				C03A2443212C0405004B9347 /* H.json in Resources */,
+				C03CCA7921ACEDA1002514A0 /* 登录界面.iml in Resources */,
 				C03A243A212C0405004B9347 /* S.json in Resources */,
 				C0603981218F255A00AF093C /* voice_record_1@2x.png in Resources */,
 				C03A244A212C0405004B9347 /* W.json in Resources */,
@@ -2677,6 +2802,7 @@
 				C03A243F212C0405004B9347 /* P.json in Resources */,
 				C00E6DEE21479F7C00733F50 /* YLMineDefaultCell.xib in Resources */,
 				C03A2438212C0405004B9347 /* G.json in Resources */,
+				C03CCA7121ACEDA1002514A0 /* index.html in Resources */,
 				C01D17A8218C338C008F6013 /* 04.png in Resources */,
 				C03A2446212C0405004B9347 /* Comma.json in Resources */,
 				C060397D218F255A00AF093C /* voice_record_2@2x.png in Resources */,
@@ -2686,8 +2812,10 @@
 				C03A2447212C0405004B9347 /* O.json in Resources */,
 				C0603980218F255A00AF093C /* voice_record_3@3x.png in Resources */,
 				C03A244B212C0405004B9347 /* B.json in Resources */,
+				C03CCA7A21ACEDA1002514A0 /* workspace.xml in Resources */,
 				C060397C218F255A00AF093C /* voice_record_2@3x.png in Resources */,
 				C01D17A4218C338C008F6013 /* 02.png in Resources */,
+				C03CCA7B21ACEDA1002514A0 /* modules.xml in Resources */,
 				C03A2449212C0405004B9347 /* N.json in Resources */,
 				C0603983218F255A00AF093C /* voice_record_3@2x.png in Resources */,
 				C03A2445212C0405004B9347 /* V.json in Resources */,
@@ -2701,13 +2829,20 @@
 				C03A2452212C0865004B9347 /* Boat_Loader.json in Resources */,
 				C060397E218F255A00AF093C /* voice_record_0@3x.png in Resources */,
 				C03A2435212C0405004B9347 /* U.json in Resources */,
+				C03CCA7521ACEDA1002514A0 /* qq-copy-copy.png in Resources */,
 				C03A2432212C0405004B9347 /* M.json in Resources */,
+				C03CCA7221ACEDA1002514A0 /* index.css in Resources */,
 				C03A2403212BF6F0004B9347 /* Switch.json in Resources */,
+				C03CCA7821ACEDA1002514A0 /* 0.jpg in Resources */,
 				C03A243C212C0405004B9347 /* I.json in Resources */,
 				C03A2406212BFB5A004B9347 /* TwitterHeart.json in Resources */,
 				C03A243E212C0405004B9347 /* Apostrophe.json in Resources */,
+				C03CCA4221ACE4A2002514A0 /* 01.png in Resources */,
 				C03A2434212C0405004B9347 /* Y.json in Resources */,
+				C03CCA7721ACEDA1002514A0 /* yonghu.png in Resources */,
+				C0E9509E21A3E7C6003743E6 /* YLQrCodeViewController.xib in Resources */,
 				C032B41420E3678800A54277 /* YLMenuPushViewController.xib in Resources */,
+				C03CCA7321ACEDA1002514A0 /* weixindenglu.png in Resources */,
 				C033FF0620B5176E00470BFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2781,6 +2916,7 @@
 				C0AEB42420E215910030F533 /* YLRollingViewController.m in Sources */,
 				C032B3F320E32B1400A54277 /* YLMenuViewController.m in Sources */,
 				C0CBFA4D21902A7400AD4801 /* YLCollectionFooterView.m in Sources */,
+				C04CCFD82199177900FEF109 /* YLPassByValueTableViewController.m in Sources */,
 				C083391C20BAE86D00F6CAF6 /* YLShowListView.m in Sources */,
 				C083392520BAF73100F6CAF6 /* YLShowImageViewController.m in Sources */,
 				C0BBB211216FADEB00414705 /* YLTranstionAnimationPush.m in Sources */,
@@ -2852,6 +2988,7 @@
 				C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */,
 				C09734112175D8E1004FBC24 /* YLTLoginView.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
+				C03CCA5A21ACE57B002514A0 /* YLLocalH5ViewController.m in Sources */,
 				C097340E2175D44C004FBC24 /* YLLoginTextFieldView.m in Sources */,
 				C033FF0E20B5177000470BFC /* main.m in Sources */,
 				C0C949E220E4C9FA00EF6EE1 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
@@ -2878,6 +3015,7 @@
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
+				C0E9509D21A3E7C6003743E6 /* YLQrCodeViewController.m in Sources */,
 				C0B90861216C4E5E00D044C6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C033FF0020B5176E00470BFC /* AppDelegate.m in Sources */,
 				C04312E320BE7511002E345F /* UIView+SnapShot.m in Sources */,

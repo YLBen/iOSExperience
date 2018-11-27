@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (YLUserMannger *)shareInstance;
 - (void)setLoginedCurrentUser:(YLUserModel *)userModel;
 - (YLUserModel *)getCurrentUserModel;
+
 @end
 
 NS_ASSUME_NONNULL_END

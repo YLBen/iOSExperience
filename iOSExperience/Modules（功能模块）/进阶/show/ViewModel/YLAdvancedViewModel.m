@@ -110,8 +110,17 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"14"
                             },
+                        @{
+                            YLLetfTitle : @"加载本地H5",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"15"
+                            },
+                        
+                        
                         
                         ];
+    
     
     return dicArr;
 }

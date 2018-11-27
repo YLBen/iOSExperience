@@ -202,7 +202,18 @@
                             YLIsShowTitle : @(0),
                             YLTag : @"30"
                             },
-                        
+                        @{
+                            YLLetfTitle : @"iOS逆向传值的7种方式",
+                            
+                            YLIsShowTitle : @(1),
+                            YLTag : @"31"
+                            },
+                        @{
+                            YLLetfTitle : @"网址生成二维码",
+                            
+                            YLIsShowTitle : @(1),
+                            YLTag : @"32"
+                            },
 
                         ];
     

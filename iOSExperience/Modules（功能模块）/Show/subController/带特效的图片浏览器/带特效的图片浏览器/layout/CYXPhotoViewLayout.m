@@ -66,7 +66,7 @@
         // 根据间距值 计算 cell的缩放比例
         CGFloat scale = 1.2 - delta / self.collectionView.frame.size.width;
         
-        YLLog(@"%f,%f",delta,scale);
+//        YLLog(@"%f,%f",delta,scale);
         // 设置缩放比例
         attrs.transform = CGAffineTransformMakeScale(scale, scale);
     }
