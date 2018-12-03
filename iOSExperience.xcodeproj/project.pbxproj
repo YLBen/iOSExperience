@@ -256,6 +256,11 @@
 		C0FC40ED21B4C05C00023B9A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40EC21B4C05C00023B9A /* BaseNavigationController.m */; };
 		C0FC40F221B4C0E900023B9A /* YLPhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40F021B4C0E900023B9A /* YLPhotoAlbumViewController.m */; };
 		C0FC40F321B4C0E900023B9A /* YLPhotoAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FC40F121B4C0E900023B9A /* YLPhotoAlbumViewController.xib */; };
+		C0FC40FB21B4CDAC00023B9A /* FlowingMenuTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40F621B4CDAC00023B9A /* FlowingMenuTransitionManager.m */; };
+		C0FC40FC21B4CDAC00023B9A /* FlowingMenuTransitionStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40F821B4CDAC00023B9A /* FlowingMenuTransitionStatus.m */; };
+		C0FC410121B4CE6000023B9A /* YLBouncingEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40FF21B4CE6000023B9A /* YLBouncingEffectsViewController.m */; };
+		C0FC410221B4CE6000023B9A /* YLBouncingEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FC410021B4CE6000023B9A /* YLBouncingEffectsViewController.xib */; };
+		C0FC410521B4CF4100023B9A /* YLLeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC410421B4CF4100023B9A /* YLLeftMenuTableViewController.m */; };
 		DFD54AB3BA9BCAFBF551AF83 /* libPods-iOSExperience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */; };
 /* End PBXBuildFile section */
 
@@ -688,6 +693,17 @@
 		C0FC40EF21B4C0E900023B9A /* YLPhotoAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPhotoAlbumViewController.h; sourceTree = "<group>"; };
 		C0FC40F021B4C0E900023B9A /* YLPhotoAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPhotoAlbumViewController.m; sourceTree = "<group>"; };
 		C0FC40F121B4C0E900023B9A /* YLPhotoAlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLPhotoAlbumViewController.xib; sourceTree = "<group>"; };
+		C0FC40F521B4CDAC00023B9A /* FlowingMenuTransitionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowingMenuTransitionStatus.h; sourceTree = "<group>"; };
+		C0FC40F621B4CDAC00023B9A /* FlowingMenuTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowingMenuTransitionManager.m; sourceTree = "<group>"; };
+		C0FC40F721B4CDAC00023B9A /* FlowingMenuTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowingMenuTransitionManager.h; sourceTree = "<group>"; };
+		C0FC40F821B4CDAC00023B9A /* FlowingMenuTransitionStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowingMenuTransitionStatus.m; sourceTree = "<group>"; };
+		C0FC40F921B4CDAC00023B9A /* FromViewControllerNeedsConform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromViewControllerNeedsConform.h; sourceTree = "<group>"; };
+		C0FC40FA21B4CDAC00023B9A /* ToViewControllerNeedsConform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToViewControllerNeedsConform.h; sourceTree = "<group>"; };
+		C0FC40FE21B4CE6000023B9A /* YLBouncingEffectsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLBouncingEffectsViewController.h; sourceTree = "<group>"; };
+		C0FC40FF21B4CE6000023B9A /* YLBouncingEffectsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBouncingEffectsViewController.m; sourceTree = "<group>"; };
+		C0FC410021B4CE6000023B9A /* YLBouncingEffectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLBouncingEffectsViewController.xib; sourceTree = "<group>"; };
+		C0FC410321B4CF4100023B9A /* YLLeftMenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLLeftMenuTableViewController.h; sourceTree = "<group>"; };
+		C0FC410421B4CF4100023B9A /* YLLeftMenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLLeftMenuTableViewController.m; sourceTree = "<group>"; };
 		DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.release.xcconfig"; sourceTree = "<group>"; };
 		FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExperience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1068,6 +1084,7 @@
 		C033FF1B20B5231F00470BFC /* ThridParty（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC40F421B4CDAC00023B9A /* FlowingMenuTransition */,
 				C0B3017D20D3AC8300F78CDD /* FPS */,
 				C031970E20BBF522008CCC4D /* FYSystemCamera */,
 			);
@@ -2488,6 +2505,7 @@
 		C0E5F1D721709D7C0080D925 /* subViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC40FD21B4CE3100023B9A /* 左滑弹簧菜单 */,
 				C0FC40EE21B4C0BE00023B9A /* 相册 */,
 				C03CCA4321ACE4E6002514A0 /* 加载本地H5 */,
 				C060394C218EE48700AF093C /* 录音 */,
@@ -2748,6 +2766,31 @@
 			path = "相册";
 			sourceTree = "<group>";
 		};
+		C0FC40F421B4CDAC00023B9A /* FlowingMenuTransition */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC40F521B4CDAC00023B9A /* FlowingMenuTransitionStatus.h */,
+				C0FC40F621B4CDAC00023B9A /* FlowingMenuTransitionManager.m */,
+				C0FC40F721B4CDAC00023B9A /* FlowingMenuTransitionManager.h */,
+				C0FC40F821B4CDAC00023B9A /* FlowingMenuTransitionStatus.m */,
+				C0FC40F921B4CDAC00023B9A /* FromViewControllerNeedsConform.h */,
+				C0FC40FA21B4CDAC00023B9A /* ToViewControllerNeedsConform.h */,
+			);
+			path = FlowingMenuTransition;
+			sourceTree = "<group>";
+		};
+		C0FC40FD21B4CE3100023B9A /* 左滑弹簧菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC40FE21B4CE6000023B9A /* YLBouncingEffectsViewController.h */,
+				C0FC40FF21B4CE6000023B9A /* YLBouncingEffectsViewController.m */,
+				C0FC410021B4CE6000023B9A /* YLBouncingEffectsViewController.xib */,
+				C0FC410321B4CF4100023B9A /* YLLeftMenuTableViewController.h */,
+				C0FC410421B4CF4100023B9A /* YLLeftMenuTableViewController.m */,
+			);
+			path = "左滑弹簧菜单";
+			sourceTree = "<group>";
+		};
 		C6D9A2D05D70ED46CFE896D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2842,6 +2885,7 @@
 				C03A242E212C0405004B9347 /* T.json in Resources */,
 				C03CCA7621ACEDA1002514A0 /* weibodenglu.png in Resources */,
 				C032B40920E3336700A54277 /* AYMenuCell.xib in Resources */,
+				C0FC410221B4CE6000023B9A /* YLBouncingEffectsViewController.xib in Resources */,
 				C032B40820E3336700A54277 /* qj@2x.png in Resources */,
 				C033FF0B20B5177000470BFC /* LaunchScreen.storyboard in Resources */,
 				C01D17A5218C338C008F6013 /* 06.png in Resources */,
@@ -2967,7 +3011,9 @@
 				C0BB15D120B99DBE00A0095A /* YLBaseViewController.m in Sources */,
 				C0BB15F220B9A5DA00A0095A /* UILabel+YLChangeLineSpaceAndWordSpace.m in Sources */,
 				C0C949F520E4D42700EF6EE1 /* XYTransition.m in Sources */,
+				C0FC410121B4CE6000023B9A /* YLBouncingEffectsViewController.m in Sources */,
 				C0B3017920D39E4100F78CDD /* YLRunWebViewViewController.m in Sources */,
+				C0FC40FC21B4CDAC00023B9A /* FlowingMenuTransitionStatus.m in Sources */,
 				C097341C2175E56F004FBC24 /* YLUserMannger.m in Sources */,
 				C04312E820BE753A002E345F /* DemoFoldingCell.m in Sources */,
 				C03A23FD212BC37F004B9347 /* YLEffectViewController.m in Sources */,
@@ -3052,6 +3098,7 @@
 				C0C949FB20E4DABD00EF6EE1 /* PersonListLogic.m in Sources */,
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
 				C03DA88420EA24030089BC12 /* SUTableViewInterceptor.m in Sources */,
+				C0FC40FB21B4CDAC00023B9A /* FlowingMenuTransitionManager.m in Sources */,
 				C09734112175D8E1004FBC24 /* YLTLoginView.m in Sources */,
 				C04312D220BE3A69002E345F /* YLLocalNotificationsViewController.m in Sources */,
 				C03CCA5A21ACE57B002514A0 /* YLLocalH5ViewController.m in Sources */,
@@ -3117,6 +3164,7 @@
 				C0B9088E216C968F00D044C6 /* YLAdvancedViewModel.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,
+				C0FC410521B4CF4100023B9A /* YLLeftMenuTableViewController.m in Sources */,
 				C07CF23F20D68D21007D12CA /* DBSphereView.m in Sources */,
 				C0AEB40A20E214DF0030F533 /* XLSegmentedSlideSwitch.m in Sources */,
 				C0EB5875216B0B41000CEA10 /* ATBundleSetting.m in Sources */,

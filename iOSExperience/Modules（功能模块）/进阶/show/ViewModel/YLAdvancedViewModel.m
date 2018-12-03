@@ -121,6 +121,12 @@
                             //                            YLRightTitle : @"lottie-ios",
                             YLIsShowTitle : @(1),
                             YLTag : @"16"
+                            },
+                        @{
+                            YLLetfTitle : @"左滑弹簧菜单",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"17"
                             }
                         
                         

@@ -22,6 +22,7 @@
 #import "YLAudioRecorderViewController.h"
 #import "YLLocalH5ViewController.h"
 #import "YLPhotoAlbumViewController.h"
+#import "YLBouncingEffectsViewController.h"
 
 #import "UIView+YLLoading.h"
 @implementation YLAdvancedViewController (add)
@@ -91,6 +92,11 @@
     else if ([tag isEqualToString:@"16"]) {
         
         YLPhotoAlbumViewController *ctr = [[YLPhotoAlbumViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"17"]) {
+        
+        YLBouncingEffectsViewController *ctr = [[YLBouncingEffectsViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }
