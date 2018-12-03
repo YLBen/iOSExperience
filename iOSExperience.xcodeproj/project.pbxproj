@@ -248,6 +248,14 @@
 		C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6220CE61B10087C06C /* YLSelectTimeView.m */; };
 		C0F7BF6720CE659B0087C06C /* YLSelectTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */; };
 		C0F7BF6820CE659B0087C06C /* YLSelectTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */; };
+		C0FC40E621B4BF1900023B9A /* WZPhotoAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40DB21B4BF1900023B9A /* WZPhotoAlbumController.m */; };
+		C0FC40E721B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40E021B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.m */; };
+		C0FC40E821B4BF1900023B9A /* WZPhotoAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40E121B4BF1900023B9A /* WZPhotoAlbumTableViewCell.m */; };
+		C0FC40E921B4BF1900023B9A /* WZPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40E421B4BF1900023B9A /* WZPhotosViewController.m */; };
+		C0FC40EA21B4BF1900023B9A /* WZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40E521B4BF1900023B9A /* WZPhotoPickerController.m */; };
+		C0FC40ED21B4C05C00023B9A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40EC21B4C05C00023B9A /* BaseNavigationController.m */; };
+		C0FC40F221B4C0E900023B9A /* YLPhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FC40F021B4C0E900023B9A /* YLPhotoAlbumViewController.m */; };
+		C0FC40F321B4C0E900023B9A /* YLPhotoAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FC40F121B4C0E900023B9A /* YLPhotoAlbumViewController.xib */; };
 		DFD54AB3BA9BCAFBF551AF83 /* libPods-iOSExperience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */; };
 /* End PBXBuildFile section */
 
@@ -665,6 +673,21 @@
 		C0F7BF6420CE659B0087C06C /* YLSelectTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSelectTimeViewController.h; sourceTree = "<group>"; };
 		C0F7BF6520CE659B0087C06C /* YLSelectTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSelectTimeViewController.m; sourceTree = "<group>"; };
 		C0F7BF6620CE659B0087C06C /* YLSelectTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLSelectTimeViewController.xib; sourceTree = "<group>"; };
+		C0FC40DB21B4BF1900023B9A /* WZPhotoAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPhotoAlbumController.m; sourceTree = "<group>"; };
+		C0FC40DC21B4BF1900023B9A /* WZPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPhotosViewController.h; sourceTree = "<group>"; };
+		C0FC40DD21B4BF1900023B9A /* WZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPhotoPickerController.h; sourceTree = "<group>"; };
+		C0FC40DF21B4BF1900023B9A /* WZPhotoAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPhotoAlbumTableViewCell.h; sourceTree = "<group>"; };
+		C0FC40E021B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPhotoThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
+		C0FC40E121B4BF1900023B9A /* WZPhotoAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPhotoAlbumTableViewCell.m; sourceTree = "<group>"; };
+		C0FC40E221B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPhotoThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		C0FC40E321B4BF1900023B9A /* WZPhotoAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPhotoAlbumController.h; sourceTree = "<group>"; };
+		C0FC40E421B4BF1900023B9A /* WZPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPhotosViewController.m; sourceTree = "<group>"; };
+		C0FC40E521B4BF1900023B9A /* WZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPhotoPickerController.m; sourceTree = "<group>"; };
+		C0FC40EB21B4C05C00023B9A /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		C0FC40EC21B4C05C00023B9A /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		C0FC40EF21B4C0E900023B9A /* YLPhotoAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPhotoAlbumViewController.h; sourceTree = "<group>"; };
+		C0FC40F021B4C0E900023B9A /* YLPhotoAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPhotoAlbumViewController.m; sourceTree = "<group>"; };
+		C0FC40F121B4C0E900023B9A /* YLPhotoAlbumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLPhotoAlbumViewController.xib; sourceTree = "<group>"; };
 		DFF2F9983A3546668029F82E /* Pods-iOSExperience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExperience.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExperience/Pods-iOSExperience.release.xcconfig"; sourceTree = "<group>"; };
 		FF9B79C915CF3D3D4B24A21C /* libPods-iOSExperience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSExperience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1027,6 +1050,7 @@
 		C033FF1A20B522FC00470BFC /* Utlis（工具类） */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC40DA21B4BF1900023B9A /* WZPhotoPickerController */,
 				C0603986218F296200AF093C /* 文件管理 */,
 				C060396D218F254600AF093C /* 录制声音 */,
 				C01D1790218C2083008F6013 /* 快速创建UI */,
@@ -2464,6 +2488,7 @@
 		C0E5F1D721709D7C0080D925 /* subViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C0FC40EE21B4C0BE00023B9A /* 相册 */,
 				C03CCA4321ACE4E6002514A0 /* 加载本地H5 */,
 				C060394C218EE48700AF093C /* 录音 */,
 				C021DC6F21869E950019FBE1 /* 裁剪图片 */,
@@ -2686,6 +2711,43 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C0FC40DA21B4BF1900023B9A /* WZPhotoPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC40EB21B4C05C00023B9A /* BaseNavigationController.h */,
+				C0FC40EC21B4C05C00023B9A /* BaseNavigationController.m */,
+				C0FC40DE21B4BF1900023B9A /* Cell */,
+				C0FC40E321B4BF1900023B9A /* WZPhotoAlbumController.h */,
+				C0FC40DB21B4BF1900023B9A /* WZPhotoAlbumController.m */,
+				C0FC40DC21B4BF1900023B9A /* WZPhotosViewController.h */,
+				C0FC40E421B4BF1900023B9A /* WZPhotosViewController.m */,
+				C0FC40DD21B4BF1900023B9A /* WZPhotoPickerController.h */,
+				C0FC40E521B4BF1900023B9A /* WZPhotoPickerController.m */,
+			);
+			path = WZPhotoPickerController;
+			sourceTree = "<group>";
+		};
+		C0FC40DE21B4BF1900023B9A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC40DF21B4BF1900023B9A /* WZPhotoAlbumTableViewCell.h */,
+				C0FC40E121B4BF1900023B9A /* WZPhotoAlbumTableViewCell.m */,
+				C0FC40E221B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.h */,
+				C0FC40E021B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C0FC40EE21B4C0BE00023B9A /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC40EF21B4C0E900023B9A /* YLPhotoAlbumViewController.h */,
+				C0FC40F021B4C0E900023B9A /* YLPhotoAlbumViewController.m */,
+				C0FC40F121B4C0E900023B9A /* YLPhotoAlbumViewController.xib */,
+			);
+			path = "相册";
+			sourceTree = "<group>";
+		};
 		C6D9A2D05D70ED46CFE896D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2795,6 +2857,7 @@
 				C03A2442212C0405004B9347 /* Colon.json in Resources */,
 				C03A2443212C0405004B9347 /* H.json in Resources */,
 				C03CCA7921ACEDA1002514A0 /* 登录界面.iml in Resources */,
+				C0FC40F321B4C0E900023B9A /* YLPhotoAlbumViewController.xib in Resources */,
 				C03A243A212C0405004B9347 /* S.json in Resources */,
 				C0603981218F255A00AF093C /* voice_record_1@2x.png in Resources */,
 				C03A244A212C0405004B9347 /* W.json in Resources */,
@@ -2930,6 +2993,7 @@
 				C0A3272F212D30ED00436A98 /* CopyLabel1.m in Sources */,
 				C0DE1AD620F6FF1A00EEB95E /* shony.m in Sources */,
 				C0F7BF6320CE61B10087C06C /* YLSelectTimeView.m in Sources */,
+				C0FC40E621B4BF1900023B9A /* WZPhotoAlbumController.m in Sources */,
 				C0CBFA5D219039F100AD4801 /* YLGuideCollectionViewCell.m in Sources */,
 				C00E6DED21479F7C00733F50 /* YLMineDefaultCell.m in Sources */,
 				C0CBFA7121916C7D00AD4801 /* YLCardViewLayoutViewController.m in Sources */,
@@ -2957,6 +3021,7 @@
 				C0BBB214216FB04600414705 /* YLTranstionAnimationPop.m in Sources */,
 				C0CBFA682191613500AD4801 /* CYXPhotoViewLayout.m in Sources */,
 				C0BB15FE20B9A76700A0095A /* UIViewController+YLHelper.m in Sources */,
+				C0FC40E821B4BF1900023B9A /* WZPhotoAlbumTableViewCell.m in Sources */,
 				C0CBFA5021902AF800AD4801 /* YLDefaultCollectionViewCell.m in Sources */,
 				C0EBEFDF21109295005726B2 /* YLHistogramViewController.m in Sources */,
 				C03A240D212C023C004B9347 /* AnimatedTextField.m in Sources */,
@@ -2982,6 +3047,7 @@
 				C0BB15DE20B9A33300A0095A /* UIButton+YLHelper.m in Sources */,
 				C0AEB41E20E215620030F533 /* CollectionViewController.m in Sources */,
 				C0AEB41D20E215620030F533 /* SegmentedSlideSwitchExample2.m in Sources */,
+				C0FC40ED21B4C05C00023B9A /* BaseNavigationController.m in Sources */,
 				C0BB15D520B99E6200A0095A /* YLBaseNavigationController.m in Sources */,
 				C0C949FB20E4DABD00EF6EE1 /* PersonListLogic.m in Sources */,
 				C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */,
@@ -2999,6 +3065,7 @@
 				C097340A2175D408004FBC24 /* YLLoginInfoModel.m in Sources */,
 				C0AEB41B20E215620030F533 /* SlideSwitchExample2.m in Sources */,
 				C09734202176C5A8004FBC24 /* YLAppInteractor.m in Sources */,
+				C0FC40E721B4BF1900023B9A /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
 				C03A240C212C023C004B9347 /* TypingDemoViewController.m in Sources */,
 				C03A23F9212BA002004B9347 /* YLActionSheetViewController.m in Sources */,
 				C04A798620C53466005CE5C9 /* NSDate+CalendarTool.m in Sources */,
@@ -3013,6 +3080,7 @@
 				C0CBFA4A21902A4E00AD4801 /* YLCollectionHeaderView.m in Sources */,
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
+				C0FC40F221B4C0E900023B9A /* YLPhotoAlbumViewController.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
 				C0E9509D21A3E7C6003743E6 /* YLQrCodeViewController.m in Sources */,
@@ -3039,11 +3107,13 @@
 				C0CBFA6E21916BD700AD4801 /* RGCardViewLayout.m in Sources */,
 				C032B40B20E3336700A54277 /* AYMenuItem.m in Sources */,
 				C032B40A20E3336700A54277 /* AYMenuView.m in Sources */,
+				C0FC40E921B4BF1900023B9A /* WZPhotosViewController.m in Sources */,
 				C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */,
 				C0B90888216C916C00D044C6 /* YLAdvancedViewController.m in Sources */,
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
 				C09734192175E503004FBC24 /* YLUserModel.m in Sources */,
 				C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */,
+				C0FC40EA21B4BF1900023B9A /* WZPhotoPickerController.m in Sources */,
 				C0B9088E216C968F00D044C6 /* YLAdvancedViewModel.m in Sources */,
 				C0C9C30020C9020800FAB6EA /* YLEditableViewController.m in Sources */,
 				C03DA88320EA24030089BC12 /* SUTableView.m in Sources */,

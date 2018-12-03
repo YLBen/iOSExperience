@@ -116,6 +116,12 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"15"
                             },
+                        @{
+                            YLLetfTitle : @"相册",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"16"
+                            }
                         
                         
                         
