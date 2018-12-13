@@ -42,6 +42,8 @@
 #import "YLEffectsTableViewController.h"
 #import "YLPassByValueTableViewController.h"
 #import "YLQrCodeViewController.h"
+
+#import "YLWaterFallLayoutViewController.h"
 @implementation YLShowViewController (add)
 - (void)pushToViewControllerWithTag:(NSString *)tag {
     if ([tag isEqualToString:@"0"]) {
@@ -187,6 +189,11 @@
     else if ([tag isEqualToString:@"32"]) {
         
         YLQrCodeViewController *ctr = [[YLQrCodeViewController alloc] init];
+        [self.navigationController pushViewController:ctr animated:YES];
+    }
+    else if ([tag isEqualToString:@"33"]) {
+        
+        YLWaterFallLayoutViewController *ctr = [[YLWaterFallLayoutViewController alloc] init];
         [self.navigationController pushViewController:ctr animated:YES];
     }
 }

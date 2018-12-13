@@ -197,6 +197,12 @@
                             YLTag : @"29"
                             },
                         @{
+                            YLLetfTitle : @"collectionView瀑布流",
+                            //                            YLRightTitle : @"lottie-ios",
+                            YLIsShowTitle : @(1),
+                            YLTag : @"33"
+                            },
+                        @{
                             YLLetfTitle : @"带特效的图片浏览器",
                             YLRightTitle : @"colloectionView",
                             YLIsShowTitle : @(0),
@@ -214,6 +220,7 @@
                             YLIsShowTitle : @(1),
                             YLTag : @"32"
                             },
+                        
 
                         ];
     

@@ -26,6 +26,11 @@
 		C01D17AB218C338C008F6013 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = C01D17A1218C338C008F6013 /* 08.png */; };
 		C021DC7321869EF70019FBE1 /* YLTailoringImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C021DC7121869EF70019FBE1 /* YLTailoringImageViewController.m */; };
 		C021DC7421869EF70019FBE1 /* YLTailoringImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C021DC7221869EF70019FBE1 /* YLTailoringImageViewController.xib */; };
+		C02EEA8221C1001E00A17FCE /* waterFall.plist in Resources */ = {isa = PBXBuildFile; fileRef = C02EEA8121C1001E00A17FCE /* waterFall.plist */; };
+		C02EEA8621C1026600A17FCE /* YLWaterFallLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C02EEA8521C1026600A17FCE /* YLWaterFallLayoutModel.m */; };
+		C02EEA8921C102D500A17FCE /* YLWaterFallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C02EEA8821C102D500A17FCE /* YLWaterFallCollectionViewCell.m */; };
+		C02EEA8D21C1041A00A17FCE /* YLWaterFallLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02EEA8C21C1041A00A17FCE /* YLWaterFallLayoutViewController.m */; };
+		C02EEA9021C1094400A17FCE /* YLWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C02EEA8F21C1094400A17FCE /* YLWaterFallLayout.m */; };
 		C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031970F20BBF522008CCC4D /* VPImageCropperViewController.m */; };
 		C031971420BBF522008CCC4D /* FYSystemCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971220BBF522008CCC4D /* FYSystemCameraController.m */; };
 		C031971A20BBF577008CCC4D /* AVExportContectsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971620BBF577008CCC4D /* AVExportContectsTool.m */; };
@@ -293,6 +298,15 @@
 		C021DC7021869EF70019FBE1 /* YLTailoringImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLTailoringImageViewController.h; sourceTree = "<group>"; };
 		C021DC7121869EF70019FBE1 /* YLTailoringImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTailoringImageViewController.m; sourceTree = "<group>"; };
 		C021DC7221869EF70019FBE1 /* YLTailoringImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLTailoringImageViewController.xib; sourceTree = "<group>"; };
+		C02EEA8121C1001E00A17FCE /* waterFall.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = waterFall.plist; sourceTree = "<group>"; };
+		C02EEA8421C1026600A17FCE /* YLWaterFallLayoutModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLWaterFallLayoutModel.h; sourceTree = "<group>"; };
+		C02EEA8521C1026600A17FCE /* YLWaterFallLayoutModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterFallLayoutModel.m; sourceTree = "<group>"; };
+		C02EEA8721C102D500A17FCE /* YLWaterFallCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLWaterFallCollectionViewCell.h; sourceTree = "<group>"; };
+		C02EEA8821C102D500A17FCE /* YLWaterFallCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterFallCollectionViewCell.m; sourceTree = "<group>"; };
+		C02EEA8B21C1041A00A17FCE /* YLWaterFallLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLWaterFallLayoutViewController.h; sourceTree = "<group>"; };
+		C02EEA8C21C1041A00A17FCE /* YLWaterFallLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterFallLayoutViewController.m; sourceTree = "<group>"; };
+		C02EEA8E21C1094400A17FCE /* YLWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLWaterFallLayout.h; sourceTree = "<group>"; };
+		C02EEA8F21C1094400A17FCE /* YLWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterFallLayout.m; sourceTree = "<group>"; };
 		C031970A20BBE7E4008CCC4D /* commonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonDefine.h; sourceTree = "<group>"; };
 		C031970B20BBEB16008CCC4D /* YLCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommonDefine.h; sourceTree = "<group>"; };
 		C031970C20BBEC00008CCC4D /* YLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHeader.pch; sourceTree = "<group>"; };
@@ -837,6 +851,54 @@
 				C021DC7221869EF70019FBE1 /* YLTailoringImageViewController.xib */,
 			);
 			path = "裁剪图片";
+			sourceTree = "<group>";
+		};
+		C02EEA7E21C0FF4500A17FCE /* CollectionView瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				C02EEA8A21C103EF00A17FCE /* ViewController */,
+				C02EEA8321C1022200A17FCE /* model */,
+				C02EEA8021C0FF7900A17FCE /* WaterFallLayout */,
+				C02EEA7F21C0FF7600A17FCE /* View */,
+			);
+			path = "CollectionView瀑布流";
+			sourceTree = "<group>";
+		};
+		C02EEA7F21C0FF7600A17FCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C02EEA8121C1001E00A17FCE /* waterFall.plist */,
+				C02EEA8721C102D500A17FCE /* YLWaterFallCollectionViewCell.h */,
+				C02EEA8821C102D500A17FCE /* YLWaterFallCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C02EEA8021C0FF7900A17FCE /* WaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C02EEA8E21C1094400A17FCE /* YLWaterFallLayout.h */,
+				C02EEA8F21C1094400A17FCE /* YLWaterFallLayout.m */,
+			);
+			path = WaterFallLayout;
+			sourceTree = "<group>";
+		};
+		C02EEA8321C1022200A17FCE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C02EEA8421C1026600A17FCE /* YLWaterFallLayoutModel.h */,
+				C02EEA8521C1026600A17FCE /* YLWaterFallLayoutModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C02EEA8A21C103EF00A17FCE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C02EEA8B21C1041A00A17FCE /* YLWaterFallLayoutViewController.h */,
+				C02EEA8C21C1041A00A17FCE /* YLWaterFallLayoutViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C031970E20BBF522008CCC4D /* FYSystemCamera */ = {
@@ -1672,6 +1734,7 @@
 		C083391D20BAF26000F6CAF6 /* subController */ = {
 			isa = PBXGroup;
 			children = (
+				C02EEA7E21C0FF4500A17FCE /* CollectionView瀑布流 */,
 				C0E9509621A3E6B8003743E6 /* 生成二维码 */,
 				C04CCFD5219916D500FEF109 /* 控制器传值 */,
 				C0CBFA5E2191473300AD4801 /* 带特效的图片浏览器 */,
@@ -2883,6 +2946,7 @@
 				C03CCA7C21ACEDA1002514A0 /* misc.xml in Resources */,
 				C03A242F212C0405004B9347 /* A.json in Resources */,
 				C03A242E212C0405004B9347 /* T.json in Resources */,
+				C02EEA8221C1001E00A17FCE /* waterFall.plist in Resources */,
 				C03CCA7621ACEDA1002514A0 /* weibodenglu.png in Resources */,
 				C032B40920E3336700A54277 /* AYMenuCell.xib in Resources */,
 				C0FC410221B4CE6000023B9A /* YLBouncingEffectsViewController.xib in Resources */,
@@ -3125,6 +3189,7 @@
 				C0B9087B216C80F600D044C6 /* ATBaseRequest.m in Sources */,
 				C031971320BBF522008CCC4D /* VPImageCropperViewController.m in Sources */,
 				C0CBFA4A21902A4E00AD4801 /* YLCollectionHeaderView.m in Sources */,
+				C02EEA9021C1094400A17FCE /* YLWaterFallLayout.m in Sources */,
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C0FC40F221B4C0E900023B9A /* YLPhotoAlbumViewController.m in Sources */,
@@ -3137,10 +3202,12 @@
 				C0AEB40920E214DF0030F533 /* XLSlideSegmented.m in Sources */,
 				C0603954218EE58500AF093C /* YLAudioRecorderViewController.m in Sources */,
 				C0AEB42120E215620030F533 /* SegmentedSlideSwitchExample1.m in Sources */,
+				C02EEA8621C1026600A17FCE /* YLWaterFallLayoutModel.m in Sources */,
 				C0B9087A216C80F600D044C6 /* ATNetworkManager.m in Sources */,
 				C00E6DF62147B06100733F50 /* YLMineViewController.m in Sources */,
 				C074141920CD09F300E8FB9D /* YLAdaptFontCell.m in Sources */,
 				C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */,
+				C02EEA8D21C1041A00A17FCE /* YLWaterFallLayoutViewController.m in Sources */,
 				C0A32776212D692100436A98 /* YLByAroundViewController.m in Sources */,
 				C032B3F920E3308700A54277 /* YLMenuCellModel.m in Sources */,
 				C01D1793218C20D6008F6013 /* YLQuickCreateManager.m in Sources */,
@@ -3157,6 +3224,7 @@
 				C0FC40E921B4BF1900023B9A /* WZPhotosViewController.m in Sources */,
 				C0EBEFD32110912D005726B2 /* YLPieChart.m in Sources */,
 				C0B90888216C916C00D044C6 /* YLAdvancedViewController.m in Sources */,
+				C02EEA8921C102D500A17FCE /* YLWaterFallCollectionViewCell.m in Sources */,
 				C04312DA20BE74AE002E345F /* YLFoldingCellViewController.m in Sources */,
 				C09734192175E503004FBC24 /* YLUserModel.m in Sources */,
 				C0EBEFD621109142005726B2 /* YLPieChartViewController.m in Sources */,

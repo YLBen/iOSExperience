@@ -107,6 +107,7 @@
     return self.dataSouce.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     id model = self.dataSouce[indexPath.row];
     if ([model isKindOfClass:[YLShowListCellModel class]]) {
         YLShowListCellModel *showListCellModel = (YLShowListCellModel *)model;
