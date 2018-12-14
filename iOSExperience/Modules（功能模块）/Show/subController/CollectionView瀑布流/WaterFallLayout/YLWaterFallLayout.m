@@ -32,7 +32,7 @@
 }
 #pragma mark - delegate
 - (void)prepareLayout{
-    
+     NSLog(@"prepareLayout执行完了");
     //初始化字典，有几列就有几个键值对，key为列，value为列的最大y值，初始值为上内边距
     for (int i = 0; i<self.columnCount; i++) {
         self.maxYDic[@(i)] = @(self.sectionInset.top);
@@ -44,7 +44,7 @@
         UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:[NSIndexPath indexPathForItem:i inSection:0]];
         [self.attributesArray addObject:attributes];
     }
-//    NSLog(@"prepareLayout执行完了");
+   
     
 }
 
@@ -57,7 +57,7 @@
             maxIndex = key;
         }
     }];
-//    NSLog(@"collectionViewContentSize执行完了");
+    NSLog(@"collectionViewContentSize执行完了");
     //collectionView的contentSize.height就等于最长列的最大y值+下内边距
     return CGSizeMake(0, [self.maxYDic[maxIndex] floatValue] + self.sectionInset.bottom);
     
@@ -93,7 +93,7 @@
     
     //更新字典中的最大y值
     self.maxYDic[minIndex] = @(CGRectGetMaxY(attributes.frame));
-//    NSLog(@"layoutAttributesForItemAtIndexPath:");
+    NSLog(@"layoutAttributesForItemAtIndexPath:执行完了");
     return attributes;
     
 }
@@ -105,7 +105,7 @@
 //    return self.attributesArray;
 //}
 - (nullable NSArray<__kindof UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect{
-//    NSLog(@"layoutAttributesForElementsInRect:");
+    NSLog(@"layoutAttributesForElementsInRect:执行完了");
     return self.attributesArray;
 }
 

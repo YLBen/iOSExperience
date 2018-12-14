@@ -60,6 +60,7 @@
     return self.dataSource.count;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"数据源触发");
     YLWaterFallCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([YLWaterFallCollectionViewCell class]) forIndexPath:indexPath];
     cell.model = self.dataSource[indexPath.item];
     //cell.image.frame = cell.bounds;

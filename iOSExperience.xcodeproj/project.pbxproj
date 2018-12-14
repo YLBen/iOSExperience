@@ -38,6 +38,7 @@
 		C031972020BBF6D1008CCC4D /* YLLocalImageUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = C031971E20BBF6D1008CCC4D /* YLLocalImageUpload.m */; };
 		C031972120BBF6D1008CCC4D /* YLLocalImageUpload.xib in Resources */ = {isa = PBXBuildFile; fileRef = C031971F20BBF6D1008CCC4D /* YLLocalImageUpload.xib */; };
 		C032708321C3487A0094B40D /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = C032708221C3487A0094B40D /* NSObject+Runtime.m */; };
+		C03270C521C39A760094B40D /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C03270C321C39A760094B40D /* ZXPUnicode.m */; };
 		C032B3F320E32B1400A54277 /* YLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C032B3F220E32B1400A54277 /* YLMenuViewController.m */; };
 		C032B3F620E32B4E00A54277 /* YLMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C032B3F520E32B4E00A54277 /* YLMenuCell.m */; };
 		C032B3F920E3308700A54277 /* YLMenuCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C032B3F820E3308700A54277 /* YLMenuCellModel.m */; };
@@ -325,6 +326,8 @@
 		C031971F20BBF6D1008CCC4D /* YLLocalImageUpload.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLLocalImageUpload.xib; sourceTree = "<group>"; };
 		C032708121C3487A0094B40D /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
 		C032708221C3487A0094B40D /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		C03270C321C39A760094B40D /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		C03270C421C39A760094B40D /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
 		C032B3F120E32B1400A54277 /* YLMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMenuViewController.h; sourceTree = "<group>"; };
 		C032B3F220E32B1400A54277 /* YLMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLMenuViewController.m; sourceTree = "<group>"; };
 		C032B3F420E32B4E00A54277 /* YLMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLMenuCell.h; sourceTree = "<group>"; };
@@ -945,6 +948,15 @@
 			path = swizzle;
 			sourceTree = "<group>";
 		};
+		C03270C221C39A470094B40D /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C03270C421C39A760094B40D /* ZXPUnicode.h */,
+				C03270C321C39A760094B40D /* ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
 		C032B3EC20E32AB400A54277 /* cell的折叠和展开 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1159,6 +1171,7 @@
 		C033FF1B20B5231F00470BFC /* ThridParty（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				C03270C221C39A470094B40D /* ZXPUnicode */,
 				C0FC40F421B4CDAC00023B9A /* FlowingMenuTransition */,
 				C0B3017D20D3AC8300F78CDD /* FPS */,
 				C031970E20BBF522008CCC4D /* FYSystemCamera */,
@@ -3207,6 +3220,7 @@
 				C00C0E5E211ED29900842F3D /* YLLinkageTableViewViewController.m in Sources */,
 				C03A2450212C07AD004B9347 /* LADownloadTestViewController.m in Sources */,
 				C0FC40F221B4C0E900023B9A /* YLPhotoAlbumViewController.m in Sources */,
+				C03270C521C39A760094B40D /* ZXPUnicode.m in Sources */,
 				C083390F20BADF6F00F6CAF6 /* YLShowViewModel.m in Sources */,
 				C0AEB40820E214DF0030F533 /* XLSlideSegmentedItem.m in Sources */,
 				C0E9509D21A3E7C6003743E6 /* YLQrCodeViewController.m in Sources */,
